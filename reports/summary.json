@@ -1,0 +1,12 @@
+{
+  "images": 3148,
+  "objects": 39548,
+  "classes": 30,
+  "broken_images": 0,
+  "label_errors": 0,
+  "exact_duplicate_groups": 99,
+  "near_duplicate_pairs": 24,
+  "leakage_exact": 0,
+  "leakage_near": 1,
+  "ready_for_training": true
+}
