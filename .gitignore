@@ -10,5 +10,6 @@ yolo11*.pt
 yolo26*.pt
 data_local.yaml
 data/favorites.json
+data/splits/
 # Giữ lại trọng số cuối cùng để chạy demo
 !models/best.pt

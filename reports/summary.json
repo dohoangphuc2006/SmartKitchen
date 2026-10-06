@@ -8,5 +8,7 @@
   "near_duplicate_pairs": 24,
   "leakage_exact": 0,
   "leakage_near": 1,
+  "removed_from_train": 99,
+  "train_images_clean": 2895,
   "ready_for_training": true
 }

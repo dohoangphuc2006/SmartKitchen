@@ -1,20 +1,34 @@
 {
-  "weights": "best.pt",
-  "train": {
-    "epochs_run": 20,
-    "train_minutes": 12.588166666666666,
-    "best_val_mAP50": 0.97277
-  },
+  "selected_model": "baseline_v8n",
+  "selection_rule": "mAP50-95 cao nhất trên tập valid",
+  "run": "baseline_v8n",
+  "weights_MB": 6.3,
+  "params_M": 3.02,
+  "epochs_run": 25,
+  "train_minutes": 7.3,
+  "best_epoch": 10,
+  "valid_precision": 0.9389,
+  "valid_recall": 0.9435,
+  "valid_mAP50": 0.969,
+  "valid_mAP50-95": 0.6464,
+  "valid_inference_ms_per_img": 7.23,
+  "test_precision": 0.8953,
+  "test_recall": 0.8888,
+  "test_mAP50": 0.9394,
+  "test_mAP50-95": 0.6545,
+  "test_inference_ms_per_img": 9.46,
   "valid": {
-    "precision": 0.9585435219860877,
-    "recall": 0.9665498856016533,
-    "mAP50": 0.9655231060428039,
-    "mAP50-95": 0.6403038080135948
+    "precision": 0.9388503940092908,
+    "recall": 0.9434726257078807,
+    "mAP50": 0.9690157511739174,
+    "mAP50-95": 0.6463977285568031,
+    "inference_ms_per_img": 4.46
   },
   "test": {
-    "precision": 0.9368246348292997,
-    "recall": 0.9452044208698833,
-    "mAP50": 0.9538436623511454,
-    "mAP50-95": 0.6819749222707432
+    "precision": 0.8953443088187086,
+    "recall": 0.8887739145120621,
+    "mAP50": 0.9393639779341711,
+    "mAP50-95": 0.6545229393592158,
+    "inference_ms_per_img": 7.43
   }
 }

@@ -1,0 +1,8 @@
+model: yolov8n.pt
+data: data_checked.yaml
+epochs: 30
+imgsz: 640
+batch: 16
+patience: 15
+optimizer: auto (ultralytics)
+train_minutes: 7.6

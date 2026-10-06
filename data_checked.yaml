@@ -1,5 +1,5 @@
 path: C:\Users\Admin\OneDrive\Documents\VLU\Năm 3\HK1nam3\Học máy và ứng dụng\BTL\SmartKitchen
-train: train/images
+train: C:\Users\Admin\OneDrive\Documents\VLU\Năm 3\HK1nam3\Học máy và ứng dụng\BTL\smartkitchen_app\data\splits\train_clean.txt
 val: valid/images
 test: test/images
 nc: 30

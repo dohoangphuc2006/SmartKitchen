@@ -219,20 +219,41 @@ def main():
         a.imshow(im); a.set_title(f"{r.split}/{r.image[:20]}", fontsize=7)
     plt.tight_layout(); plt.savefig(FIGS / "sample_bounding_boxes.png", dpi=110); plt.close()
 
-    # ---------- Giai đoạn 6: data_checked.yaml ----------
+    # ---------- Giai đoạn 6: làm sạch (không ghi đè dataset gốc) + data_checked.yaml ----------
     critical = len(broken) + len(label_errs)
     ready = critical == 0
-    checked = {"path": str(DATASET), "train": "train/images", "val": "valid/images", "test": "test/images",
-               "nc": nc, "names": names}
+    drop = {(s, n) for s, n, _ in broken}
+    for ks in by_md5.values():                     # ảnh trùng hoàn toàn: giữ 1 bản
+        ks = sorted(ks, key=lambda k: {"test": 0, "valid": 1, "train": 2}[k[0]])  # ưu tiên giữ ở test/valid
+        drop.update(k for k in ks[1:] if k[0] == "train")
+    for r in leak_rows:                            # ảnh gần giống lọt giữa các split: bỏ bản ở train
+        for side in ("a", "b"):
+            s, n = r[side].split("/", 1)
+            if s == "train":
+                drop.add((s, n))
+    splits_dir = ROOT / "data" / "splits"
+    splits_dir.mkdir(parents=True, exist_ok=True)
+    train_clean = [str(DATASET / "train" / "images" / n) for s, n in zip(imgs.split, imgs.image)
+                   if s == "train" and (s, n) not in drop]
+    (splits_dir / "train_clean.txt").write_text("\n".join(train_clean) + "\n", encoding="utf-8")
+    pd.DataFrame(sorted(drop), columns=["split", "image"]).to_csv(REPORTS / "removed_images.csv", index=False)
+    checked = {"path": str(DATASET), "train": str(splits_dir / "train_clean.txt"),
+               "val": "valid/images", "test": "test/images", "nc": nc, "names": names}
     (ROOT / "data_checked.yaml").write_text(yaml.safe_dump(checked, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    (REPORTS / "classes.txt").write_text("\n".join(names) + "\n", encoding="utf-8")  # danh sách class chuẩn bàn giao cho Người 2
 
     summary = {"images": len(imgs), "objects": len(bx), "classes": nc, "broken_images": len(broken),
                "label_errors": len(label_errs), "exact_duplicate_groups": len(exact),
                "near_duplicate_pairs": len(near_rows), "leakage_exact": n_exact_leak,
-               "leakage_near": n_near_leak, "ready_for_training": ready}
+               "leakage_near": n_near_leak, "removed_from_train": len(drop),
+               "train_images_clean": len(train_clean), "ready_for_training": ready}
     (REPORTS / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     md = ["# Dataset audit summary", "", "| Mục | Giá trị |", "|---|---|"] + [f"| {k} | {v} |" for k, v in summary.items()]
-    md += ["", "## Imbalance", "```", *rep, "```"]
+    md += ["", "## Imbalance", "```", *rep, "```",
+           "", "## Data leakage", "", "Các cặp ảnh trùng/gần giống giữa các split (xem data_leakage.csv):", ""]
+    md += [f"- {r['type']}: `{r['a']}` ↔ `{r['b']}` (hamming={r['hamming']})" for r in leak_rows] or ["- không có"]
+    md += ["", f"Đã loại {len(drop)} ảnh khỏi tập train (trùng lặp/leakage) → `data/splits/train_clean.txt`. "
+           "Dataset gốc giữ nguyên.", "", f"**READY FOR TRAINING: {'YES' if ready else 'NO'}**"]
     (REPORTS / "summary.md").write_text("\n".join(md), encoding="utf-8")
 
     print("\n".join(rep))

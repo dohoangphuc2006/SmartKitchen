@@ -51,21 +51,32 @@ BTL/
 ## Quy trình Computer Vision (Thành viên 1)
 
 ```bash
-python cv/audit_dataset.py      # 1) kiểm định dataset -> reports/, data_checked.yaml
-python train.py --epochs 30     # 2) huấn luyện YOLOv8s -> runs/ingredients/weights/best.pt
-python cv/evaluate.py           # 3) đánh giá valid/test + error analysis -> reports/, models/best.pt
-python -m core.detector anh.jpg # 4) thử module nhận diện (in JSON)
+python cv/audit_dataset.py                                         # 1) kiểm định + làm sạch -> reports/, data_checked.yaml
+python train.py --model yolov8n.pt --name baseline_v8n --epochs 30 # 2a) baseline nhỏ
+python train.py --model yolov8s.pt --name ingredients  --epochs 30 # 2b) mô hình chính
+python cv/evaluate.py                                              # 3) so sánh, đánh giá, error analysis -> reports/, models/best.pt
+python -m core.detector anh.jpg                                    # 4) thử module nhận diện (in JSON)
 ```
 
-`audit_dataset.py` kiểm tra: số ảnh/class/object, thống kê class imbalance, ảnh hỏng/0 byte/quá nhỏ, label sai (thiếu, rỗng, class_id ngoài phạm vi, bbox ngoài [0,1], sai số cột), ảnh trùng (MD5), ảnh gần giống (dHash), rò rỉ dữ liệu giữa train/valid/test. Dataset gốc **không bị sửa**; kết quả ghi vào `reports/` và in `READY FOR TRAINING: YES/NO`.
+`audit_dataset.py` kiểm tra: số ảnh/class/object, thống kê class imbalance, ảnh hỏng/0 byte/quá nhỏ, label sai (thiếu, rỗng, class_id ngoài phạm vi, bbox ngoài [0,1], sai số cột), ảnh trùng (MD5), ảnh gần giống (dHash), rò rỉ dữ liệu giữa train/valid/test. Ảnh trùng/leakage trong train được loại qua danh sách `data/splits/train_clean.txt`; dataset gốc **không bị sửa**. Kết quả ghi vào `reports/` và in `READY FOR TRAINING: YES/NO`.
+
+`evaluate.py` đánh giá mọi mô hình trong `runs/`, chọn mô hình có mAP50-95 (valid) cao nhất, xuất Precision/Recall/mAP, confusion matrix, PR/F1 curve, training/validation loss và phân tích lỗi (class nhầm, FP, FN, vật thể nhỏ, bị che, ảnh tối, nền phức tạp).
 
 Output của `detector.py` (chuẩn giao tiếp với Recommendation System):
 ```json
 {"ingredients": [{"name": "tomato", "confidence": 0.95, "count": 2}]}
 ```
 
-### Kết quả mô hình
-Xem `reports/metrics.json`, `reports/error_analysis.md` và `reports/figures/` (training curves, confusion matrix, PR/F1 curve).
+### Kết quả dataset
+3.148 ảnh · 39.548 object · 30 class · 0 ảnh lỗi · 0 label lỗi · imbalance max/min = 4.3 (tomato 2027 / chocolate 472). Chi tiết: `reports/summary.md`.
+
+### Kết quả mô hình (YOLOv8s, 640px)
+| Tập | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
+|---|---|---|---|---|
+| Valid | 0.959 | 0.967 | 0.966 | 0.640 |
+| Test | 0.937 | 0.945 | 0.954 | 0.682 |
+
+So sánh baseline: `reports/model_comparison.csv`. Biểu đồ: `reports/figures/`. Phân tích lỗi: `reports/error_analysis.md`.
 
 ## Chạy ứng dụng
 
