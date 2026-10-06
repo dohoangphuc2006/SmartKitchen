@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+# Dataset gốc (tải từ Roboflow, xem README) và file lớn
+../SmartKitchen/
+runs/
+*.cache
+yolov8*.pt
+yolo11*.pt
+yolo26*.pt
+data_local.yaml
+data/favorites.json
+# Giữ lại trọng số cuối cùng để chạy demo
+!models/best.pt
