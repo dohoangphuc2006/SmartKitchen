@@ -93,6 +93,4 @@ Bật LLM (tùy chọn): đặt biến môi trường `GEMINI_API_KEY` trước 
 - **urgency**: ưu tiên nguyên liệu còn ≤ 3 ngày để giảm lãng phí thực phẩm.
 Định lượng được nhân theo khẩu phần mục tiêu.
 
-## Phân công
-- **Thành viên 1**: Dataset ảnh, EDA, kiểm định label/duplicate/leakage, huấn luyện & đánh giá YOLO, `detector.py`.
-- **Thành viên 2**: Recipe dataset, chuẩn hóa/mapping nguyên liệu, Recommendation System, `recommender.py`.
+
