@@ -2,7 +2,7 @@
 
 **Ứng dụng Học máy trong nhận diện thực phẩm và gợi ý công thức nấu ăn**
 
-Đồ án môn *Học máy và ứng dụng* — Đại học Văn Lang.
+Bài tập lớn môn *Học máy và ứng dụng* — Đại học Văn Lang.
 
 ```
 Ảnh nguyên liệu / ảnh tủ lạnh
