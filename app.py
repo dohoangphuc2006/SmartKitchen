@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-from core import favorites, llm
+from core import favorites
 from core.ingredients import INGREDIENTS, default_shelf_days, vi_name
 from core.recommender import recommend
 
@@ -71,7 +71,7 @@ with tab1:
 with tab2:
     servings = st.number_input("Khẩu phần (số người)", 1, 12, 2)
     topk = st.slider("Số món gợi ý", 3, 15, 8)
-    pref = st.text_input("Yêu cầu thêm cho AI (tùy chọn, ví dụ: ít dầu mỡ, món canh)")
+    pref = st.text_input("Yêu cầu thêm (tùy chọn, ví dụ: ít dầu mỡ, món canh)")
     pantry_df = st.session_state.pantry.dropna(subset=["Nguyên liệu", "Hạn dùng"])
     pantry = {}
     for _, r in pantry_df.iterrows():
@@ -80,34 +80,10 @@ with tab2:
         if k:
             pantry[k] = min(pantry.get(k, d), d)
 
-    cA, cB = st.columns(2)
-    if cA.button("🍽️ Gợi ý món", type="primary", disabled=not pantry):
+    if st.button("🍽️ Gợi ý món", type="primary", disabled=not pantry):
         st.session_state.results = recommend(pantry, servings, topk)
     if not pantry:
         st.info("Hãy nhận diện hoặc thêm nguyên liệu ở tab đầu tiên.")
-
-    if llm.available():
-        if cB.button("✨ Sinh công thức bằng AI (Gemini)", disabled=not pantry):
-            days = {k: (d - date.today()).days for k, d in pantry.items()}
-            try:
-                with st.spinner("AI đang nghĩ món..."):
-                    st.session_state.ai = llm.generate_recipe(days, servings, pref)
-            except Exception as e:
-                st.error(f"Lỗi gọi LLM: {e}")
-    else:
-        cB.caption("Đặt biến môi trường `GEMINI_API_KEY` để bật gợi ý bằng LLM.")
-
-    ai = st.session_state.get("ai")
-    if ai:
-        with st.expander(f"✨ AI gợi ý: {ai.get('name')} (~{ai.get('time', '?')} phút)", expanded=True):
-            st.markdown("**Nguyên liệu:**\n" + "\n".join(f"- {x}" for x in ai.get("ingredients", [])))
-            st.markdown("**Cách làm:**\n" + "\n".join(f"{i}. {s}" for i, s in enumerate(ai.get("steps", []), 1)))
-            if ai.get("tips"):
-                st.info(ai["tips"])
-            if st.button("⭐ Lưu món AI", key="fav_ai"):
-                favorites.add({"name": ai["name"], "time": ai.get("time"), "servings": servings,
-                               "scaled_text": ai.get("ingredients", []), "steps": ai.get("steps", [])})
-                st.success("Đã lưu!")
 
     for rec in st.session_state.results or []:
         with st.expander(f"{rec['name']}  —  phù hợp {rec['score']*100:.0f}% · ⏱ {rec['time']} phút", expanded=False):
