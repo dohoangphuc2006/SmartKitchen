@@ -1,6 +1,6 @@
 # Kiểm tra bản gộp hai thành viên
 
-Ngày kiểm tra: 24/11/2026. Nhánh cục bộ: `codex/integrate-members`.
+Ngày kiểm tra: 24/11/2026. Bản gộp được kiểm thử trên nhánh `codex/integrate-members`, lưu tại commit `c8d50b3` trước khi đưa vào main.
 
 Bản tích hợp kết hợp ứng dụng FastAPI của member2 với đầy đủ mã kiểm định, huấn luyện, đánh giá, báo cáo và prototype CV của member1. Các kiểm tra dưới đây xác nhận ứng dụng chạy trên máy đang thử nghiệm; chưa phải phép đo độ chính xác nhận diện hay chất lượng gợi ý trên dữ liệu mới.
 
@@ -9,6 +9,7 @@ Bản tích hợp kết hợp ứng dụng FastAPI của member2 với đầy đ
 - `main`: `bde93193445ac589df616a39ac7ff1957c2956a3`.
 - `member-1-cv`: `91b995eb1feac79b2eee6f1b36bff20e10a7b17b`, đã là tổ tiên của main.
 - `member-2-recsys`: `55718094dc23113947105c51d7e7bfc4fb9f24e5`.
+- README riêng của member1 được hoàn thiện tại `cb43b5e`; README tổng trên main liên kết đến tài liệu này. Đợt hoàn thiện README không thay đổi mã ứng dụng hoặc checkpoint đã kiểm thử.
 - Giữ nguyên mã ứng dụng trong `app/` từ member2.
 - Giữ nguyên `cv/`, `train.py`, `reports/`, `core/`, `app.py`, `models/`, `data/`, `requirements.txt` và `data_checked.yaml` từ main.
 - Giải quyết xung đột README bằng hướng dẫn tổng hợp; giữ `app.py` và `core/llm.py` theo main.
@@ -31,7 +32,7 @@ Windows x64, CPython **3.14.0**, môi trường `.venv` riêng. Cài theo `app/r
 | Trình duyệt có YOLO | Tải ảnh thật, xác nhận/sửa nguyên liệu, gợi ý và mở công thức đạt |
 | Camera giả lập Chrome | Nhận diện trực tiếp, chụp, mở lại, dừng và xử lý lỗi quyền/thiếu thiết bị đạt |
 
-Kịch bản `release/verify_browser.cjs` dành cho chế độ recipe **không bật YOLO**; kịch bản `release/verify_vision.cjs` dành cho chế độ **có YOLO**. Lượt gọi kịch bản recipe trên chế độ có YOLO ban đầu không khớp điều kiện giao diện; lượt chạy đúng chế độ đã đạt. Lượt unittest trong sandbox gặp lỗi thư mục tạm; chạy lại ngoài sandbox đạt cả 53 ca, không sửa mã ứng dụng để bỏ qua lỗi kiểm thử.
+Kịch bản `release/verify_browser.cjs` dành cho chế độ recipe **không bật YOLO**; kịch bản `release/verify_vision.cjs` dành cho chế độ **có YOLO**. Hai chế độ được kiểm tra riêng. Kết quả Python cuối cùng là 53 ca đạt, không bỏ qua ca nào.
 
 Nhật ký cục bộ được giữ trong `.verification/`: `python-tests-elevated.log`, `javascript-results.json`, `server.log`, `verify_recipe_browser/browser.json` và `verify_vision/vision-browser.json`. Thư mục này không được đưa vào Git hoặc ZIP.
 
@@ -49,4 +50,4 @@ Pop-Location
 
 ## Phạm vi còn lại
 
-Chưa thử webcam vật lý, chưa huấn luyện lại YOLO, chưa chạy lại prototype Streamlit và chưa đánh giá độ chính xác trên bộ ảnh độc lập. Bản tích hợp hiện chỉ được lưu trên nhánh thử nghiệm cục bộ; main và GitHub chưa được cập nhật. Các biên bản cũ trong `release/evidence/` và tài liệu V6 thuộc bản phát hành lịch sử, không phải chứng cứ cho ZIP mới tạo từ nhánh này.
+Chưa thử webcam vật lý, chưa huấn luyện lại YOLO, chưa chạy lại prototype Streamlit và chưa đánh giá độ chính xác trên bộ ảnh độc lập. Các biên bản cũ trong `release/evidence/` và tài liệu V6 thuộc bản phát hành lịch sử, không phải chứng cứ cho ZIP mới tạo từ bản tích hợp. Sau khi cập nhật README, cần tạo lại manifest và ZIP để bộ cài xác nhận đúng nội dung gói hiện tại.

@@ -14,7 +14,14 @@ Smart Kitchen hỗ trợ nhập nguyên liệu Việt–Anh, nhận diện ảnh
 
 ## Chạy ứng dụng trên Windows
 
-Yêu cầu **CPython 3.14 x64** và Internet ở lần cài đầu. Tải hoặc clone toàn bộ nhánh cần chạy.
+Yêu cầu **CPython 3.14 x64** và Internet ở lần cài đầu. Clone nhánh chính:
+
+```powershell
+git clone --branch main https://github.com/dohoangphuc2006/SmartKitchen.git smartkitchen_app
+cd smartkitchen_app
+```
+
+Nếu tải ZIP mã nguồn từ GitHub, giải nén toàn bộ rồi mở thư mục dự án.
 
 1. Chạy `RUN_ME_FIRST.cmd` để kiểm tra gói, tạo `.venv`, cài thư viện và khởi động.
 2. Lần sau chạy `Start_Smart_Kitchen.cmd`.
@@ -82,6 +89,8 @@ Nguồn: [metrics](reports/metrics.json), [so sánh mô hình](reports/model_com
 
 ## Tái lập phần Computer Vision
 
+Hướng dẫn chuyên môn đầy đủ nằm trong [README riêng của member1](https://github.com/dohoangphuc2006/SmartKitchen/blob/member-1-cv/README.md), gồm kiểm định dữ liệu, cấu hình huấn luyện, so sánh hai model và định dạng đầu ra detector.
+
 Đặt dataset `SmartKitchen/` cạnh thư mục dự án, gồm `train/`, `valid/`, `test/`, `data.yaml`. Dùng môi trường CV riêng với `requirements.txt`; script huấn luyện hiện dùng GPU NVIDIA (`device=0`).
 
 ```powershell
@@ -104,11 +113,12 @@ Prototype cũ chạy bằng `streamlit run app.py` trong môi trường CV. Fast
 - Chưa đủ cơ sở kết luận Stage 5, TF-IDF hay LSA tốt nhất với người dùng.
 - [Kết quả kiểm thử lịch sử](docs/EVALUATION_RESULTS.md), [ảnh/webcam](docs/VISION_EXPERIMENTAL.md), [kiểm tra bản gộp](docs/INTEGRATION.md).
 
+Bản tích hợp đã được kiểm tra trên Windows với Python 3.14.0: **53/53 ca Python, 13/13 nhóm JavaScript**, 9 tổ hợp truy vấn gợi ý qua HTTP và hai kịch bản Chrome đều đạt. Kịch bản ảnh/webcam dùng YOLO thật và camera giả lập; chưa thử webcam vật lý hoặc đo độ chính xác trên bộ ảnh độc lập mới.
+
 ## Nhánh phát triển và đóng gói
 
-- `main`: nhánh chính, nhận bản tích hợp sau khi kiểm tra.
-- `member-1-cv`: dữ liệu ảnh, huấn luyện và đánh giá.
-- `member-2-recsys`: hệ gợi ý và ứng dụng tích hợp nhận diện.
-- `codex/integrate-members`: bản gộp thử giữ đầy đủ công việc của hai thành viên.
+- [main](https://github.com/dohoangphuc2006/SmartKitchen/tree/main): mã nguồn tích hợp của cả nhóm, hướng dẫn chạy và kết quả chính.
+- [member-1-cv](https://github.com/dohoangphuc2006/SmartKitchen/tree/member-1-cv): phần Computer Vision và README chuyên môn của Đỗ Hoàng Phúc.
+- [member-2-recsys](https://github.com/dohoangphuc2006/SmartKitchen/tree/member-2-recsys): phần hệ gợi ý và ứng dụng của Huỳnh Hữu Phúc.
 
 Sau khi thay đổi tệp thuộc gói Windows, chạy `python release/build_windows_release.py` để tạo lại manifest và ZIP trước khi dùng bộ cài kiểm tra checksum. Các biên bản lịch sử không tự áp dụng cho ZIP mới. Xem [thông tin phân phối](docs/DISTRIBUTION.md).
