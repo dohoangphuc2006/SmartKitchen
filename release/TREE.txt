@@ -1,0 +1,283 @@
+nghiemthu/
+├── app/
+│   ├── backend/
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── recipes.py
+│   │   │   └── recommendation.py
+│   │   ├── schemas/
+│   │   │   ├── __init__.py
+│   │   │   └── response_models.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   └── smart_kitchen_service.py
+│   │   ├── __init__.py
+│   │   ├── errors.py
+│   │   └── main.py
+│   ├── config/
+│   │   ├── app_config.json
+│   │   ├── fridge11_scope.json
+│   │   ├── fridge30_experimental.json
+│   │   ├── fridge30_precision_guard.json
+│   │   ├── ingredient_display_vi.json
+│   │   ├── integration_config.json
+│   │   ├── pantry_alias_overrides_v1.json
+│   │   ├── pantry_ingredient_catalog.json
+│   │   ├── recipe_quality_ingredients.json
+│   │   ├── recipe_title_overrides_vi.json
+│   │   ├── recommendation_config.json
+│   │   ├── runtime_model.json
+│   │   └── yolo_classes.yaml
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── detection_scope.py
+│   │   ├── detector.py
+│   │   ├── image_input.py
+│   │   └── model_selection.py
+│   ├── data/
+│   │   └── recipes_raw/
+│   │       └── SOURCE.json
+│   ├── frontend/
+│   │   ├── app.js
+│   │   ├── camera.js
+│   │   ├── detection.js
+│   │   ├── diagnostic_export.js
+│   │   ├── i18n.js
+│   │   ├── index.html
+│   │   └── style.css
+│   ├── mapping/
+│   │   ├── fridge30_ingredient_mapping.json
+│   │   ├── ingredient_aliases.json
+│   │   ├── ingredient_mapping.csv
+│   │   ├── ingredient_mapping.json
+│   │   └── yolo_classes.csv
+│   ├── models/
+│   │   ├── recipe_ml/
+│   │   │   ├── recipe_tfidf_lsa_v1.metadata.json
+│   │   │   └── recipe_tfidf_lsa_v1.npz
+│   │   └── best.pt
+│   ├── processed/
+│   │   ├── ingredient_details.csv
+│   │   ├── ingredient_display_vi.csv
+│   │   ├── ingredient_vocabulary.csv
+│   │   ├── recipe_detail_vi_candidates.json
+│   │   ├── recipe_detail_vi_live_batch.json
+│   │   ├── recipe_detail_vi_phase5_batch.json
+│   │   ├── recipe_detail_vi_v6_batch.json
+│   │   ├── recipe_titles_vi.csv
+│   │   ├── recipes_cleaned.csv
+│   │   ├── SOURCE_STAGE2.md
+│   │   └── stage2_manifest.json
+│   ├── scripts/
+│   │   └── train_ml_recommender.py
+│   ├── src/
+│   │   ├── detection_to_ingredient.py
+│   │   ├── detector_adapter.py
+│   │   ├── ingredient_mapper.py
+│   │   ├── instruction_translation_validation.py
+│   │   ├── localization.py
+│   │   ├── ml_recommender.py
+│   │   ├── object_detection.py
+│   │   ├── pantry_catalog.py
+│   │   ├── recipe_detail_translation.py
+│   │   ├── recipe_fallback.py
+│   │   ├── recipe_food_availability.py
+│   │   ├── recipe_normalized_index.py
+│   │   ├── recipe_on_demand_translator.py
+│   │   ├── recipe_quality.py
+│   │   ├── recipe_repository.py
+│   │   ├── recipe_requirements.py
+│   │   ├── recommender.py
+│   │   ├── smart_kitchen_pipeline.py
+│   │   └── two_tier_recommender.py
+│   ├── tests/
+│   │   ├── test_camera_controller.cjs
+│   │   ├── test_diagnostic_export.cjs
+│   │   ├── test_feature_frontend.cjs
+│   │   ├── test_final_delivery_recovery.cjs
+│   │   ├── test_main_app_readiness.py
+│   │   ├── test_major01_requests.cjs
+│   │   ├── test_ml_recommender.py
+│   │   ├── test_pantry_expansion_frontend.cjs
+│   │   ├── test_pantry_input_expansion.py
+│   │   ├── test_production_recovery.cjs
+│   │   ├── test_production_runtime_races.cjs
+│   │   ├── test_recipe_detail_frontend.cjs
+│   │   ├── test_recipe_language_modal.cjs
+│   │   ├── test_recipe_language_switching.py
+│   │   ├── test_recommendation_audit_fixes.py
+│   │   ├── test_recommendation_audit_frontend.cjs
+│   │   ├── test_recommender.py
+│   │   ├── test_two_tier_frontend.cjs
+│   │   ├── test_two_tier_recommendations.py
+│   │   └── test_ui_polish_regression.cjs
+│   ├── translations/
+│   │   ├── recipe_detail_vi_authored_extra_v1.json
+│   │   ├── recipe_detail_vi_authored_v1.json
+│   │   ├── recipe_detail_vi_live_authored_v1.json
+│   │   └── recipe_detail_vi_phase5_authored_v1.json
+│   ├── requirements-dev.txt
+│   ├── requirements-recipe.txt
+│   ├── requirements.txt
+│   └── run_app.py
+├── docs/
+│   ├── ACADEMIC_LIMITATIONS.md
+│   ├── ARCHITECTURE.md
+│   ├── DISTRIBUTION.md
+│   ├── E2E_VERIFICATION_REPORT.md
+│   ├── EVALUATION_RESULTS.md
+│   ├── ML_METHODS.md
+│   ├── TROUBLESHOOTING.md
+│   ├── USER_GUIDE.md
+│   └── VERIFIED_COMPARISON_TABLE.md
+├── release/
+│   ├── archive/
+│   │   ├── verification-63f65f03c797-20261118-121542/
+│   │   │   ├── browser-recipe-en.png
+│   │   │   ├── browser-recipe-vi.png
+│   │   │   ├── browser-results.png
+│   │   │   ├── browser-run.json
+│   │   │   ├── browser-run.log
+│   │   │   ├── browser.json
+│   │   │   ├── busy-port.json
+│   │   │   ├── busy-port.log
+│   │   │   ├── check-only.json
+│   │   │   ├── check-only.log
+│   │   │   ├── feature_frontend_unit.json
+│   │   │   ├── http-run1.json
+│   │   │   ├── http-run2.json
+│   │   │   ├── pip-check-after-tests.json
+│   │   │   ├── pip-check-after-tests.log
+│   │   │   ├── python-regression.json
+│   │   │   ├── python-regression.log
+│   │   │   ├── python-version.json
+│   │   │   ├── python-version.log
+│   │   │   ├── runtime-dependencies.json
+│   │   │   ├── runtime-dependencies.log
+│   │   │   ├── runtime-files.log
+│   │   │   ├── server-run1.json
+│   │   │   ├── server-run1.log
+│   │   │   ├── server-run2.json
+│   │   │   ├── server-run2.log
+│   │   │   ├── setup.json
+│   │   │   ├── setup.log
+│   │   │   ├── SUMMARY.json
+│   │   │   ├── test-dependencies.json
+│   │   │   ├── test-dependencies.log
+│   │   │   ├── test_camera_controller.json
+│   │   │   ├── test_camera_controller.log
+│   │   │   ├── test_diagnostic_export.json
+│   │   │   ├── test_diagnostic_export.log
+│   │   │   ├── test_feature_frontend.json
+│   │   │   ├── test_feature_frontend.log
+│   │   │   ├── test_final_delivery_recovery.json
+│   │   │   ├── test_final_delivery_recovery.log
+│   │   │   ├── test_major01_requests.json
+│   │   │   ├── test_major01_requests.log
+│   │   │   ├── test_pantry_expansion_frontend.json
+│   │   │   ├── test_pantry_expansion_frontend.log
+│   │   │   ├── test_production_recovery.json
+│   │   │   ├── test_production_recovery.log
+│   │   │   ├── test_production_runtime_races.json
+│   │   │   ├── test_production_runtime_races.log
+│   │   │   ├── test_recipe_detail_frontend.json
+│   │   │   ├── test_recipe_detail_frontend.log
+│   │   │   ├── test_recipe_language_modal.json
+│   │   │   ├── test_recipe_language_modal.log
+│   │   │   ├── test_recommendation_audit_frontend.json
+│   │   │   ├── test_recommendation_audit_frontend.log
+│   │   │   ├── test_two_tier_frontend.json
+│   │   │   ├── test_two_tier_frontend.log
+│   │   │   ├── test_ui_polish_regression.json
+│   │   │   └── test_ui_polish_regression.log
+│   │   ├── Smart_Kitchen_V6_Windows.zip
+│   │   ├── Smart_Kitchen_V6_Windows.zip.sha256
+│   │   └── SUBMISSION_AUDIT_V6.md
+│   ├── evidence/
+│   │   └── 6592d4b4845b-20261118-122413/
+│   │       ├── browser-recipe-en.png
+│   │       ├── browser-recipe-fallback.png
+│   │       ├── browser-recipe-vi.png
+│   │       ├── browser-results.png
+│   │       ├── browser-run.json
+│   │       ├── browser-run.log
+│   │       ├── browser.json
+│   │       ├── busy-port.json
+│   │       ├── busy-port.log
+│   │       ├── check-only.json
+│   │       ├── check-only.log
+│   │       ├── feature_frontend_unit.json
+│   │       ├── http-run1.json
+│   │       ├── http-run2.json
+│   │       ├── missing-dataset.json
+│   │       ├── missing-dataset.log
+│   │       ├── missing-model.json
+│   │       ├── missing-model.log
+│   │       ├── pip-check-after-tests.json
+│   │       ├── pip-check-after-tests.log
+│   │       ├── python-regression.json
+│   │       ├── python-regression.log
+│   │       ├── python-version.json
+│   │       ├── python-version.log
+│   │       ├── runtime-dependencies.json
+│   │       ├── runtime-dependencies.log
+│   │       ├── runtime-files.log
+│   │       ├── server-run1.json
+│   │       ├── server-run1.log
+│   │       ├── server-run2.json
+│   │       ├── server-run2.log
+│   │       ├── setup.json
+│   │       ├── setup.log
+│   │       ├── SUMMARY.json
+│   │       ├── tampered-metadata.json
+│   │       ├── tampered-metadata.log
+│   │       ├── test-dependencies.json
+│   │       ├── test-dependencies.log
+│   │       ├── test_camera_controller.json
+│   │       ├── test_camera_controller.log
+│   │       ├── test_diagnostic_export.json
+│   │       ├── test_diagnostic_export.log
+│   │       ├── test_feature_frontend.json
+│   │       ├── test_feature_frontend.log
+│   │       ├── test_final_delivery_recovery.json
+│   │       ├── test_final_delivery_recovery.log
+│   │       ├── test_major01_requests.json
+│   │       ├── test_major01_requests.log
+│   │       ├── test_pantry_expansion_frontend.json
+│   │       ├── test_pantry_expansion_frontend.log
+│   │       ├── test_production_recovery.json
+│   │       ├── test_production_recovery.log
+│   │       ├── test_production_runtime_races.json
+│   │       ├── test_production_runtime_races.log
+│   │       ├── test_recipe_detail_frontend.json
+│   │       ├── test_recipe_detail_frontend.log
+│   │       ├── test_recipe_language_modal.json
+│   │       ├── test_recipe_language_modal.log
+│   │       ├── test_recommendation_audit_frontend.json
+│   │       ├── test_recommendation_audit_frontend.log
+│   │       ├── test_two_tier_frontend.json
+│   │       ├── test_two_tier_frontend.log
+│   │       ├── test_ui_polish_regression.json
+│   │       └── test_ui_polish_regression.log
+│   ├── build_windows_release.py
+│   ├── FILE_INVENTORY.json
+│   ├── INITIAL_INVENTORY.json
+│   ├── PAYLOAD_SCAN.json
+│   ├── SHA256_MANIFEST.json
+│   ├── Smart_Kitchen_Final_Windows.zip
+│   ├── Smart_Kitchen_Final_Windows.zip.sha256
+│   ├── SUBMISSION_AUDIT.md
+│   ├── TREE.txt
+│   ├── V6_PROVENANCE.json
+│   ├── verify_browser.cjs
+│   ├── verify_windows.py
+│   └── VERSION.txt
+├── .gitattributes
+├── .gitignore
+├── Bao_Cao_Smart_Kitchen.docx
+├── MauBaoCao.docx
+├── README.md
+├── RUN_ME_FIRST.cmd
+├── setup_env.ps1
+├── START_HERE.md
+└── Start_Smart_Kitchen.cmd

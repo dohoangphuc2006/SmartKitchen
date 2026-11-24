@@ -1,0 +1,302 @@
+{
+  "schema_version": "recipe-detail-vi-v1",
+  "scope": "phase5_demo_scenarios_display_only",
+  "recipes": [
+    {
+      "recipe_id": 8249,
+      "recipe_name_vi": "Cháo yến mạch táo bào của bà Louise",
+      "ingredients_vi": [
+        "1 cốc yến mạch cán kiểu truyền thống",
+        "2 1/3 cốc nước",
+        "Một nhúm muối",
+        "1 quả táo cỡ vừa, bào thô",
+        "1/2 thìa cà phê nước cốt chanh vàng",
+        "1/3 cốc sữa",
+        "1/2 thìa cà phê bơ"
+      ],
+      "instruction_steps_vi": [
+        "1. Cho yến mạch, nước và muối vào nồi cỡ vừa. Đun sôi.",
+        "2. Thêm táo bào và nước cốt chanh vàng, nấu khoảng 5 phút, thỉnh thoảng khuấy.",
+        "3. Thêm sữa và bơ. Khuấy đều và nấu 1 phút. Dùng ngay, có thể rắc một ít đường nâu hoặc rưới một ít siro lá phong."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "f51fe18f1e43532e2ba63e8fd635968f3fb4a1183a89daa7416b13e570977f66",
+      "source_instructions_sha256": "935964552b352e9bfd9a2d7a00bd1687e08ca1ca398be80897b50d13667d8897",
+      "source": {
+        "recipe_name": "Grandma Louise's Oatmeal with Grated Apple",
+        "ingredients": [
+          "1 cup old-fashioned oatmeal",
+          "2 1/3 cups water",
+          "Pinch of salt",
+          "1 medium apple, coarsely grated",
+          "1/2 teaspoon lemon juice",
+          "1/3 cup milk",
+          "1/2 teaspoon butter"
+        ],
+        "instructions": "1. Combine the oatmeal, water, and salt in a medium saucepan. Bring to a boil.\n2. Add the grated apple and lemon juice and cook for about 5 minutes, stirring occasionally.\n3. Add the milk and butter. Stir well and cook for 1 minute. Serve immediately, perhaps with a sprinkle of brown sugar or a drizzle of maple syrup."
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 10092,
+      "recipe_name_vi": "Mousse sô-cô-la cực dễ làm",
+      "ingredients_vi": [
+        "6 ounces sô-cô-la bán ngọt chất lượng tốt (như Valrhona), băm nhỏ, thêm một ít để bào trang trí (tùy chọn)",
+        "1 cốc sữa (với bất kỳ hàm lượng chất béo nào)",
+        "2 thìa canh cà phê espresso đã pha",
+        "4 thìa canh bơ (1/2 thanh)",
+        "2 quả trứng (tươi nhất có thể)"
+      ],
+      "instruction_steps_vi": [
+        "1. Cho sô-cô-la vào máy xay sinh tố.",
+        "2. Đun sữa, cà phê espresso và bơ trong nồi nhỏ đến khi sữa nóng gần sôi, khoảng 3 phút.",
+        "3. Đổ hỗn hợp sữa vào máy xay và xay đến khi sô-cô-la tan hết, hỗn hợp mịn.",
+        "4. Thêm trứng và xay đến khi không còn vón cục.",
+        "5. Rót vào các cốc và làm lạnh đến khi đông lại, khoảng 1 1/2 giờ. Trang trí bằng sô-cô-la bào nếu thích rồi dùng."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "e285a8e17ccff81c5a91937b4cc7ea608794a79dabe1c0acacc0a8dd56d482e7",
+      "source_instructions_sha256": "121a571ad45898a74fc5ce7dc449eb7339e302b823010dc2a3ab8941227e8a9f",
+      "source": {
+        "recipe_name": "The Easiest Chocolate Mousse Ever",
+        "ingredients": [
+          "6 ounces good-quality semisweet chocolate (such as Valrhona), chopped, plus extra for shavings (optional)",
+          "1 cup milk (any fat content)",
+          "2 tablespoons brewed espresso",
+          "4 tablespoons butter (1/2 stick)",
+          "2 eggs (the freshest possible)"
+        ],
+        "instructions": "1. Place the chocolate in a blender.\n2. Heat the milk, espresso, and butter in a small pot until the milk is scalded, about 3 minutes.\n3. Pour the milk mixture into the blender and blend until the chocolate is dissolved and the mixture is smooth.\n4. Add the eggs and blend until no lumps remain.\n5. Pour into cups and chill until set, about 1 1/2 hours. Garnish with the chocolate shavings, if desired, and serve."
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 4061,
+      "recipe_name_vi": "Bánh crêpe dễ làm",
+      "ingredients_vi": [
+        "2 quả trứng lớn",
+        "1 cốc bột mì",
+        "3/4 cốc sữa",
+        "1/2 cốc nước",
+        "1/2 thìa cà phê vani",
+        "2 thìa canh bơ, bơ đun chảy để áp chảo"
+      ],
+      "instruction_steps_vi": [
+        "Cho tất cả nguyên liệu vào máy xay sinh tố và xay nhuyễn.",
+        "Để trong tủ lạnh 1 giờ hoặc qua đêm (giúp bọt khí lắng xuống và bánh crêpe không bị rách).",
+        "Thoa bơ lên chảo áp chảo hoặc chảo crêpe. Đổ vào 2 thìa canh bột và nghiêng xoay để bột phủ kín mặt chảo.",
+        "Nấu 1 phút, lật bánh và tiếp tục nấu thêm 30 giây hoặc đến khi bánh vừa bắt đầu ngả vàng.",
+        "Lấy bánh ra đĩa và tiếp tục làm phần bánh crêpe còn lại.",
+        "Phết bơ táo, bơ hạnh nhân, chuối nghiền, mứt trái cây hoặc loại nhân yêu thích khác.",
+        "Cuộn thành hình điếu xì gà.",
+        "Dọn dùng."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "c097528012549021c7a48933e30cf510c6610178ef582d9e1fa3fc2c3684051f",
+      "source_instructions_sha256": "c10aaff3cede63e18100e344111ae0e9076e69d1bdc4abe7b7bed58bd4bc973d",
+      "source": {
+        "recipe_name": "Easy Crepes",
+        "ingredients": [
+          "2 large eggs",
+          "1 cup flour",
+          "3/4 cup milk",
+          "1/2 cup water",
+          "1/2 teaspoon vanilla",
+          "2 tablespoons butter, melted butter for sauteing"
+        ],
+        "instructions": "Place all the ingredients in a blender and puree.\nRefrigerate for 1 hour or overnight (this helps the bubbles to settle and the crepes not to tear).\nGrease a saute pan or crepe pan with butter. Pour in 2 tbsp of batter and swirl to cover the pan.\nCook for 1 minutes, flip and continue to cook another 30 seconds or until just starting to become golden.\nRemove to a plate and continue to make remaining crepes.\nSpread with apple butter, almond butter, mashed bananas, fruit preserves or any other favorite filling.\nRoll into a cigar shape.\nServe"
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 1882,
+      "recipe_name_vi": "Trứng nướng trên khay",
+      "ingredients_vi": [
+        "Bơ không muối hoặc dầu thực vật chống dính dạng xịt",
+        "18 quả trứng lớn",
+        "1/3 cốc sữa",
+        "2 thìa cà phê muối kosher",
+        "1/4 thìa cà phê tiêu đen mới xay"
+      ],
+      "instruction_steps_vi": [
+        "Làm nóng lò trước ở 350°F. Thoa bơ hoặc xịt dầu lên khay nướng có thành kích thước 18x13\". Xay trứng, sữa, muối và tiêu bằng máy xay sinh tố đến khi hòa đều.",
+        "Đặt khay đã chuẩn bị lên giá lò rồi cẩn thận đổ hỗn hợp trứng vào. Nướng đến khi phần giữa vừa đông lại, 12–14 phút.",
+        "Để nguội bớt rồi cắt thành 18–20 miếng vuông.",
+        "Có thể làm trứng trước 3 ngày. Cắt miếng, chuyển vào hộp kín và giữ lạnh. Nếu thích, hâm ấm nhẹ bằng lò nướng bánh mì hoặc lò vi sóng trước khi dùng."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "3718bfc01037d8fbdb7e6ea7d7c0793472cf02800c267a4a866f99c45073c3ff",
+      "source_instructions_sha256": "ec3e055563cce676292cde10e571b5f0c6f105a4571b6ea9e7c4812531de0cf2",
+      "source": {
+        "recipe_name": "Sheet-Pan Eggs",
+        "ingredients": [
+          "Unsalted butter or nonstick vegetable oil spray",
+          "18 large eggs",
+          "1/3 cup milk",
+          "2 teaspoons kosher salt",
+          "1/4 teaspoon freshly ground black pepper"
+        ],
+        "instructions": "Preheat oven to 350°F. Grease an 18x13\" rimmed baking sheet with butter or spray. Blend eggs, milk, salt, and pepper in a blender until well combined.\nPlace prepared baking sheet on oven rack and carefully pour in egg mixture. Bake until just set in the middle, 12–14 minutes.\nLet cool slightly, then cut into 18–20 squares.\nEggs can be made 3 days ahead. Slice, transfer to an airtight container, and chill. Warm slightly in a toaster oven or microwave before serving, if desired."
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 5726,
+      "recipe_name_vi": "Bánh quy bơ shortbread",
+      "ingredients_vi": [
+        "1/2 cốc (1 thanh) bơ, để mềm",
+        "3/4 cốc bột mì",
+        "1/4 cốc tinh bột ngô",
+        "1/4 cốc đường",
+        "Một nhúm muối",
+        "1/2 thìa cà phê vani",
+        "Đường hạt trang trí màu xanh lá"
+      ],
+      "instruction_steps_vi": [
+        "1 Làm nóng lò trước ở 325°F và thoa nhẹ dầu mỡ lên khuôn bánh tròn 8-inch.",
+        "2 Cho bơ vào tô cỡ vừa, dùng máy đánh cầm tay đánh đến khi mịn. Thêm các nguyên liệu còn lại và trộn đều. Ép hỗn hợp xuống đáy khuôn đã chuẩn bị, dùng đầu ngón tay làm phẳng bề mặt rồi làm lạnh 10 phút trong tủ lạnh.",
+        "3 Rắc nhiều đường xanh lá lên trên và nướng 15 phút, đến khi vừa chuyển màu vàng nâu. Khi bánh còn ấm, dùng đầu dao gọt nhỏ cắt thành 16 miếng hình múi. Để nguội hoàn toàn trước khi lấy khỏi khuôn."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "78c1266a211b66fca1b22773e86ee01f966f8325cd8f9e1093c4fedbcf2ae979",
+      "source_instructions_sha256": "657df4e80919a489a724c7d7e91d6e5f0ea52206d561e046a432fd08b3fd5b1b",
+      "source": {
+        "recipe_name": "Shortbread",
+        "ingredients": [
+          "1/2 cup (1 stick) butter, softened",
+          "3/4 cup flour",
+          "1/4 cup cornstarch",
+          "1/4 cup sugar",
+          "Pinch salt",
+          "1/2 teaspoon vanilla",
+          "Green sanding or decorating sugar"
+        ],
+        "instructions": "1 Preheat the oven to 325°F and lightly grease an 8-inch round cake tin.\n2 Put the butter in a medium bowl and use a hand mixer to beat until smooth. Add the remaining ingredients and mix to combine. Press into the bottom of the prepared pan, smoothing the surface with your fingertips, and chill for 10 minutes in the refrigerator.\n3 Sprinkle generously with the green sugar and bake for 15 minutes, until just turning golden brown. While still warm, cut into 16 wedges with the tip of a paring knife. Let cool completely before removing from pan."
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 2368,
+      "recipe_name_vi": "Bánh pudding Yorkshire",
+      "ingredients_vi": [
+        "2 quả trứng",
+        "1 cốc sữa",
+        "1 cốc bột mì đã rây",
+        "1/2 thìa cà phê muối",
+        "Mỡ và nước thịt chảy ra từ thịt bò quay (khoảng 1/4 cốc)"
+      ],
+      "instruction_steps_vi": [
+        "Làm nóng lò trước đến mức nóng (450ºF).",
+        "Đánh trứng với sữa. Rây chung bột mì và muối rồi khuấy vào hỗn hợp trứng. Đánh đến khi bột hòa đều.",
+        "Đổ bỏ phần lớn mỡ trong khay đã dùng quay thịt bò. Làm nóng khay nướng 11x7-inch hoặc khuôn vòng rồi đổ vào một phần tư cốc mỡ và nước thịt bò. Đổ hỗn hợp pudding vào và nướng mười phút. Hạ nhiệt lò xuống mức vừa (350ºF) rồi nướng thêm mười lăm đến hai mươi phút, hoặc đến khi bánh phồng và ngả nâu nhẹ. Cắt thành miếng vuông và dùng ngay với thịt bò quay."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "92b280d3ef3dee982fb2b05f09194dc6161e3b341b95cecfcfdcbcce7070b558",
+      "source_instructions_sha256": "a85ea9d183f1cef6fdafbd56901af9d4a7878d8c9b1ab085d04b2bcc726c11be",
+      "source": {
+        "recipe_name": "Yorkshire Pudding",
+        "ingredients": [
+          "2 eggs",
+          "1 cup milk",
+          "1 cup sifted flour",
+          "1/2 teaspoon salt",
+          "Beef drippings from roast beef (about 1/4 cup)"
+        ],
+        "instructions": "Preheat oven to hot (450ºF).\nBeat the eggs with the milk. Sift together the flour and salt and stir this into the egg mixture. Beat the batter until well blended.\nDiscard most of the fat from the pan in which the beef was roasted. Heat an 11x7-inch baking pan or ring mold and pour into it one-quarter cup of the beef drippings. Pour in the pudding mixture and bake ten minutes. Reduce the oven temperature to moderate (350ºF) and bake fifteen to twenty minutes longer, or until puffy and delicately browned. Cut into squares and serve immediately with roast beef."
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 9773,
+      "recipe_name_vi": "Gà chiên áo vụn ngũ cốc cornflakes",
+      "ingredients_vi": [
+        "1 miếng ức gà không da, không xương (6- đến 8-ounce)",
+        "1 quả trứng lớn",
+        "1/4 cốc sữa",
+        "1 1/2 cốc ngũ cốc cornflakes",
+        "1/3 cốc dầu thực vật"
+      ],
+      "instruction_steps_vi": [
+        "Đặt thịt gà giữa 2 tấm màng bọc thực phẩm và dần đều đến độ dày 1/2-inch.",
+        "Đánh trứng và sữa trong tô nông. Bóp vụn cornflakes vào một tô nông khác, trộn với muối và tiêu, mỗi loại 1/4 thìa cà phê.",
+        "Đun dầu trong chảo chống dính nhỏ trên lửa vừa đến khi nóng.",
+        "Trong lúc đó, rắc muối và tiêu lên gà, mỗi loại 1/4 thìa cà phê. Nhúng vào hỗn hợp trứng, để phần dư nhỏ xuống, rồi lăn qua cornflakes, ấn nhẹ để vụn bám chắc.",
+        "Chiên gà, lật một lần, đến khi vàng và vừa chín tới, tổng cộng 5 đến 6 phút. Đặt lên giấy thấm để ráo dầu.",
+        "Dùng kèm: khoai tây dầm và đậu Hà Lan."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "5b960e04e275f4fc792ab57349d851c6487fb95ae8b1ed4c69942303d1f90ef9",
+      "source_instructions_sha256": "233dd0bb77148200c84d19232643d24637b210817e06fe712cf7d5ac9ef948fe",
+      "source": {
+        "recipe_name": "Cornflake Fried Chicken",
+        "ingredients": [
+          "1(6- to 8-ounce) skinless boneless chicken breast",
+          "1 large egg",
+          "1/4 cup milk",
+          "1 1/2 cups cornflakes",
+          "1/3 cup vegetable oil"
+        ],
+        "instructions": "Pound chicken between 2 sheets of plastic wrap to an even 1/2-inch thickness.\nWhisk together egg and milk in a shallow bowl. Crush cornflakes into another shallow bowl and toss with 1/4 teaspoon each of salt and pepper.\nHeat oil in a small nonstick skillet over medium heat until hot.\nMeanwhile, sprinkle chicken with 1/4 teaspoon each of salt and pepper. Dredge in egg mixture, letting excess drip off, then in cornflakes, pressing to help adhere.\nFry chicken, turning once, until golden and just cooked through, 5 to 6 minutes total. Drain on paper towels.\nServe with: smashed potatoes and peas"
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 6062,
+      "recipe_name_vi": "Bánh khoai tây chiên latkes",
+      "ingredients_vi": [
+        "1 pound khoai tây",
+        "1/2 cốc hành tây băm nhỏ",
+        "1 quả trứng lớn, đánh nhẹ",
+        "1/2 thìa cà phê muối",
+        "1/2 đến 3/4 cốc dầu ô liu",
+        "Ăn kèm: kem chua và xốt táo"
+      ],
+      "instruction_steps_vi": [
+        "Làm nóng lò trước ở 250°F.",
+        "Gọt vỏ và bào thô khoai tây bằng tay, vừa bào vừa chuyển vào tô nước lạnh lớn. Ngâm khoai tây 1 đến 2 phút sau khi cho mẻ cuối vào nước, rồi để ráo kỹ trong rổ.",
+        "Trải khoai tây bào và hành tây lên khăn bếp rồi cuộn lại như cuộn bánh bông lan. Vặn khăn thật chặt để vắt ra càng nhiều nước càng tốt. Chuyển hỗn hợp khoai vào tô, trộn với trứng và muối.",
+        "Đun 1/4 cốc dầu trong chảo chống dính 12-inch trên lửa hơi lớn đến khi nóng nhưng không bốc khói. Làm theo từng mẻ 4 bánh latkes, cho 2 thìa canh hỗn hợp khoai cho mỗi bánh vào chảo, dùng nĩa dàn thành hình tròn 3-inch. Hạ xuống lửa vừa, chiên đến khi mặt dưới ngả nâu, khoảng 5 phút. Lật bánh và chiên đến khi mặt dưới ngả nâu, thêm khoảng 5 phút. Chuyển sang giấy thấm cho ráo dầu và nêm muối. Thêm dầu vào chảo khi cần. Giữ ấm bánh trên giá lưới đặt trong khay nướng nông trong lò."
+      ],
+      "version": "phase5-display-v1",
+      "source_sha256": "cb12bc435ea08c15c921a72ff654a4b47e54d7b2f7ed4b6b472342b7d592c2c0",
+      "source_instructions_sha256": "dcc03474101865f5060f03a06f150174749d08a403c5cf0802f652e4bedede63",
+      "source": {
+        "recipe_name": "Potato Latkes",
+        "ingredients": [
+          "1 pound potatoes",
+          "1/2 cup finely chopped onion",
+          "1 large egg, lightly beaten",
+          "1/2 teaspoon salt",
+          "1/2 to 3/4 cup olive oil",
+          "Accompaniments: sour cream and applesauce"
+        ],
+        "instructions": "Preheat oven to 250°F.\nPeel potatoes and coarsely grate by hand, transferring to a large bowl of cold water as grated. Soak potatoes 1 to 2 minutes after last batch is added to water, then drain well in a colander.\nSpread grated potatoes and onion on a kitchen towel and roll up jelly-roll style. Twist towel tightly to wring out as much liquid as possible. Transfer potato mixture to a bowl and stir in egg and salt.\nHeat 1/4 cup oil in a 12-inch nonstick skillet over moderately high heat until hot but not smoking. Working in batches of 4 latkes, spoon 2 tablespoons potato mixture per latke into skillet, spreading into 3-inch rounds with a fork. Reduce heat to moderate and cook until undersides are browned, about 5 minutes. Turn latkes over and cook until undersides are browned, about 5 minutes more. Transfer to paper towels to drain and season with salt. Add more oil to skillet as needed. Keep latkes warm on a wire rack set in a shallow baking pan in oven."
+      },
+      "translation_source": "AI_authored_source_bound_phase5_20261028",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    }
+  ]
+}

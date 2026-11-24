@@ -1,0 +1,25 @@
+{
+  "zip": {
+    "sha256": "6592d4b4845bec46694bbe929bab2c8b60bf2fcf2f63ff292c668ef6b8d61728",
+    "zip_bytes": 34188915,
+    "files": 118,
+    "extracted_bytes": 183797688
+  },
+  "os": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "verifier_python": "3.14.3",
+  "administrator": false,
+  "status": "PASS",
+  "setup": {
+    "exit_code": 0,
+    "seconds": 109.85
+  },
+  "restart_determinism": "PASS",
+  "runtime_isolation": "PASS (fresh venv, package and base stdlib only; local HTTP)",
+  "browser": "PASS",
+  "python_tests_discovered": 53,
+  "python_tests_skipped": 1,
+  "tests_javascript": 13,
+  "payload_integrity_after_run": "PASS",
+  "yolo": "OUT_OF_SCOPE"
+}

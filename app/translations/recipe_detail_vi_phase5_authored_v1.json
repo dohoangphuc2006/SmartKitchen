@@ -1,0 +1,100 @@
+{
+  "translation_source": "AI_authored_source_bound_phase5_20261028",
+  "review_status": "auto_unreviewed",
+  "reviewer": null,
+  "reviewed_at": null,
+  "recipes": [
+    {
+      "recipe_id": 8249,
+      "recipe_name_vi": "Cháo yến mạch táo bào của bà Louise",
+      "ingredients_vi": ["1 cốc yến mạch cán kiểu truyền thống", "2 1/3 cốc nước", "Một nhúm muối", "1 quả táo cỡ vừa, bào thô", "1/2 thìa cà phê nước cốt chanh vàng", "1/3 cốc sữa", "1/2 thìa cà phê bơ"],
+      "instruction_steps_vi": [
+        "1. Cho yến mạch, nước và muối vào nồi cỡ vừa. Đun sôi.",
+        "2. Thêm táo bào và nước cốt chanh vàng, nấu khoảng 5 phút, thỉnh thoảng khuấy.",
+        "3. Thêm sữa và bơ. Khuấy đều và nấu 1 phút. Dùng ngay, có thể rắc một ít đường nâu hoặc rưới một ít siro lá phong."
+      ]
+    },
+    {
+      "recipe_id": 10092,
+      "recipe_name_vi": "Mousse sô-cô-la cực dễ làm",
+      "ingredients_vi": ["6 ounces sô-cô-la bán ngọt chất lượng tốt (như Valrhona), băm nhỏ, thêm một ít để bào trang trí (tùy chọn)", "1 cốc sữa (với bất kỳ hàm lượng chất béo nào)", "2 thìa canh cà phê espresso đã pha", "4 thìa canh bơ (1/2 thanh)", "2 quả trứng (tươi nhất có thể)"],
+      "instruction_steps_vi": [
+        "1. Cho sô-cô-la vào máy xay sinh tố.",
+        "2. Đun sữa, cà phê espresso và bơ trong nồi nhỏ đến khi sữa nóng gần sôi, khoảng 3 phút.",
+        "3. Đổ hỗn hợp sữa vào máy xay và xay đến khi sô-cô-la tan hết, hỗn hợp mịn.",
+        "4. Thêm trứng và xay đến khi không còn vón cục.",
+        "5. Rót vào các cốc và làm lạnh đến khi đông lại, khoảng 1 1/2 giờ. Trang trí bằng sô-cô-la bào nếu thích rồi dùng."
+      ]
+    },
+    {
+      "recipe_id": 4061,
+      "recipe_name_vi": "Bánh crêpe dễ làm",
+      "ingredients_vi": ["2 quả trứng lớn", "1 cốc bột mì", "3/4 cốc sữa", "1/2 cốc nước", "1/2 thìa cà phê vani", "2 thìa canh bơ, bơ đun chảy để áp chảo"],
+      "instruction_steps_vi": [
+        "Cho tất cả nguyên liệu vào máy xay sinh tố và xay nhuyễn.",
+        "Để trong tủ lạnh 1 giờ hoặc qua đêm (giúp bọt khí lắng xuống và bánh crêpe không bị rách).",
+        "Thoa bơ lên chảo áp chảo hoặc chảo crêpe. Đổ vào 2 thìa canh bột và nghiêng xoay để bột phủ kín mặt chảo.",
+        "Nấu 1 phút, lật bánh và tiếp tục nấu thêm 30 giây hoặc đến khi bánh vừa bắt đầu ngả vàng.",
+        "Lấy bánh ra đĩa và tiếp tục làm phần bánh crêpe còn lại.",
+        "Phết bơ táo, bơ hạnh nhân, chuối nghiền, mứt trái cây hoặc loại nhân yêu thích khác.",
+        "Cuộn thành hình điếu xì gà.",
+        "Dọn dùng."
+      ]
+    },
+    {
+      "recipe_id": 1882,
+      "recipe_name_vi": "Trứng nướng trên khay",
+      "ingredients_vi": ["Bơ không muối hoặc dầu thực vật chống dính dạng xịt", "18 quả trứng lớn", "1/3 cốc sữa", "2 thìa cà phê muối kosher", "1/4 thìa cà phê tiêu đen mới xay"],
+      "instruction_steps_vi": [
+        "Làm nóng lò trước ở 350°F. Thoa bơ hoặc xịt dầu lên khay nướng có thành kích thước 18x13\". Xay trứng, sữa, muối và tiêu bằng máy xay sinh tố đến khi hòa đều.",
+        "Đặt khay đã chuẩn bị lên giá lò rồi cẩn thận đổ hỗn hợp trứng vào. Nướng đến khi phần giữa vừa đông lại, 12–14 phút.",
+        "Để nguội bớt rồi cắt thành 18–20 miếng vuông.",
+        "Có thể làm trứng trước 3 ngày. Cắt miếng, chuyển vào hộp kín và giữ lạnh. Nếu thích, hâm ấm nhẹ bằng lò nướng bánh mì hoặc lò vi sóng trước khi dùng."
+      ]
+    },
+    {
+      "recipe_id": 5726,
+      "recipe_name_vi": "Bánh quy bơ shortbread",
+      "ingredients_vi": ["1/2 cốc (1 thanh) bơ, để mềm", "3/4 cốc bột mì", "1/4 cốc tinh bột ngô", "1/4 cốc đường", "Một nhúm muối", "1/2 thìa cà phê vani", "Đường hạt trang trí màu xanh lá"],
+      "instruction_steps_vi": [
+        "1 Làm nóng lò trước ở 325°F và thoa nhẹ dầu mỡ lên khuôn bánh tròn 8-inch.",
+        "2 Cho bơ vào tô cỡ vừa, dùng máy đánh cầm tay đánh đến khi mịn. Thêm các nguyên liệu còn lại và trộn đều. Ép hỗn hợp xuống đáy khuôn đã chuẩn bị, dùng đầu ngón tay làm phẳng bề mặt rồi làm lạnh 10 phút trong tủ lạnh.",
+        "3 Rắc nhiều đường xanh lá lên trên và nướng 15 phút, đến khi vừa chuyển màu vàng nâu. Khi bánh còn ấm, dùng đầu dao gọt nhỏ cắt thành 16 miếng hình múi. Để nguội hoàn toàn trước khi lấy khỏi khuôn."
+      ]
+    },
+    {
+      "recipe_id": 2368,
+      "recipe_name_vi": "Bánh pudding Yorkshire",
+      "ingredients_vi": ["2 quả trứng", "1 cốc sữa", "1 cốc bột mì đã rây", "1/2 thìa cà phê muối", "Mỡ và nước thịt chảy ra từ thịt bò quay (khoảng 1/4 cốc)"],
+      "instruction_steps_vi": [
+        "Làm nóng lò trước đến mức nóng (450ºF).",
+        "Đánh trứng với sữa. Rây chung bột mì và muối rồi khuấy vào hỗn hợp trứng. Đánh đến khi bột hòa đều.",
+        "Đổ bỏ phần lớn mỡ trong khay đã dùng quay thịt bò. Làm nóng khay nướng 11x7-inch hoặc khuôn vòng rồi đổ vào một phần tư cốc mỡ và nước thịt bò. Đổ hỗn hợp pudding vào và nướng mười phút. Hạ nhiệt lò xuống mức vừa (350ºF) rồi nướng thêm mười lăm đến hai mươi phút, hoặc đến khi bánh phồng và ngả nâu nhẹ. Cắt thành miếng vuông và dùng ngay với thịt bò quay."
+      ]
+    },
+    {
+      "recipe_id": 9773,
+      "recipe_name_vi": "Gà chiên áo vụn ngũ cốc cornflakes",
+      "ingredients_vi": ["1 miếng ức gà không da, không xương (6- đến 8-ounce)", "1 quả trứng lớn", "1/4 cốc sữa", "1 1/2 cốc ngũ cốc cornflakes", "1/3 cốc dầu thực vật"],
+      "instruction_steps_vi": [
+        "Đặt thịt gà giữa 2 tấm màng bọc thực phẩm và dần đều đến độ dày 1/2-inch.",
+        "Đánh trứng và sữa trong tô nông. Bóp vụn cornflakes vào một tô nông khác, trộn với muối và tiêu, mỗi loại 1/4 thìa cà phê.",
+        "Đun dầu trong chảo chống dính nhỏ trên lửa vừa đến khi nóng.",
+        "Trong lúc đó, rắc muối và tiêu lên gà, mỗi loại 1/4 thìa cà phê. Nhúng vào hỗn hợp trứng, để phần dư nhỏ xuống, rồi lăn qua cornflakes, ấn nhẹ để vụn bám chắc.",
+        "Chiên gà, lật một lần, đến khi vàng và vừa chín tới, tổng cộng 5 đến 6 phút. Đặt lên giấy thấm để ráo dầu.",
+        "Dùng kèm: khoai tây dầm và đậu Hà Lan."
+      ]
+    },
+    {
+      "recipe_id": 6062,
+      "recipe_name_vi": "Bánh khoai tây chiên latkes",
+      "ingredients_vi": ["1 pound khoai tây", "1/2 cốc hành tây băm nhỏ", "1 quả trứng lớn, đánh nhẹ", "1/2 thìa cà phê muối", "1/2 đến 3/4 cốc dầu ô liu", "Ăn kèm: kem chua và xốt táo"],
+      "instruction_steps_vi": [
+        "Làm nóng lò trước ở 250°F.",
+        "Gọt vỏ và bào thô khoai tây bằng tay, vừa bào vừa chuyển vào tô nước lạnh lớn. Ngâm khoai tây 1 đến 2 phút sau khi cho mẻ cuối vào nước, rồi để ráo kỹ trong rổ.",
+        "Trải khoai tây bào và hành tây lên khăn bếp rồi cuộn lại như cuộn bánh bông lan. Vặn khăn thật chặt để vắt ra càng nhiều nước càng tốt. Chuyển hỗn hợp khoai vào tô, trộn với trứng và muối.",
+        "Đun 1/4 cốc dầu trong chảo chống dính 12-inch trên lửa hơi lớn đến khi nóng nhưng không bốc khói. Làm theo từng mẻ 4 bánh latkes, cho 2 thìa canh hỗn hợp khoai cho mỗi bánh vào chảo, dùng nĩa dàn thành hình tròn 3-inch. Hạ xuống lửa vừa, chiên đến khi mặt dưới ngả nâu, khoảng 5 phút. Lật bánh và chiên đến khi mặt dưới ngả nâu, thêm khoảng 5 phút. Chuyển sang giấy thấm cho ráo dầu và nêm muối. Thêm dầu vào chảo khi cần. Giữ ấm bánh trên giá lưới đặt trong khay nướng nông trong lò."
+      ]
+    }
+  ]
+}

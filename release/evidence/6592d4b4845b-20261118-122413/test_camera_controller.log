@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "name": "rear camera preferred, audio disabled; stop clears all tracks and listeners",
+      "status": "PASS"
+    },
+    {
+      "name": "capture JPEG current frame and immediately release camera",
+      "status": "PASS"
+    },
+    {
+      "name": "no frame cannot be captured",
+      "status": "PASS"
+    },
+    {
+      "name": "stop while permission pending disposes late stream",
+      "status": "PASS"
+    },
+    {
+      "name": "stop while playback pending cannot reactivate camera",
+      "status": "PASS"
+    },
+    {
+      "name": "cancel pending JPEG cannot replace a newly selected upload",
+      "status": "PASS"
+    },
+    {
+      "name": "insecure context and unsupported browser never request camera",
+      "status": "PASS"
+    },
+    {
+      "name": "NotAllowedError returns actionable error and idle state",
+      "status": "PASS"
+    },
+    {
+      "name": "NotFoundError returns actionable error and idle state",
+      "status": "PASS"
+    },
+    {
+      "name": "NotReadableError returns actionable error and idle state",
+      "status": "PASS"
+    },
+    {
+      "name": "OverconstrainedError returns actionable error and idle state",
+      "status": "PASS"
+    },
+    {
+      "name": "playback failure releases granted stream",
+      "status": "PASS"
+    },
+    {
+      "name": "device disconnected ends stream with message",
+      "status": "PASS"
+    },
+    {
+      "name": "encoding failure remains live for retry and can still stop",
+      "status": "PASS"
+    },
+    {
+      "name": "large video bounded to existing 25M pixel API limit without upscale",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "PASS": 15,
+    "FAIL": 0
+  }
+}

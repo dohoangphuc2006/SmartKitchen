@@ -1,0 +1,7 @@
+PASS HTML contract: maxlength=1000, autocomplete listbox, catalog browser panel, disambiguation box
+PASS All 526 catalog items are recognized by parseManualInputSegment in VI, unaccented VI, and EN
+PASS Autocomplete dropdown searches catalog, preserves quantity prefix, and commits via keyboard or click
+PASS Catalog Browser Panel opens, filters by category & search query, paginates, and adds ingredients on click
+PASS Disambiguation pills appear for generic beef/pork/chili/tofu and one-click replace preserving quantity
+PASS Multi-ingredient session (18 items mixing VI, unaccented VI, EN, quantities, and duplicates) deduplicates cleanly
+PASS Inline Catalog UX: separated from quick-add, inline expandable (no modal/body lock), scoped wheel boundary guard, mobile select

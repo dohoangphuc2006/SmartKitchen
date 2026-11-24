@@ -1,0 +1,234 @@
+{
+  "http": "PASS",
+  "port": 8066,
+  "health": {
+    "status": "ok",
+    "model_loaded": false,
+    "recommender_loaded": true
+  },
+  "static_assets": [
+    "static/style.css?v=compact-ui-2",
+    "static/i18n.js?v=compact-ui-2",
+    "static/camera.js?v=compact-ui-2",
+    "static/detection.js?v=compact-ui-2",
+    "static/diagnostic_export.js?v=compact-ui-2",
+    "static/app.js?v=compact-ui-2"
+  ],
+  "catalog_coverage": {
+    "total_records": 13501,
+    "detail_ready": 13487,
+    "title_vi_available": 100,
+    "title_english_fallback": 13387,
+    "ingredients_vi_available": 61,
+    "ingredients_english_fallback": 13426,
+    "instructions_vi_available": 61,
+    "instructions_english_fallback": 13426,
+    "fully_localized_vi": 61,
+    "title_auto_unreviewed": 52,
+    "ingredients_auto_unreviewed": 61,
+    "instructions_auto_unreviewed": 61,
+    "title_reviewed": 48,
+    "source_detail_unavailable": 14,
+    "not_fully_localized_vi": 13440
+  },
+  "trials": [
+    {
+      "pantry": [
+        "thịt heo xay"
+      ],
+      "method": "final",
+      "tier_a": [],
+      "tier_b": [
+        6236,
+        3254,
+        3486,
+        9947,
+        4618
+      ],
+      "artifact_sha256": null
+    },
+    {
+      "pantry": [
+        "thịt heo xay"
+      ],
+      "method": "ml_tfidf",
+      "tier_a": [],
+      "tier_b": [
+        6236,
+        3254,
+        3486,
+        9947,
+        4618
+      ],
+      "artifact_sha256": "3616f73132f4effe2700831d8da5174a39a56fd4ab223737cfc8b49a556d487b"
+    },
+    {
+      "pantry": [
+        "thịt heo xay"
+      ],
+      "method": "ml_lsa",
+      "tier_a": [],
+      "tier_b": [
+        6236,
+        3254,
+        4618,
+        3486,
+        383
+      ],
+      "artifact_sha256": "3616f73132f4effe2700831d8da5174a39a56fd4ab223737cfc8b49a556d487b"
+    },
+    {
+      "pantry": [
+        "trứng"
+      ],
+      "method": "final",
+      "tier_a": [
+        2083,
+        2091
+      ],
+      "tier_b": [
+        537,
+        767,
+        2088,
+        5670,
+        8106
+      ],
+      "artifact_sha256": null
+    },
+    {
+      "pantry": [
+        "trứng"
+      ],
+      "method": "ml_tfidf",
+      "tier_a": [
+        2083,
+        2091
+      ],
+      "tier_b": [
+        537,
+        767,
+        2088,
+        8106,
+        7259
+      ],
+      "artifact_sha256": "3616f73132f4effe2700831d8da5174a39a56fd4ab223737cfc8b49a556d487b"
+    },
+    {
+      "pantry": [
+        "trứng"
+      ],
+      "method": "ml_lsa",
+      "tier_a": [
+        2083,
+        2091
+      ],
+      "tier_b": [
+        8810,
+        537,
+        767,
+        5670,
+        6363
+      ],
+      "artifact_sha256": "3616f73132f4effe2700831d8da5174a39a56fd4ab223737cfc8b49a556d487b"
+    },
+    {
+      "pantry": [
+        "trứng",
+        "cà chua",
+        "hành lá"
+      ],
+      "method": "final",
+      "tier_a": [
+        2083,
+        2091
+      ],
+      "tier_b": [
+        8849,
+        89,
+        7136,
+        2193,
+        7715
+      ],
+      "artifact_sha256": null
+    },
+    {
+      "pantry": [
+        "trứng",
+        "cà chua",
+        "hành lá"
+      ],
+      "method": "ml_tfidf",
+      "tier_a": [
+        2083,
+        2091
+      ],
+      "tier_b": [
+        8849,
+        7136,
+        89,
+        7715,
+        5394
+      ],
+      "artifact_sha256": "3616f73132f4effe2700831d8da5174a39a56fd4ab223737cfc8b49a556d487b"
+    },
+    {
+      "pantry": [
+        "trứng",
+        "cà chua",
+        "hành lá"
+      ],
+      "method": "ml_lsa",
+      "tier_a": [
+        2083,
+        2091
+      ],
+      "tier_b": [
+        8849,
+        89,
+        2193,
+        5394,
+        7136
+      ],
+      "artifact_sha256": "3616f73132f4effe2700831d8da5174a39a56fd4ab223737cfc8b49a556d487b"
+    }
+  ],
+  "details": [
+    {
+      "id": 417,
+      "english_steps": 2,
+      "english_ingredients": 4,
+      "vietnamese_instructions": "auto_unreviewed",
+      "vietnamese_ingredients": "auto_unreviewed"
+    },
+    {
+      "id": 999,
+      "english_steps": 2,
+      "english_ingredients": 3,
+      "vietnamese_instructions": "auto_unreviewed",
+      "vietnamese_ingredients": "auto_unreviewed"
+    },
+    {
+      "id": 6236,
+      "english_steps": 5,
+      "english_ingredients": 7,
+      "vietnamese_instructions": "auto_unreviewed",
+      "vietnamese_ingredients": "auto_unreviewed"
+    },
+    {
+      "id": 103,
+      "english_steps": 3,
+      "english_ingredients": 6,
+      "vietnamese_instructions": "untranslated",
+      "vietnamese_ingredients": "auto_unreviewed"
+    }
+  ],
+  "baseline_ids": [
+    12940,
+    6456,
+    7136,
+    8849,
+    10263
+  ],
+  "single_eligible_id": 7085,
+  "unknown_reason": "NO_RECOGNIZED_INGREDIENTS"
+}

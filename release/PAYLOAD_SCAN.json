@@ -1,0 +1,26 @@
+{
+  "zip_sha256": "6592d4b4845bec46694bbe929bab2c8b60bf2fcf2f63ff292c668ef6b8d61728",
+  "scan_matches": {
+    "secret_token": [],
+    "owner_path": [],
+    "email_pattern": [
+      {
+        "path": "app/processed/ingredient_details.csv",
+        "matches": 3
+      },
+      {
+        "path": "app/processed/recipes_cleaned.csv",
+        "matches": 3
+      }
+    ],
+    "lfs_pointer": []
+  },
+  "processed_dataset_rows": {
+    "recipes_cleaned.csv": 13501,
+    "ingredient_details.csv": 145024,
+    "ingredient_vocabulary.csv": 27929
+  },
+  "email_review": "One role-based vendor contact repeated in the source/lineage for recipe 4794.",
+  "telephone_review": "Manual context review found supplier contact lines in source cooking notes.",
+  "scan_scope": "Text payload patterns and developer paths. No matched values are exported."
+}

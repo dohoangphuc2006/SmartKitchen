@@ -1,0 +1,33 @@
+{
+  "scope": "DETERMINISTIC_NEW_RACE_CASES_NO_SERVER_NO_INFERENCE",
+  "records": [
+    {
+      "name": "stop during delayed response.json cannot redraw stale boxes or metrics",
+      "status": "PASS"
+    },
+    {
+      "name": "old JSON cannot overwrite new camera generation",
+      "status": "PASS"
+    },
+    {
+      "name": "late JSON after timeout cannot draw boxes even if transport ignores abort",
+      "status": "PASS"
+    },
+    {
+      "name": "network rejection releases inFlight and schedules bounded retry",
+      "status": "PASS"
+    },
+    {
+      "name": "timeout aborts owned request and permits later retry",
+      "status": "PASS"
+    },
+    {
+      "name": "429 respects Retry-After without rendering boxes",
+      "status": "PASS"
+    },
+    {
+      "name": "pending request prevents a concurrent frame admission",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+test_busy_port_has_clear_message_and_no_process_kill (test_main_app_readiness.LauncherTests.test_busy_port_has_clear_message_and_no_process_kill) ... ok
+test_check_closes_its_socket_without_constructing_server (test_main_app_readiness.LauncherTests.test_check_closes_its_socket_without_constructing_server) ... ok
+test_ctrl_c_closes_owned_socket_and_exits_cleanly (test_main_app_readiness.LauncherTests.test_ctrl_c_closes_owned_socket_and_exits_cleanly) ... Preflight PASS: dependency có mặt, tệp chính tồn tại, cổng 8000 trống. Chưa nạp model.
+SMART KITCHEN — ỨNG DỤNG CHÍNH
+URL: http://127.0.0.1:8000/ — mở sau khi thấy Application startup complete.
+Nguyên liệu → gợi ý → chi tiết công thức. Ctrl+C để dừng.
+ok
+test_exclusive_bind_preserves_owner_and_can_be_released (test_main_app_readiness.LauncherTests.test_exclusive_bind_preserves_owner_and_can_be_released) ... ok
+test_missing_module_detection_uses_current_interpreter (test_main_app_readiness.LauncherTests.test_missing_module_detection_uses_current_interpreter) ... ok
+test_reports_missing_dependency_without_binding_or_loading_model (test_main_app_readiness.LauncherTests.test_reports_missing_dependency_without_binding_or_loading_model) ... ok
+test_start_uses_only_primary_app_and_keeps_checked_socket (test_main_app_readiness.LauncherTests.test_start_uses_only_primary_app_and_keeps_checked_socket) ... SMART KITCHEN — ỨNG DỤNG CHÍNH
+URL: http://127.0.0.1:8000/ — mở sau khi thấy Application startup complete.
+Nguyên liệu → gợi ý → chi tiết công thức. Ctrl+C để dừng.
+ok
+test_public_dictionary_omits_known_machine_title_but_preserves_original_cache (test_main_app_readiness.PrimaryDisplayTests.test_public_dictionary_omits_known_machine_title_but_preserves_original_cache) ... ok
+test_reviewed_display_does_not_change_input_mapping (test_main_app_readiness.PrimaryDisplayTests.test_reviewed_display_does_not_change_input_mapping) ... ok
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+test_gated_vs_open_mode (test_ml_recommender.MLRecommenderProductionTests.test_gated_vs_open_mode) ... ok
+test_production_artifact_attributes (test_ml_recommender.MLRecommenderProductionTests.test_production_artifact_attributes) ... ok
+test_tamper_protection_detects_hash_mismatch (test_ml_recommender.MLRecommenderProductionTests.test_tamper_protection_detects_hash_mismatch) ... ok
+test_unrecognized_or_empty_input (test_ml_recommender.MLRecommenderProductionTests.test_unrecognized_or_empty_input) ... ok
+test_vietnamese_quantity_query_and_determinism (test_ml_recommender.MLRecommenderProductionTests.test_vietnamese_quantity_query_and_determinism) ... ok
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+test_fastapi_endpoint_recommend (test_ml_recommender.MLRecommenderServiceIntegrationTests.test_fastapi_endpoint_recommend) ... ok
+test_smart_kitchen_service_with_ml_rankers (test_ml_recommender.MLRecommenderServiceIntegrationTests.test_smart_kitchen_service_with_ml_rankers) ... ok
+test_csr_matrix_dense_equivalence (test_ml_recommender.MLRecommenderUnitTests.test_csr_matrix_dense_equivalence) ... ok
+test_model_fit_save_load_roundtrip (test_ml_recommender.MLRecommenderUnitTests.test_model_fit_save_load_roundtrip) ... ok
+test_randomized_svd_deterministic (test_ml_recommender.MLRecommenderUnitTests.test_randomized_svd_deterministic) ... ok
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+test_ambiguous_concepts_remain_unresolved_and_never_force_mapped (test_pantry_input_expansion.TestPantryInputExpansion.test_ambiguous_concepts_remain_unresolved_and_never_force_mapped) ... ok
+test_catalog_api_endpoint_search_and_filter (test_pantry_input_expansion.TestPantryInputExpansion.test_catalog_api_endpoint_search_and_filter) ... ok
+test_catalog_counts_and_structure (test_pantry_input_expansion.TestPantryInputExpansion.test_catalog_counts_and_structure) ... ok
+test_expanded_ingredients_normalize_and_recommend_across_all_methods (test_pantry_input_expansion.TestPantryInputExpansion.test_expanded_ingredients_normalize_and_recommend_across_all_methods) ... ok
+test_localization_zero_new_conflicts (test_pantry_input_expansion.TestPantryInputExpansion.test_localization_zero_new_conflicts) ... ok
+test_multi_ingredient_pantry_deduplication_and_scaling (test_pantry_input_expansion.TestPantryInputExpansion.test_multi_ingredient_pantry_deduplication_and_scaling) ... ok
+test_get_detail_preserves_untranslated_instructions_when_unavailable (test_recipe_language_switching.RecipeLanguageSwitchingTests.test_get_detail_preserves_untranslated_instructions_when_unavailable) ... ok
+test_ondemand_translator_translates_safe_ingredients_and_caches_locally (test_recipe_language_switching.RecipeLanguageSwitchingTests.test_ondemand_translator_translates_safe_ingredients_and_caches_locally) ... ok
+test_tier_a_recipes_have_complete_vietnamese_and_original_english (test_recipe_language_switching.RecipeLanguageSwitchingTests.test_tier_a_recipes_have_complete_vietnamese_and_original_english) ... ok
+test_v6_batch_exists_and_all_24_recipes_pass_strict_validation (test_recipe_language_switching.RecipeLanguageSwitchingTests.test_v6_batch_exists_and_all_24_recipes_pass_strict_validation) ... ok
+test_yolo_checkpoint_bit_identical (test_recommendation_audit_fixes.OptionalCheckpointTests.test_yolo_checkpoint_bit_identical) ... skipped 'YOLO checkpoint is outside the Windows Recipe ZIP'
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+test_api_empty_detail_and_20_targeted_cases (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_api_empty_detail_and_20_targeted_cases) ... ok
+test_chicken_three_cuts_monotonic_across_all_methods (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_chicken_three_cuts_monotonic_across_all_methods) ... ok
+test_generic_unresolved_and_anti_confusion (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_generic_unresolved_and_anti_confusion) ... ok
+test_ground_pork_recognized_empty_detail_and_pairings (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_ground_pork_recognized_empty_detail_and_pairings) ... ok
+test_missing_core_ingredients_populated_for_production_and_ml (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_missing_core_ingredients_populated_for_production_and_ml) ... ok
+test_negative_regression_anti_confusion_and_no_false_can_cook_now (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_negative_regression_anti_confusion_and_no_false_can_cook_now) ... ok
+test_peeled_shrimp_and_override_aliases (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_peeled_shrimp_and_override_aliases) ... ok
+test_protected_assets_bit_identical (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_protected_assets_bit_identical) ... ok
+test_readiness_distinguishes_can_cook_now_vs_needs_ingredients (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_readiness_distinguishes_can_cook_now_vs_needs_ingredients) ... ok
+test_shrimp_comma_and_space_forms_equivalent_across_modes (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_shrimp_comma_and_space_forms_equivalent_across_modes) ... ok
+test_staple_policy_water_salt_pepper_oil_explicit_in_api (test_recommendation_audit_fixes.RecommendationAuditFixesTests.test_staple_policy_water_salt_pepper_oil_explicit_in_api) ... ok
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+test_alias_yolo_objects_and_duplicates (test_recommender.RecommenderTests.test_alias_yolo_objects_and_duplicates) ... ok
+test_binary_metric_formulas (test_recommender.RecommenderTests.test_binary_metric_formulas) ... ok
+test_empty_unknown_and_unmapped_class (test_recommender.RecommenderTests.test_empty_unknown_and_unmapped_class) ... ok
+test_real_top1_and_result_invariants (test_recommender.RecommenderTests.test_real_top1_and_result_invariants) ... Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+ok
+test_threshold_and_ready_filter (test_recommender.RecommenderTests.test_threshold_and_ready_filter) ... Không có recipe đạt ngưỡng phù hợp
+Không có recipe đạt ngưỡng phù hợp
+ok
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+test_api_two_tier_vs_legacy_baseline_coexist (test_two_tier_recommendations.TwoTierRecommendationsTests.test_api_two_tier_vs_legacy_baseline_coexist) ... ok
+test_confirmed_staples_never_fabricate_results_for_unresolved_generic_input (test_two_tier_recommendations.TwoTierRecommendationsTests.test_confirmed_staples_never_fabricate_results_for_unresolved_generic_input) ... ok
+test_confirmed_staples_opt_in_unlocks_staple_variant_with_provenance (test_two_tier_recommendations.TwoTierRecommendationsTests.test_confirmed_staples_opt_in_unlocks_staple_variant_with_provenance) ... ok
+test_limit01_index_fixes_notes_prep_and_flags_unreliable_recipes (test_two_tier_recommendations.TwoTierRecommendationsTests.test_limit01_index_fixes_notes_prep_and_flags_unreliable_recipes) ... ok
+test_multi_ingredient_pantry_still_surfaces_cookable_egg_recipes_without_assuming_staples (test_two_tier_recommendations.TwoTierRecommendationsTests.test_multi_ingredient_pantry_still_surfaces_cookable_egg_recipes_without_assuming_staples) ... ok
+test_qa_prevents_pineapple_paletas_brine_and_lsa_anchor_drift (test_two_tier_recommendations.TwoTierRecommendationsTests.test_qa_prevents_pineapple_paletas_brine_and_lsa_anchor_drift) ... ok
+test_single_ingredient_pantries_surface_safe_tier_b_below_25pct (test_two_tier_recommendations.TwoTierRecommendationsTests.test_single_ingredient_pantries_surface_safe_tier_b_below_25pct) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 235.893s
+
+OK (skipped=1)

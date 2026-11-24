@@ -1,0 +1,9 @@
+{
+  "script": "RUN_ME_FIRST.cmd",
+  "port": 8000,
+  "pid": 14836,
+  "startup_seconds": 58.14,
+  "elapsed_seconds": 67.58,
+  "exit_code": 3,
+  "stopped_by": "CTRL_BREAK_EVENT"
+}

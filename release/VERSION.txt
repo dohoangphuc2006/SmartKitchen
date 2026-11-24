@@ -1,0 +1,9 @@
+Smart Kitchen Vietnam Windows academic submission
+Version: 2026-11-23-vision-experimental
+Source: SMART_KITCHEN_FINAL_HANDOFF_20261116_V6
+Default ranker: final
+Experimental rankers: ml_tfidf, ml_lsa
+Artifact: recipe_tfidf_lsa_v1
+Profile: recipe --with-yolo; manual pantry plus experimental image/webcam
+Vision status: under development; accuracy and physical webcam validation incomplete
+Distribution: local candidate pending redistribution clearance

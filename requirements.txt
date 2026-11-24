@@ -1,9 +1,0 @@
-torch
-torchvision
-ultralytics
-streamlit
-pandas
-pyyaml
-pillow
-numpy
-matplotlib

@@ -1,0 +1,5 @@
+{
+  "model_path": "models/best.pt",
+  "sha256": "c67106a099bb625912a461eee00fe1e09bda9ea8a7a0f55da34abaace3f7f8cf",
+  "selection_basis": "Existing protected baseline; no experimental model promotion"
+}

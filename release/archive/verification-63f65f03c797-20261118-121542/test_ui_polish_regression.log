@@ -1,0 +1,4 @@
+PASS Task A: removed redundant EN instruction notice & auto_unreviewed stays explicitly labeled
+PASS Task B & C: match bar clarifies ingredient types, quantity kept in pantry & excluded from API body
+PASS Task C.5: History saves & restores quantities on empty pantry, and asks before overwriting non-empty pantry
+PASS Task E: recommend loading/error banner inside #recipesSection & keyboard chip edit + Escape

@@ -1,98 +1,26 @@
-# 🍳 Smart Kitchen & Pantry Assistant
+# Chạy Smart Kitchen trên Windows
 
-Chụp ảnh tủ lạnh → **YOLOv8** nhận diện 30 loại nguyên liệu → chỉnh sửa danh sách + hạn dùng → **gợi ý món** (Content-based Filtering, tùy chọn LLM Gemini) → lưu thực đơn yêu thích.
+1. Dùng bản cục bộ **release/Smart_Kitchen_Final_Windows.zip** hoặc **nghiemthu.zip** đã cập nhật. Giải nén toàn bộ vào một thư mục có quyền ghi.
+2. Cài **CPython 3.14 x64** nếu cần. Môi trường đã kiểm thử là **Windows 11 x64, CPython 3.14.3**. Chọn Windows installer (64-bit). [Tải Python 3.14.3](https://www.python.org/downloads/release/python-3143/)
+3. Mở thư mục đã giải nén và chạy **RUN_ME_FIRST.cmd**. Lần cài đầu cần Internet để tải thư viện gợi ý món và YOLO từ PyPI, có thể mất vài phút. Script kiểm tra SHA-256 của gói và tạo môi trường ảo cục bộ. Nếu đã có bản nhập tay cũ, vẫn chạy bước này để bổ sung thư viện nhận diện.
+4. Đợi dòng **Application startup complete**, rồi mở **http://127.0.0.1:8000/**. Nhập **trứng, cà chua, hành lá**, bấm **Gợi ý món ăn** và chọn **Xem công thức**.
+5. Giữ cửa sổ server mở khi sử dụng. Bấm **Ctrl+C** để dừng. Chạy **Start_Smart_Kitchen.cmd** để mở lại sau khi đã cài.
+6. Bên cạnh ô nhập nguyên liệu có nút **Ảnh** và **Camera**. Bấm **Ảnh** để tải ảnh rồi phân tích; bấm **Camera** và cấp quyền để xem nhận diện trực tiếp hoặc chụp khung hình. Kiểm tra, sửa và xác nhận nguyên liệu trước khi gợi ý món.
 
-Đồ án môn *Học máy và ứng dụng*.
+Nếu muốn cài và chạy riêng từng bước, mở PowerShell tại thư mục giải nén.
 
-```
-Ảnh → Object Detection (YOLOv8) → Danh sách nguyên liệu → Ingredient Mapping → Recommendation → Top món phù hợp
-```
+~~~powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\setup_env.ps1
+.\Start_Smart_Kitchen.cmd
+~~~
 
-## Cấu trúc
+Bản Windows dùng pantry nhập thủ công, danh mục và chi tiết công thức VI/EN. Hệ thống có Stage 5 mặc định, TF-IDF, LSA và gợi ý hai tầng. Artifact đã fit, dữ liệu và bản dịch nằm trong ZIP. Sau khi cài, việc gợi ý và đọc công thức chạy cục bộ.
 
-```
-smartkitchen_app/
-├─ app.py                  # Web app Streamlit
-├─ train.py                # Huấn luyện YOLOv8
-├─ cv/
-│   ├─ audit_dataset.py    # Kiểm định dataset: thống kê, ảnh/label lỗi, duplicate, leakage, EDA
-│   └─ evaluate.py         # Đánh giá mô hình + phân tích lỗi
-├─ core/
-│   ├─ detector.py         # Module nhận diện (detect_ingredients)
-│   ├─ recommender.py      # TF-IDF + cosine + ưu tiên hạn dùng
-│   ├─ llm.py              # Sinh công thức bằng Gemini (tùy chọn)
-│   ├─ ingredients.py      # Tên Việt + hạn dùng mặc định
-│   └─ favorites.py        # Lưu yêu thích
-├─ data/recipes.json       # 40 công thức
-├─ data_checked.yaml       # Cấu hình dataset đã kiểm định (sinh bởi audit_dataset.py)
-├─ reports/                # Báo cáo dataset, metrics, biểu đồ, error analysis
-└─ models/best.pt          # Trọng số YOLO sau huấn luyện
-```
+**Ảnh / Webcam — Thử nghiệm, đang phát triển:** bản cục bộ ngày 23/11/2026 bật `--profile recipe --with-yolo` và kèm checkpoint hiện có. Hai chức năng đã triển khai bước đầu, chưa hoàn thiện về chất lượng nhận diện; có thể nhận nhầm hoặc bỏ sót. Người dùng phải kiểm tra và xác nhận kết quả. Việc bật lại không đồng nghĩa mô hình đã cải thiện hoặc đạt nghiệm thu độ chính xác. Xem [hướng dẫn và phạm vi kiểm thử ảnh/webcam](docs/VISION_EXPERIMENTAL.md).
 
-## Cài đặt
+- [Kịch bản trình diễn](START_HERE.md)
+- [Xử lý lỗi và kiểm tra checksum ZIP](docs/TROUBLESHOOTING.md)
+- [Phương pháp ML](docs/ML_METHODS.md) và [giới hạn kiểm thử](docs/EVALUATION_RESULTS.md)
+- [Manifest SHA-256 của payload](release/SHA256_MANIFEST.json)
 
-```bash
-pip install -r requirements.txt
-# GPU NVIDIA: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-```
-
-### Dataset
-Dataset *Fridge detection* (Roboflow, MIT, 3.148 ảnh, 30 class, định dạng YOLOv8):
-https://universe.roboflow.com/fridge-ydzni/fridge-detection-es0ja/dataset/1
-
-Giải nén thành thư mục `SmartKitchen/` **nằm cạnh** thư mục `smartkitchen_app/`:
-```
-BTL/
-├─ SmartKitchen/{train,valid,test,data.yaml}
-└─ smartkitchen_app/
-```
-(Dataset không được đưa lên git vì dung lượng lớn.)
-
-## Quy trình Computer Vision (Thành viên 1)
-
-```bash
-python cv/audit_dataset.py                                         # 1) kiểm định + làm sạch -> reports/, data_checked.yaml
-python train.py --model yolov8n.pt --name baseline_v8n --epochs 30 # 2a) baseline nhỏ
-python train.py --model yolov8s.pt --name ingredients  --epochs 30 # 2b) mô hình chính
-python cv/evaluate.py                                              # 3) so sánh, đánh giá, error analysis -> reports/, models/best.pt
-python -m core.detector anh.jpg                                    # 4) thử module nhận diện (in JSON)
-```
-
-`audit_dataset.py` kiểm tra: số ảnh/class/object, thống kê class imbalance, ảnh hỏng/0 byte/quá nhỏ, label sai (thiếu, rỗng, class_id ngoài phạm vi, bbox ngoài [0,1], sai số cột), ảnh trùng (MD5), ảnh gần giống (dHash), rò rỉ dữ liệu giữa train/valid/test. Ảnh trùng/leakage trong train được loại qua danh sách `data/splits/train_clean.txt`; dataset gốc **không bị sửa**. Kết quả ghi vào `reports/` và in `READY FOR TRAINING: YES/NO`.
-
-`evaluate.py` đánh giá mọi mô hình trong `runs/`, chọn mô hình có mAP50-95 (valid) cao nhất, xuất Precision/Recall/mAP, confusion matrix, PR/F1 curve, training/validation loss và phân tích lỗi (class nhầm, FP, FN, vật thể nhỏ, bị che, ảnh tối, nền phức tạp).
-
-Output của `detector.py` (chuẩn giao tiếp với Recommendation System):
-```json
-{"ingredients": [{"name": "tomato", "confidence": 0.95, "count": 2}]}
-```
-
-### Kết quả dataset
-3.148 ảnh · 39.548 object · 30 class · 0 ảnh lỗi · 0 label lỗi · imbalance max/min = 4.3 (tomato 2027 / chocolate 472). Chi tiết: `reports/summary.md`.
-
-### Kết quả mô hình (YOLOv8s, 640px)
-| Tập | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
-|---|---|---|---|---|
-| Valid | 0.959 | 0.967 | 0.966 | 0.640 |
-| Test | 0.937 | 0.945 | 0.954 | 0.682 |
-
-So sánh baseline: `reports/model_comparison.csv`. Biểu đồ: `reports/figures/`. Phân tích lỗi: `reports/error_analysis.md`.
-
-## Chạy ứng dụng
-
-```bash
-streamlit run app.py
-```
-Tải ảnh → *Nhận diện nguyên liệu* → chỉnh số lượng/hạn dùng → tab *Gợi ý món* → *Lưu vào yêu thích*.
-Bật LLM (tùy chọn): đặt biến môi trường `GEMINI_API_KEY` trước khi chạy.
-
-## Thuật toán gợi ý
-`score = 0.55·coverage + 0.25·cosine + 0.20·urgency (+ bonus nguyên liệu tùy chọn)`
-- **coverage**: tỉ lệ nguyên liệu chính đang có (trọng số IDF).
-- **cosine**: tương đồng TF-IDF giữa vector tủ lạnh và vector công thức.
-- **urgency**: ưu tiên nguyên liệu còn ≤ 3 ngày để giảm lãng phí thực phẩm.
-Định lượng được nhân theo khẩu phần mục tiêu.
-
-## Phân công
-- **Thành viên 1**: Dataset ảnh, EDA, kiểm định label/duplicate/leakage, huấn luyện & đánh giá YOLO, `detector.py`.
-- **Thành viên 2**: Recipe dataset, chuẩn hóa/mapping nguyên liệu, Recommendation System, `recommender.py`.
+**Trạng thái phát hành:** ZIP kiểm định cục bộ đang chờ xác nhận quyền chia sẻ dữ liệu, model và mã nguồn. Chưa có Release asset đã tải lên và xác minh trên GitHub. Owner xem quy trình và điều kiện chia sẻ trước khi phát hành. [Hướng dẫn phân phối](docs/DISTRIBUTION.md)
