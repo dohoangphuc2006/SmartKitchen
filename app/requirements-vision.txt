@@ -1,0 +1,6 @@
+# Windows x64 / CPython 3.14; recipe runtime plus experimental image/webcam support.
+-r requirements-recipe.txt
+torch==2.14.1
+torchvision==0.29.1
+ultralytics==8.4.175
+opencv-python==5.0.0.93

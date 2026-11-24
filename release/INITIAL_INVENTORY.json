@@ -1,0 +1,636 @@
+{
+  "count": 126,
+  "bytes": 230968620.0,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 111,
+      "sha256": "c0ef8470f0fea9ea099e04fc023f27354069d4eab1b0cb61f34ebbfca620fe1b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 259,
+      "sha256": "0573f24f1b5831f1e6670843e3fd19ced27d8e3aeed7cd0b9f759e6825703e7f"
+    },
+    {
+      "path": "app/backend/__init__.py",
+      "bytes": 34,
+      "sha256": "1f6ba6829f7a7921ff5026eabcdc4f9a3e01737431d67fe737c97b26cead0d5a"
+    },
+    {
+      "path": "app/backend/errors.py",
+      "bytes": 317,
+      "sha256": "1c5a3b67c7006b8de365a2c9b1275c30fedc5ab574c5fe455196c1a7a41459c2"
+    },
+    {
+      "path": "app/backend/main.py",
+      "bytes": 4418,
+      "sha256": "7e0c01942775c23d59ec1efbc52c9a931f916fa32334a481591f4330c3c60b71"
+    },
+    {
+      "path": "app/backend/routes/__init__.py",
+      "bytes": 22,
+      "sha256": "1e77f3296ce9b10706795b101708bc80570672e8aa7c8885f0253c98fcc9f220"
+    },
+    {
+      "path": "app/backend/routes/recipes.py",
+      "bytes": 993,
+      "sha256": "e3d01f70e62fb661a23b41f90d40538775f02ffae13ae104f7ef18c6f6557259"
+    },
+    {
+      "path": "app/backend/routes/recommendation.py",
+      "bytes": 14553,
+      "sha256": "f36b7fdbb4a01a18f949ee30a8b3537166769b302de0ee96249e8831066cd51c"
+    },
+    {
+      "path": "app/backend/schemas/__init__.py",
+      "bytes": 31,
+      "sha256": "cefb13a2dbcf054a72120749a4c68197518563a1cabc4a2eb7914e2f56fa803e"
+    },
+    {
+      "path": "app/backend/schemas/response_models.py",
+      "bytes": 6033,
+      "sha256": "24c075f5524c0fd1a53aab9d235d2c7fb3a34caca61f63fe28d814d39c4c23cc"
+    },
+    {
+      "path": "app/backend/services/__init__.py",
+      "bytes": 57,
+      "sha256": "01d69c05502ade72610b12cfe35a8d4e8c2ab370d12a6025147978efab7dd221"
+    },
+    {
+      "path": "app/backend/services/smart_kitchen_service.py",
+      "bytes": 37814,
+      "sha256": "5c1b6f1feb1bb8aa4ebdc497a7a1eb56f9d49ebbeabfb598477c37ee770f6fc9"
+    },
+    {
+      "path": "app/config/app_config.json",
+      "bytes": 120,
+      "sha256": "cdd8dd1640beb47c75034cee97035264cf295ab0fccefc7de8182c7f572be253"
+    },
+    {
+      "path": "app/config/fridge11_scope.json",
+      "bytes": 1009,
+      "sha256": "1fb04e9a67692ac5b7d00153b9e1124c7d2c00487eb51668808ab6cefa89def9"
+    },
+    {
+      "path": "app/config/fridge30_experimental.json",
+      "bytes": 2023,
+      "sha256": "337b1217a8462f31ab37cf667dba8b42981daff7087bccfa8a2464ad7d59dfe6"
+    },
+    {
+      "path": "app/config/fridge30_precision_guard.json",
+      "bytes": 233,
+      "sha256": "e914ddc9bcf746c520a372d0f52d3f9ee123e1c63b592a3e25bfa89befe10512"
+    },
+    {
+      "path": "app/config/ingredient_display_vi.json",
+      "bytes": 23796,
+      "sha256": "60a7283e88aee21ac6e5fd42f40dac93323a9acf0cdc203fffbba3a96cbd49dc"
+    },
+    {
+      "path": "app/config/integration_config.json",
+      "bytes": 59,
+      "sha256": "15a91f2874e20756f6b0db66c3d6ed80edc9272d72f182c78a4e6c0bca3b1edc"
+    },
+    {
+      "path": "app/config/pantry_alias_overrides_v1.json",
+      "bytes": 3553,
+      "sha256": "e7d0cfaa4eb75914302e78bcb29266b2e763a9781ede1b0347a490457e79da31"
+    },
+    {
+      "path": "app/config/pantry_ingredient_catalog.json",
+      "bytes": 592860,
+      "sha256": "253c23b787159eb1f2e79853c7b2b654b1ccbdc16ab104d6f0522cfeb7b040c2"
+    },
+    {
+      "path": "app/config/recipe_quality_ingredients.json",
+      "bytes": 6685,
+      "sha256": "1ac5d80d7c033a8cf433000292b70c8d1f11396fefb0ff269990edc5b3c32ab7"
+    },
+    {
+      "path": "app/config/recipe_title_overrides_vi.json",
+      "bytes": 2332,
+      "sha256": "8a6e28f4941ffa5beba017ed06f482d4c9a8a4ee6af09333b040d863d2560dbe"
+    },
+    {
+      "path": "app/config/recommendation_config.json",
+      "bytes": 260,
+      "sha256": "b143281d16d91505eee66206098c37da1e9efaac1929444514406774e98b99c3"
+    },
+    {
+      "path": "app/config/runtime_model.json",
+      "bytes": 202,
+      "sha256": "0b618ae361611e9c1756465b0e492ba70207fefa2bbc3aac023dd5bfdb8effd2"
+    },
+    {
+      "path": "app/config/yolo_classes.yaml",
+      "bytes": 541,
+      "sha256": "f904198fbde343fc9cb99e9c2f04796f42770d09074d98753d7e8d4df2ebdedc"
+    },
+    {
+      "path": "app/core/__init__.py",
+      "bytes": 16,
+      "sha256": "0e75a116e48d697fa5f13d147a48ccbe97f7b90974c8a848c945bbf5b286a959"
+    },
+    {
+      "path": "app/core/detection_scope.py",
+      "bytes": 8261,
+      "sha256": "0329796261b4ee567d93ccfa5b1f10ecc062b2dfa4e9d23cb684da7f1841dd22"
+    },
+    {
+      "path": "app/core/detector.py",
+      "bytes": 2636,
+      "sha256": "d94a09d5bbd33ff9539c40622639d5c802947a87f5c98f7b53d9c3eb177b0137"
+    },
+    {
+      "path": "app/core/image_input.py",
+      "bytes": 586,
+      "sha256": "edab1c6724df6bc7b10b85bd1ae909662fac9495bf73e3a88162d105e4506244"
+    },
+    {
+      "path": "app/core/model_selection.py",
+      "bytes": 1168,
+      "sha256": "3283cd380a684460ed37fe8c2dc4d35e5f1f418c7acff7fa72f6d1d134e1124c"
+    },
+    {
+      "path": "app/data/recipes_raw/SOURCE.json",
+      "bytes": 1491,
+      "sha256": "937c0deb0a2d5880114cea6ff063ad3b83969205f996f150b1998a50bea768c2"
+    },
+    {
+      "path": "app/frontend/app.js",
+      "bytes": 393710,
+      "sha256": "190d703fa318146f212de0618d2867b279e4ab2d0c5e13b5c30fdd8a903d73b5"
+    },
+    {
+      "path": "app/frontend/camera.js",
+      "bytes": 6190,
+      "sha256": "ef07d351a607886b5220df1b99dd9013e85a07d4ca34e2d2c5bb8064f1afc468"
+    },
+    {
+      "path": "app/frontend/detection.js",
+      "bytes": 6576,
+      "sha256": "5cf1eb3102fd59d016e7f914865267f35d3001efc5e9958fc536945114305214"
+    },
+    {
+      "path": "app/frontend/diagnostic_export.js",
+      "bytes": 4213,
+      "sha256": "1c7965b3daf4084cd802c72f4cf5ecd0d448a05b77fee05e63f304c6affcd246"
+    },
+    {
+      "path": "app/frontend/i18n.js",
+      "bytes": 37451,
+      "sha256": "2a96fce81d56c8a389bc28953764ca827dd00d29ed46bb04a38fa7d6e7637c86"
+    },
+    {
+      "path": "app/frontend/index.html",
+      "bytes": 33048,
+      "sha256": "ef579130fb5534f1e710526e4c998babf643a56a75644baa4ce83c8125e0809a"
+    },
+    {
+      "path": "app/frontend/style.css",
+      "bytes": 51239,
+      "sha256": "86e45208b6a1a44f53fcb691dd4615ffc1b89b3d5e941c676edc92cd470ce2d0"
+    },
+    {
+      "path": "app/mapping/fridge30_ingredient_mapping.json",
+      "bytes": 756,
+      "sha256": "4accf403f6e6b5e28795957fa68bf6e598e9b41149fc65eb29c06f7c245782d6"
+    },
+    {
+      "path": "app/mapping/ingredient_aliases.json",
+      "bytes": 654,
+      "sha256": "93bf70f78c4ddcbd3515042784c0a76b1f6ff57946a582985446f3a7dfc3de78"
+    },
+    {
+      "path": "app/mapping/ingredient_mapping.csv",
+      "bytes": 2220,
+      "sha256": "aed82eee3091306338875f61bd894dabb0fa1c95bce18e6fc8857720e03929bd"
+    },
+    {
+      "path": "app/mapping/ingredient_mapping.json",
+      "bytes": 739,
+      "sha256": "d8a25089f2ac2453b0ae2af1fd6e1a3e4aa83882f0827e02e0bffcf9987a117f"
+    },
+    {
+      "path": "app/mapping/yolo_classes.csv",
+      "bytes": 379,
+      "sha256": "8b43f60565a038a804e2d797a2a476c671db7cf8b60e395cf1c1111e207707f1"
+    },
+    {
+      "path": "app/models/best.pt",
+      "bytes": 6276516,
+      "sha256": "c67106a099bb625912a461eee00fe1e09bda9ea8a7a0f55da34abaace3f7f8cf"
+    },
+    {
+      "path": "app/models/recipe_ml/recipe_tfidf_lsa_v1.metadata.json",
+      "bytes": 1704,
+      "sha256": "1529682237272954d70ff56034177a556d4a612915bc65bc494b0d9e14ca3cb9"
+    },
+    {
+      "path": "app/models/recipe_ml/recipe_tfidf_lsa_v1.npz",
+      "bytes": 92791550,
+      "sha256": "3616f73132f4effe2700831d8da5174a39a56fd4ab223737cfc8b49a556d487b"
+    },
+    {
+      "path": "app/processed/ingredient_details.csv",
+      "bytes": 31921373,
+      "sha256": "5dc3fcf44381fa1f790902d6b8068d05751fa78f085d321e4e256ee131e32746"
+    },
+    {
+      "path": "app/processed/ingredient_display_vi.csv",
+      "bytes": 3137052,
+      "sha256": "163d137097dc6bf132dfdb9aa018937329e1ab48b5ca12c1449eac1601b7ccdb"
+    },
+    {
+      "path": "app/processed/ingredient_vocabulary.csv",
+      "bytes": 1314842,
+      "sha256": "2274302dfb70c7403474d0d13645c78d7abd0934ffcf8b8c05b74aafac7b4ef0"
+    },
+    {
+      "path": "app/processed/recipe_detail_vi_candidates.json",
+      "bytes": 336884,
+      "sha256": "37ba1d5240ce7547619adcebf424e72e553dd2384804d15237157c149bb33f99"
+    },
+    {
+      "path": "app/processed/recipe_detail_vi_live_batch.json",
+      "bytes": 29308,
+      "sha256": "f3b1de89de5198376db429005d5c6abf7501016e1b2545ff2ae2975a420a03b4"
+    },
+    {
+      "path": "app/processed/recipe_detail_vi_phase5_batch.json",
+      "bytes": 20000,
+      "sha256": "065fd18d81e60cd4401d59fa91165e04831730de24c2fd1854bc6ab284ed5120"
+    },
+    {
+      "path": "app/processed/recipe_detail_vi_v6_batch.json",
+      "bytes": 70895,
+      "sha256": "fa0d607399b607ac22eb32aff9a150bef6f273fb16fb5cea857d382f447f848c"
+    },
+    {
+      "path": "app/processed/recipe_titles_vi.csv",
+      "bytes": 1514677,
+      "sha256": "2354e3cdccef5d84ac8e1230d8b2efb3530894b6eaef78391c7fa3e8599d06ab"
+    },
+    {
+      "path": "app/processed/recipes_cleaned.csv",
+      "bytes": 50879189,
+      "sha256": "14df8e201d567a14cda3ffcb4d139869f0b8a8ec05742e4c6ef4a5097e3a89d3"
+    },
+    {
+      "path": "app/processed/SOURCE_STAGE2.md",
+      "bytes": 1561,
+      "sha256": "67b174ada7670f04803684821618e1a62778a2c730abd7c2e2e97bad0a98b841"
+    },
+    {
+      "path": "app/processed/stage2_manifest.json",
+      "bytes": 2281,
+      "sha256": "1db0cad2c5ff5addeb17483339fdaba05711a5a004138ab662814ab305849c5f"
+    },
+    {
+      "path": "app/requirements-dev.txt",
+      "bytes": 56,
+      "sha256": "fede73cd0d2c25a6b4a63eee2f24bf65fdcdf67d9ab88dfb617f1741be3a0078"
+    },
+    {
+      "path": "app/requirements-recipe.txt",
+      "bytes": 493,
+      "sha256": "ff1281715f3ae13ea8f2e9847616b61c6dec3bbf10c88f449c089b4513b30178"
+    },
+    {
+      "path": "app/requirements.txt",
+      "bytes": 165,
+      "sha256": "076d16130fb61eaaae58af743f7d46692860167daedb05b0a667f2734f511747"
+    },
+    {
+      "path": "app/run_app.py",
+      "bytes": 6587,
+      "sha256": "98260a166ca7f946c09249bb66e4ad862311c3f17ffcde1463b5784903728b11"
+    },
+    {
+      "path": "app/scripts/train_ml_recommender.py",
+      "bytes": 6754,
+      "sha256": "7218f6bbaf45ccb4abdbd6dc5ead8f9cd01d6f4dc46cf641405a63046fcb2afc"
+    },
+    {
+      "path": "app/src/detection_to_ingredient.py",
+      "bytes": 9501,
+      "sha256": "81b457ac18b85377c3343ee97d7bce16e8ab1db5abd80b866425b1610565063b"
+    },
+    {
+      "path": "app/src/detector_adapter.py",
+      "bytes": 3330,
+      "sha256": "0b85bb64a9d8a7efa09980ad81952f5090ec7e6daa7a7cb161ff0193f4914867"
+    },
+    {
+      "path": "app/src/ingredient_mapper.py",
+      "bytes": 24352,
+      "sha256": "5e24c70509d8c314916cacad5084c98e4f9a5f1644f4141adfff2304b611ec27"
+    },
+    {
+      "path": "app/src/instruction_translation_validation.py",
+      "bytes": 4786,
+      "sha256": "83578018d67b00d7d6f0246577e870724c51841aedfd32bf72c5907525d004d4"
+    },
+    {
+      "path": "app/src/localization.py",
+      "bytes": 7572,
+      "sha256": "837aab67bd70d884701905a65d14b2420dd3430d82c6b6a650637315355b6854"
+    },
+    {
+      "path": "app/src/ml_recommender.py",
+      "bytes": 16951,
+      "sha256": "9952473974dc2da5b4b8bfcd01c9fe46e4becc3ca5ea3db2fdc5847ba9cc7d43"
+    },
+    {
+      "path": "app/src/object_detection.py",
+      "bytes": 4760,
+      "sha256": "fb52bdb827a0661a9039b4da8c441251e1a32b67b50dd18169514262f0bd9e8b"
+    },
+    {
+      "path": "app/src/pantry_catalog.py",
+      "bytes": 8103,
+      "sha256": "ea2903464ac7951f9ba7a7717dc825d07cfc57b2923bce373206a54e6a15bd2f"
+    },
+    {
+      "path": "app/src/recipe_detail_translation.py",
+      "bytes": 6234,
+      "sha256": "d1acff4ab9ccc4334475329ad73e45c6e3182bd601b1d7bcdf2ae894b1f76016"
+    },
+    {
+      "path": "app/src/recipe_fallback.py",
+      "bytes": 6619,
+      "sha256": "474ee4509fdc35891ef0f549f643329013d95d09a0e0be882a47350db5edbf96"
+    },
+    {
+      "path": "app/src/recipe_food_availability.py",
+      "bytes": 4236,
+      "sha256": "99a235ddbc5a058462e6a9d8e3b01ac0c283f46eaa67de7fc29221b64b27d061"
+    },
+    {
+      "path": "app/src/recipe_normalized_index.py",
+      "bytes": 15711,
+      "sha256": "8b46943dafea8063a61451635567c666c886e62d15f82eff923752978dd64316"
+    },
+    {
+      "path": "app/src/recipe_on_demand_translator.py",
+      "bytes": 11607,
+      "sha256": "bd0589c1caaab907a9641d64117a2f0d44ed8fc9b6063523a1a53e0c9c4ff03b"
+    },
+    {
+      "path": "app/src/recipe_quality.py",
+      "bytes": 25969,
+      "sha256": "c14cc11da613b81688b433c008b359aec7c329d3892939cb2bbceac818d953ac"
+    },
+    {
+      "path": "app/src/recipe_repository.py",
+      "bytes": 17363,
+      "sha256": "5cd6b950a35ecb1ab0b5342357bd2f4b8a1ca2f56ea6e9eb5d554a15bd2b0b70"
+    },
+    {
+      "path": "app/src/recipe_requirements.py",
+      "bytes": 11326,
+      "sha256": "e89ebc5da56799b3a8ba4ac4d5ef73542a11e0cd1313e85c5e2493b3d68a9cb1"
+    },
+    {
+      "path": "app/src/recommender.py",
+      "bytes": 20054,
+      "sha256": "6bdee0c18bd91b75fbadcfa6a84d6bacee327eca3515caa6f3e1679791986292"
+    },
+    {
+      "path": "app/src/smart_kitchen_pipeline.py",
+      "bytes": 7322,
+      "sha256": "0a388b8fa5465cf8d4ac780a501e54e8a0d2f6b19ef0b14300a202c0f60b3bc9"
+    },
+    {
+      "path": "app/src/two_tier_recommender.py",
+      "bytes": 32357,
+      "sha256": "ee705340bc884e34a9ee00929aee864b0eab2b5665d73e572b861b22f71d48bd"
+    },
+    {
+      "path": "app/tests/test_camera_controller.cjs",
+      "bytes": 6009,
+      "sha256": "6dca1dc98fe5ceef588d844ee7b2c551b7eda4ac13a5fca89d44ddf05ca7d5f6"
+    },
+    {
+      "path": "app/tests/test_diagnostic_export.cjs",
+      "bytes": 6745,
+      "sha256": "be9d0d3279573e58143e4f91899523a8bc2a7b324b289eb48a02f089213f54ca"
+    },
+    {
+      "path": "app/tests/test_feature_frontend.cjs",
+      "bytes": 9358,
+      "sha256": "8086cc2bb348bebb8c0a288ca5ad2906d43663124a890c035b22862a431db620"
+    },
+    {
+      "path": "app/tests/test_final_delivery_recovery.cjs",
+      "bytes": 2857,
+      "sha256": "0f7b9d390c7eb870473c333f566c9af22f8bc3c11dc96c6264c31132b430d693"
+    },
+    {
+      "path": "app/tests/test_main_app_readiness.py",
+      "bytes": 4412,
+      "sha256": "61eb38cba06fdafd7458db8e0db77e1f764fc73a5c3cf23414dd8797aeabcfae"
+    },
+    {
+      "path": "app/tests/test_major01_requests.cjs",
+      "bytes": 9720,
+      "sha256": "3e0b405125d0ae93142176ef3acb8a6a6b18cfd0870b1cfde0dcfb58ccbf92d1"
+    },
+    {
+      "path": "app/tests/test_ml_recommender.py",
+      "bytes": 10151,
+      "sha256": "5e6e79a419a45a814a3aed7aa4d2d2bc861dc434eed91973b7bfb55081c6a7b6"
+    },
+    {
+      "path": "app/tests/test_pantry_expansion_frontend.cjs",
+      "bytes": 20550,
+      "sha256": "282d191f631d49db9352fb4c94ae5b23653d88d1ee6b9e339a7a134c72824632"
+    },
+    {
+      "path": "app/tests/test_pantry_input_expansion.py",
+      "bytes": 7164,
+      "sha256": "1b006b01b8bd8921db6ef3d81940f864410b267f6e34cf3d62859dc5c26d3600"
+    },
+    {
+      "path": "app/tests/test_production_recovery.cjs",
+      "bytes": 5355,
+      "sha256": "06f1ac6820c217aa6ba66a22a68a8bfc04f68de2cea831077e3d3d7307bcf779"
+    },
+    {
+      "path": "app/tests/test_production_runtime_races.cjs",
+      "bytes": 4763,
+      "sha256": "baed901006e3c14ced12fa309131061e8a0167386e9818c7a3d7ba672a2dab2c"
+    },
+    {
+      "path": "app/tests/test_recipe_detail_frontend.cjs",
+      "bytes": 4991,
+      "sha256": "5140e99418df286d1aec1a0dad269fb74b098a41d3a03e57bf790103d4d3c9f9"
+    },
+    {
+      "path": "app/tests/test_recipe_language_modal.cjs",
+      "bytes": 10460,
+      "sha256": "0b9a427f0ef0d0bb1c977de9234f2b89c1e1f38ab72e45baaf935abe8ba8299c"
+    },
+    {
+      "path": "app/tests/test_recipe_language_switching.py",
+      "bytes": 5139,
+      "sha256": "738046797bf10c151b9452940a6ef7d8c0f611e5fc4e91fe11b48396938e2f51"
+    },
+    {
+      "path": "app/tests/test_recommendation_audit_fixes.py",
+      "bytes": 18084,
+      "sha256": "020c01c1646abb8722007699a0f85bf877941e244990dbeac86d020668f35a7b"
+    },
+    {
+      "path": "app/tests/test_recommendation_audit_frontend.cjs",
+      "bytes": 15060,
+      "sha256": "3819a8276880d6580b6a9ae3564907faa101274b2cc7644392b41ee6e2d5f5cb"
+    },
+    {
+      "path": "app/tests/test_recommender.py",
+      "bytes": 3896,
+      "sha256": "ff913930d7695013fbe94259683006bf66fada9e4c6ab67176113007271163f4"
+    },
+    {
+      "path": "app/tests/test_two_tier_frontend.cjs",
+      "bytes": 9476,
+      "sha256": "e3555348f2b578697109c5c3eb4104235181e6a348b59440b28ae731c3d579ce"
+    },
+    {
+      "path": "app/tests/test_two_tier_recommendations.py",
+      "bytes": 12090,
+      "sha256": "e200984e0a96ed957195ca4b1c88936c584616218596bcf599f74fad98dd8daf"
+    },
+    {
+      "path": "app/tests/test_ui_polish_regression.cjs",
+      "bytes": 12609,
+      "sha256": "8255a7a4c37001701c8bac2d3035251e5e475fa1f4d6818ecbd5ee3b1017c459"
+    },
+    {
+      "path": "app/translations/recipe_detail_vi_authored_extra_v1.json",
+      "bytes": 6220,
+      "sha256": "039682c3f292a26cff5fe32a5f7da101131bd9a9389af8ff208a46ea90e66107"
+    },
+    {
+      "path": "app/translations/recipe_detail_vi_authored_v1.json",
+      "bytes": 11598,
+      "sha256": "b57c2805781eaeea863c2a11eec9bc6ae97047e10785504f9d62ab5c2e3035df"
+    },
+    {
+      "path": "app/translations/recipe_detail_vi_live_authored_v1.json",
+      "bytes": 12755,
+      "sha256": "7c5835c4424decba962c3fe2eca80f88306f10f27961ab0a86bd242e53d5e287"
+    },
+    {
+      "path": "app/translations/recipe_detail_vi_phase5_authored_v1.json",
+      "bytes": 8813,
+      "sha256": "80e18bcc29ab70bea11c8d1d18f2497b09aba9be800f78c2dd32ac8e444846ab"
+    },
+    {
+      "path": "Bao_Cao_Smart_Kitchen.docx",
+      "bytes": 660681,
+      "sha256": "7b531d24747c72e44a1f5c4f69e19c7acf063c161f82e58984eb3de7e298efde"
+    },
+    {
+      "path": "docs/ACADEMIC_LIMITATIONS.md",
+      "bytes": 5679,
+      "sha256": "497173f898ae152cb84959e7ef9c39f305e89003ea2d0125eaecd2edca6abc4a"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1974,
+      "sha256": "01fd2cf11cf72748031329a9415102ce1e4986d6675f234cb38e15c6576ad988"
+    },
+    {
+      "path": "docs/DISTRIBUTION.md",
+      "bytes": 4727,
+      "sha256": "3c4eda9dd03f39360f41074bec5f6ddaea4cfd1ae39708a879cc29381570e540"
+    },
+    {
+      "path": "docs/E2E_VERIFICATION_REPORT.md",
+      "bytes": 1279,
+      "sha256": "3c17c845473fa458703ab1660fba15e190a4e9ec9774522219442fc3103b876f"
+    },
+    {
+      "path": "docs/EVALUATION_RESULTS.md",
+      "bytes": 3119,
+      "sha256": "5562417ba3f318498d2f9d2e6d324822f59d71587b4a8ff1190d5eeb1cec5c81"
+    },
+    {
+      "path": "docs/ML_METHODS.md",
+      "bytes": 3161,
+      "sha256": "c64a59e726de4072ba207ec9d96f25385258a68d8d3cf96f362ac761982a633b"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 1612,
+      "sha256": "c9de24af2217bf6ef8f3a916f8194611ca5595206c1ad1400e4d344adf6ddfab"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "bytes": 1265,
+      "sha256": "672ef355c02c9a5d40081df45f9fcbbcee3054d264feb8aabfc68f34dbd27370"
+    },
+    {
+      "path": "docs/VERIFIED_COMPARISON_TABLE.md",
+      "bytes": 5943,
+      "sha256": "aaf2b63c46b6a63b0bc99bb0264017cbd2ac90dd189f3ddab5905e2de25f4595"
+    },
+    {
+      "path": "MauBaoCao.docx",
+      "bytes": 350271,
+      "sha256": "bf7d6542c2c85a955ac6c1738fd03976f4d43a5d93c58539e66fc5afcd1e5c10"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2290,
+      "sha256": "fe5f18b1a5524977bc7d763265f07ca93bea9d5039ddb2735d83888f37d3ef2a"
+    },
+    {
+      "path": "release/SHA256_MANIFEST.json",
+      "bytes": 20903,
+      "sha256": "d5ed2bd264796a53884107c75205f91e7d73468ff3a862e65d92488968bc9e77"
+    },
+    {
+      "path": "release/Smart_Kitchen_V6_Windows.zip",
+      "bytes": 39869316,
+      "sha256": "2a990efc41ef5f222d5cce84570072ad3c0aa877f454bdb4301364b38792e353"
+    },
+    {
+      "path": "release/Smart_Kitchen_V6_Windows.zip.sha256",
+      "bytes": 96,
+      "sha256": "d4d1d6aa0c41e9fb1ba6c1fd4d4789e133d0f6429640debbd2eeeae8a4a5644e"
+    },
+    {
+      "path": "release/SUBMISSION_AUDIT.md",
+      "bytes": 11572,
+      "sha256": "7beaf6e943c5e536834ca54cb81d8463f0a963fdc4a267356a0d47edaa3156c0"
+    },
+    {
+      "path": "release/VERSION.txt",
+      "bytes": 294,
+      "sha256": "034339d2aab0b6c207c0cedb76fb0cc04a415cc22539d390fba916c5ca5e1eff"
+    },
+    {
+      "path": "RUN_ME_FIRST.cmd",
+      "bytes": 377,
+      "sha256": "cf799a6e8508ff1447f0a8533629bdf78eea101568b1f576e953f3e849424bc8"
+    },
+    {
+      "path": "setup_env.ps1",
+      "bytes": 4689,
+      "sha256": "d080a9f4cc78c54e6369d4749bd028fa6cab4e7ae5da18bca54eaa1695a7432f"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 952,
+      "sha256": "31808294ec18d039829770a4f0c239b009b416b64f62714b42f6df4e1b4ecdf9"
+    },
+    {
+      "path": "Start_Smart_Kitchen.cmd",
+      "bytes": 457,
+      "sha256": "2b84bd0cad8b812e3eaa0d2924e82667f81da5e1269f862aeb1109bbd1a9d9fd"
+    }
+  ]
+}

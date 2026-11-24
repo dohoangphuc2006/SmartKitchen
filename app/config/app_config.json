@@ -1,0 +1,6 @@
+{
+  "top_n": 5,
+  "max_upload_mb": 10,
+  "allowed_extensions": ["jpg", "jpeg", "png", "webp"],
+  "detector_root": "."
+}

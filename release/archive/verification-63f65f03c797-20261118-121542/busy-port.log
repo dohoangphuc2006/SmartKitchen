@@ -1,0 +1,3 @@
+KHÔNG THỂ DÙNG CỔNG 8000: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+Cổng có thể đang được dùng hoặc bị hệ điều hành hạn chế. Không tự dừng tiến trình khác; kiểm tra cửa sổ ứng dụng đang chạy.
+Press any key to continue . . . 

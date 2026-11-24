@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f3">
+  <title>Smart Kitchen — Gợi ý món ăn từ nguyên liệu sẵn có</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css?v=compact-ui-2">
+  <script src="/static/i18n.js?v=compact-ui-2" defer></script>
+  <script src="/static/camera.js?v=compact-ui-2" defer></script>
+  <script src="/static/detection.js?v=compact-ui-2" defer></script>
+  <script src="/static/diagnostic_export.js?v=compact-ui-2" defer></script>
+  <script src="/static/app.js?v=compact-ui-2" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/" id="brandHomeLink" aria-label="Smart Kitchen — Trang chủ">
+        <span class="brand-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3c-4.5 0-8 3.2-8 7.5 0 2.8 1.5 5 3.5 6.3V20a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-3.2c2-1.3 3.5-3.5 3.5-6.3C20 6.2 16.5 3 12 3z"/>
+            <path d="M9 17h6"/>
+          </svg>
+        </span>
+        <span class="brand-text">Smart Kitchen</span>
+      </a>
+
+      <nav class="header-nav" aria-label="Điều hướng chính">
+        <button type="button" id="navHomeBtn" class="header-nav-link active" aria-current="page">
+          <span>Trang chủ</span>
+        </button>
+        <button type="button" id="navFavoritesBtn" class="header-nav-link">
+          <span>Món yêu thích</span>
+          <span id="favoritesNavCount" class="nav-count-badge" hidden>0</span>
+        </button>
+        <button type="button" id="navHistoryBtn" class="header-nav-link">
+          <span>Lịch sử</span>
+          <span id="historyNavCount" class="nav-count-badge" hidden>0</span>
+        </button>
+      </nav>
+
+      <div class="header-actions">
+        <nav class="recipe-language-controls global-language" aria-label="Ngôn ngữ ứng dụng">
+          <button id="recipeShowVietnamese" class="lang-button" type="button" aria-pressed="true">VI</button>
+          <button id="recipeShowEnglish" class="lang-button" type="button" aria-pressed="false">EN</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- TRANG CHỦ: NHẬP NGUYÊN LIỆU & GỢI Ý MÓN ĂN -->
+      <div class="workspace page-view" id="ingredientWorkspace">
+        <!-- CỘT TRÁI (~44%): TRUNG TÂM NHẬP NGUYÊN LIỆU & CÁCH GỢI Ý -->
+        <section class="panel pantry-panel" id="pantrySection" aria-labelledby="page-title">
+          <div class="pantry-hero-box">
+            <div class="pantry-intro">
+              <span class="hero-eyebrow" id="heroEyebrow">KHU VỰC NHẬP NGUYÊN LIỆU CHÍNH</span>
+              <h1 id="page-title" class="workspace-title">Hôm nay nấu gì?</h1>
+              <p class="workspace-subtitle">Nhập nguyên liệu và định lượng bạn đang có.</p>
+            </div>
+
+            <form id="addIngredientForm" class="add-ingredient-form">
+              <label for="ingredientInput" class="input-field-label" id="ingredientInputLabel">
+                Nhập nguyên liệu vào bếp
+              </label>
+              <div class="unified-input-row" id="unifiedInputDropTarget">
+                <input id="ingredientInput" maxlength="1000" autocomplete="off"
+                       aria-autocomplete="list" aria-controls="ingredientAutocomplete"
+                       placeholder="Ví dụ: 2 quả trứng, 3 quả cà chua, 500g thịt gà, thịt ba chỉ...">
+                <button class="primary-add-button" type="submit">
+                  <span>+ Thêm</span>
+                </button>
+                <button type="button" id="openUploadBtn" class="media-trigger-btn" title="Nhận diện từ ảnh" aria-label="Ảnh" aria-expanded="false" aria-controls="uploadPanel" hidden>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="3"/>
+                    <circle cx="8.5" cy="8.5" r="1.5"/>
+                    <path d="M21 15l-5-5L5 21"/>
+                  </svg>
+                  <span>Ảnh</span>
+                </button>
+                <button type="button" id="openCameraBtn" class="media-trigger-btn" title="Nhận diện bằng camera" aria-label="Camera" hidden>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 7l-7 5 7 5V7z"/>
+                    <rect x="1" y="5" width="15" height="14" rx="2"/>
+                  </svg>
+                  <span>Camera</span>
+                </button>
+              </div>
+              <div id="ingredientAutocomplete" class="ingredient-autocomplete-dropdown" role="listbox" aria-label="Gợi ý nguyên liệu phù hợp" hidden></div>
+            </form>
+
+            <p id="visionDevelopmentNotice" class="vision-development-notice" hidden>Ảnh / Webcam — Thử nghiệm, đang phát triển. Có thể nhận nhầm hoặc bỏ sót; hãy kiểm tra và xác nhận nguyên liệu.</p>
+
+            <!-- KHUNG NHẬN DIỆN NGUYÊN LIỆU TỪ ẢNH — INLINE & COLLAPSIBLE (MẶC ĐỊNH ẨN HOÀN TOÀN) -->
+            <section id="uploadPanel" class="inline-image-panel" aria-labelledby="upload-title" tabindex="-1" hidden>
+              <div class="inline-panel-header">
+                <div class="inline-panel-title-group">
+                  <span class="inline-panel-tag">NHẬN DIỆN TỪ ẢNH · THỬ NGHIỆM</span>
+                  <h2 id="upload-title" class="inline-panel-heading">Nhận diện nguyên liệu từ ảnh</h2>
+                  <p class="inline-panel-sub">Kết quả AI chỉ được thêm vào nguyên liệu của bạn sau khi bạn xác nhận.</p>
+                </div>
+                <button type="button" id="closeUploadPanel" class="inline-panel-close" aria-label="Đóng khung nhận diện ảnh" title="Đóng khung nhận diện ảnh">×</button>
+              </div>
+
+              <div class="inline-panel-body">
+                <form id="analyzeForm" novalidate>
+                  <div class="dropzone" id="dropzone">
+                    <input id="imageInput" name="image" type="file" accept="image/jpeg,image/png,image/webp" class="visually-hidden">
+                    <div class="drop-placeholder" id="dropPlaceholder">
+                      <div class="upload-icon" aria-hidden="true">↑</div>
+                      <p><strong>Kéo thả ảnh nguyên liệu vào đây</strong><br>hoặc chọn ảnh từ thiết bị của bạn</p>
+                      <label class="choose-button" for="imageInput">Chọn ảnh</label>
+                      <small>JPG, PNG, WEBP · tối đa <span id="maxFileLabel">10</span> MB</small>
+                    </div>
+                    <div class="preview-wrap" id="previewWrap" hidden>
+                      <img id="imagePreview" alt="Ảnh nguyên liệu đã chọn">
+                      <svg id="stillBoxes" class="box-overlay" aria-label="Bounding Box"></svg>
+                    </div>
+                  </div>
+
+                  <div class="file-row" id="fileRow" hidden>
+                    <span id="fileName"></span>
+                    <button type="button" id="removeButton" aria-label="Bỏ ảnh đã chọn">Bỏ ảnh</button>
+                  </div>
+
+                  <div class="ai-submit-row">
+                    <button class="analyze-button" id="analyzeButton" type="submit" disabled>
+                      <span id="buttonLabel">Phân tích ảnh</span>
+                      <span class="button-arrow" aria-hidden="true">→</span>
+                    </button>
+                  </div>
+                </form>
+
+                <div id="statusRegion" class="status-region" role="status" aria-live="polite" hidden>
+                  <div class="empty-illustration" aria-hidden="true">◌</div>
+                  <p>Chọn ảnh để bắt đầu nhận diện nguyên liệu.</p>
+                </div>
+
+                <details id="guardReview" class="guard-review-box" hidden>
+                  <summary id="guardReviewTitle">Ứng viên nhận diện — Kiểm tra &amp; xác nhận</summary>
+                  <p class="guard-review-desc">Chọn <strong>"Tôi có ..."</strong> để thêm vào danh sách nguyên liệu của bạn, hoặc sửa tên / bỏ qua.</p>
+                  <div id="guardReviewCandidates" class="guard-candidates-list"></div>
+                </details>
+
+                <div id="aiAlertsSection" class="ai-alerts-section" hidden>
+                  <p id="scopeNotice" class="mapping-note" hidden></p>
+                  <p id="confidenceNotice" class="privacy-note" hidden></p>
+                </div>
+
+                <details id="diagnosticExport" class="diagnostic-export">
+                  <summary>Lưu tệp kiểm thử cục bộ (tùy chọn)</summary>
+                  <p class="privacy-note">Chỉ tải tệp xuống máy khi bạn đồng ý và bấm nút; không tự lưu vào dataset.</p>
+                  <label><input id="allowDiagnosticSave" type="checkbox"> Tôi đồng ý tải tệp kiểm thử xuống máy khi bấm nút.</label>
+                  <div class="camera-actions">
+                    <button id="saveDiagnosticImage" type="button" class="secondary-button" disabled>Lưu ảnh gốc</button>
+                    <button id="saveDiagnosticJSON" type="button" class="secondary-button" disabled>Lưu JSON phân tích</button>
+                  </div>
+                  <p id="diagnosticSaveNotice" class="mapping-note" role="status">Chưa tải tệp nào.</p>
+                </details>
+              </div>
+            </section>
+
+            <div class="quick-add-wrapper">
+              <div class="quick-add-bar" aria-label="Gợi ý thêm nhanh nguyên liệu phổ biến">
+                <span class="quick-add-label">Gợi ý nhanh (chọn số lượng):</span>
+                <button type="button" class="quick-chip" data-quick-name="trứng" data-quick-label="Trứng" data-quick-unit="quả" data-quick-default="2 quả" data-quick-presets="1 quả,2 quả,4 quả,6 quả">+ Trứng</button>
+                <button type="button" class="quick-chip" data-quick-name="cà chua" data-quick-label="Cà chua" data-quick-unit="quả" data-quick-default="3 quả" data-quick-presets="1 quả,2 quả,3 quả,5 quả">+ Cà chua</button>
+                <button type="button" class="quick-chip" data-quick-name="thịt gà" data-quick-label="Thịt gà" data-quick-unit="g" data-quick-default="500g" data-quick-presets="200g,300g,500g,1kg">+ Thịt gà</button>
+                <button type="button" class="quick-chip" data-quick-name="hành lá" data-quick-label="Hành lá" data-quick-unit="nhánh" data-quick-default="2 nhánh" data-quick-presets="2 nhánh,3 nhánh,5 nhánh,1 bó">+ Hành lá</button>
+                <button type="button" class="quick-chip" data-quick-name="tỏi" data-quick-label="Tỏi" data-quick-unit="tép" data-quick-default="3 tép" data-quick-presets="2 tép,3 tép,5 tép,1 củ">+ Tỏi</button>
+                <button type="button" class="quick-chip" data-quick-name="nấm" data-quick-label="Nấm" data-quick-unit="g" data-quick-default="200g" data-quick-presets="100g,200g,300g,500g">+ Nấm</button>
+              </div>
+
+              <!-- KHUNG CHỌN / NHẬP SỐ LƯỢNG THỦ CÔNG KHI BẤM GỢI Ý NHANH -->
+              <div id="quickQuantityPopover" class="quick-quantity-popover" hidden>
+                <div class="quick-qty-header">
+                  <span class="quick-qty-title">Nhập số lượng cho <strong id="quickSelectedName">Trứng</strong>:</span>
+                  <div id="quickPresetRow" class="quick-preset-row" aria-label="Mức định lượng gợi ý"></div>
+                </div>
+                <div class="quick-qty-controls">
+                  <div class="quick-qty-stepper">
+                    <button type="button" id="quickQtyMinus" class="qty-step-btn" aria-label="Giảm số lượng">−</button>
+                    <input type="text" id="quickQuantityInput" class="quick-qty-input" maxlength="40" placeholder="Ví dụ: 2 quả, 300g..." aria-label="Số lượng nguyên liệu">
+                    <button type="button" id="quickQtyPlus" class="qty-step-btn" aria-label="Tăng số lượng">+</button>
+                  </div>
+                  <span id="quickPreviewText" class="quick-preview-text">Sẽ thêm: 2 quả trứng</span>
+                  <div class="quick-qty-actions">
+                    <button type="button" id="confirmQuickAdd" class="primary-add-button quick-confirm-btn">Thêm vào bếp</button>
+                    <button type="button" id="cancelQuickAdd" class="secondary-button quick-cancel-btn">Đóng</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- KHU VỰC 3: KHÁM PHÁ DANH MỤC NGUYÊN LIỆU ĐẦY ĐỦ (INLINE EXPANDABLE) -->
+            <div class="catalog-explore-bar">
+              <button type="button" id="toggleCatalogBtn" class="catalog-explore-btn" aria-expanded="false" aria-controls="catalogBrowserPanel">
+                <span class="catalog-explore-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"></rect><rect x="14" y="3" width="7" height="7" rx="1.5"></rect><rect x="3" y="14" width="7" height="7" rx="1.5"></rect><rect x="14" y="14" width="7" height="7" rx="1.5"></rect></svg>
+                </span>
+                <span class="catalog-explore-copy">
+                  <strong id="toggleCatalogLabel">Xem tất cả 526 nguyên liệu</strong>
+                  <small id="toggleCatalogHint" class="catalog-explore-hint">Duyệt 12 nhóm thực phẩm hoặc tìm nhanh theo tên Việt / Anh</small>
+                </span>
+                <span class="catalog-explore-arrow" aria-hidden="true">▾</span>
+              </button>
+              <button type="button" id="showAddIngredient" class="visually-hidden" aria-expanded="true" aria-controls="addIngredientForm">Nhập thêm</button>
+
+              <section id="catalogBrowserPanel" class="catalog-inline-panel" aria-labelledby="catalogBrowserTitle" hidden>
+                <header class="catalog-inline-header">
+                  <div class="catalog-browser-title-wrap">
+                    <h3 id="catalogBrowserTitle" class="catalog-browser-title">Chọn nguyên liệu</h3>
+                    <span id="catalogCountBadge" class="catalog-count-badge">526 nguyên liệu có thể tìm</span>
+                  </div>
+                  <button type="button" id="closeCatalogBtn" class="catalog-close-btn" aria-label="Thu gọn danh mục nguyên liệu" title="Thu gọn danh mục nguyên liệu">×</button>
+                </header>
+
+                <div class="catalog-controls-sticky">
+                  <div class="catalog-search-row">
+                    <input type="search" id="catalogSearchInput" class="catalog-search-input" maxlength="120" autocomplete="off"
+                           placeholder="Tìm tiếng Việt có dấu, không dấu hoặc tiếng Anh (VD: thịt ba chỉ, suon heo, garlic...)"
+                           aria-label="Tìm trong danh mục nguyên liệu">
+                    <button type="button" id="catalogSearchClearBtn" class="secondary-button catalog-clear-search-btn" hidden>Xóa tìm</button>
+                  </div>
+
+                  <div class="catalog-filter-row">
+                    <div id="catalogCategoryTabs" class="catalog-category-tabs" role="tablist" aria-label="Nhóm nguyên liệu"></div>
+                    <select id="catalogCategorySelect" class="catalog-category-select" aria-label="Lọc theo nhóm nguyên liệu"></select>
+                  </div>
+
+                  <p id="catalogSummaryText" class="catalog-summary-text" role="status" aria-live="polite"></p>
+                </div>
+
+                <div id="catalogResultsScroll" class="catalog-results-scroll">
+                  <div id="catalogItemGrid" class="catalog-item-grid" role="region" aria-label="Danh sách nguyên liệu trong danh mục"></div>
+                  <div class="catalog-load-more-row">
+                    <button type="button" id="catalogLoadMoreBtn" class="secondary-button catalog-load-more-btn" hidden>Xem thêm nguyên liệu</button>
+                  </div>
+                </div>
+
+                <footer class="catalog-inline-footer">
+                  <span id="catalogPantryStatus" class="catalog-pantry-status">Đang có 0 nguyên liệu trong bếp</span>
+                  <button type="button" id="doneCatalogBtn" class="secondary-button catalog-done-btn">Thu gọn</button>
+                </footer>
+              </section>
+            </div>
+          </div>
+
+          <div class="pantry-section-block">
+            <div class="pantry-header-row">
+              <div class="pantry-title-group">
+                <h2 id="detectedTitle" class="pantry-heading">Nguyên liệu của bạn</h2>
+                <span id="ingredientCount" class="ingredient-count-badge">0</span>
+              </div>
+              <button type="button" id="clearPantryButton" class="text-danger-button" hidden>Xóa tất cả</button>
+            </div>
+
+            <div id="clearPantryPrompt" class="inline-confirm-bar" hidden>
+              <span>Xóa toàn bộ nguyên liệu đang có?</span>
+              <div class="inline-confirm-actions">
+                <button type="button" id="confirmClearPantry" class="secondary-button danger-solid">Xóa</button>
+                <button type="button" id="cancelClearPantry" class="secondary-button">Hủy</button>
+              </div>
+            </div>
+
+            <div class="pantry-chips-container">
+              <div class="ingredient-list" id="ingredientList"></div>
+              <p id="pantryEmptyText" class="pantry-empty-hint">Chưa có nguyên liệu nào. Hãy nhập ở khung trên hoặc chọn gợi ý nhanh kèm số lượng.</p>
+              <p class="chip-edit-hint" id="chipEditHint" hidden>Nhấn vào nguyên liệu để sửa định lượng, hoặc × để xóa.</p>
+              <p class="quantity-scope-hint" id="quantityScopeHint" hidden>Định lượng chỉ để ghi chú; hệ thống gợi ý theo loại nguyên liệu có sẵn.</p>
+            </div>
+
+            <div id="confirmedStaplesBox" class="confirmed-staples-box" role="group" aria-labelledby="confirmedStaplesTitle">
+              <div class="confirmed-staples-header">
+                <span id="confirmedStaplesTitle" class="confirmed-staples-title">Gia vị / nguyên liệu nền sẵn có (tùy chọn)</span>
+                <span id="confirmedStaplesCount" class="confirmed-staples-count">Chưa chọn</span>
+              </div>
+              <p id="confirmedStaplesHint" class="confirmed-staples-hint">Mặc định KHÔNG giả định có sẵn. Chỉ đánh dấu mục bạn thực sự đang có trong bếp:</p>
+              <div id="confirmedStaplesList" class="confirmed-staples-list">
+                <label class="staple-check-pill"><input type="checkbox" class="staple-checkbox" value="water" data-vi="Nước" data-en="Water"><span class="staple-check-label">Nước</span></label>
+                <label class="staple-check-pill"><input type="checkbox" class="staple-checkbox" value="salt" data-vi="Muối" data-en="Salt"><span class="staple-check-label">Muối</span></label>
+                <label class="staple-check-pill"><input type="checkbox" class="staple-checkbox" value="pepper" data-vi="Tiêu" data-en="Pepper"><span class="staple-check-label">Tiêu</span></label>
+                <label class="staple-check-pill"><input type="checkbox" class="staple-checkbox" value="vegetable oil" data-vi="Dầu ăn" data-en="Cooking oil"><span class="staple-check-label">Dầu ăn</span></label>
+                <label class="staple-check-pill"><input type="checkbox" class="staple-checkbox" value="olive oil" data-vi="Dầu ô liu" data-en="Olive oil"><span class="staple-check-label">Dầu ô liu</span></label>
+              </div>
+            </div>
+          </div>
+
+          <p id="mappingNote" class="mapping-note" hidden></p>
+          <div id="disambiguationBox" class="disambiguation-box" role="region" aria-label="Gợi ý chọn nguyên liệu cụ thể" hidden></div>
+          <p id="pantryNotice" class="pantry-status-line" role="status" aria-live="polite"></p>
+
+          <!-- CÁCH GỢI Ý MÓN ĂN -->
+          <div class="ranking-method-section">
+            <div class="method-header-row">
+              <h3 class="method-heading">Cách gợi ý món ăn</h3>
+              <button type="button" id="methodInfoToggle" class="info-link-button" aria-expanded="false" aria-controls="methodInfoPanel">
+                Tìm hiểu thêm
+              </button>
+            </div>
+
+            <div id="methodInfoPanel" class="method-info-popover" hidden>
+              <ul>
+                <li><strong>Mặc định:</strong> ưu tiên món phù hợp với nguyên liệu bạn đang có</li>
+                <li><strong>Theo nguyên liệu tương đồng:</strong> tìm món có nguyên liệu gần giống</li>
+                <li><strong>Khám phá món liên quan:</strong> gợi ý thêm những món có liên quan</li>
+              </ul>
+            </div>
+
+            <div class="method-radio-group" role="radiogroup" aria-label="Cách gợi ý món ăn">
+              <label class="method-card active" data-method="final">
+                <input type="radio" name="rankingMethodRadio" value="final" checked>
+                <span class="method-card-title">Mặc định (khuyên dùng)</span>
+              </label>
+
+              <label class="method-card" data-method="ml_tfidf">
+                <input type="radio" name="rankingMethodRadio" value="ml_tfidf">
+                <span class="method-card-title">Theo nguyên liệu tương đồng</span>
+              </label>
+
+              <label class="method-card" data-method="ml_lsa">
+                <input type="radio" name="rankingMethodRadio" value="ml_lsa">
+                <span class="method-card-title">Khám phá món liên quan</span>
+              </label>
+            </div>
+
+            <select id="rankingMethodSelect" class="visually-hidden" aria-label="Phương pháp gợi ý món ăn">
+              <option value="final" selected>Mặc định (khuyên dùng)</option>
+              <option value="ml_tfidf">Theo nguyên liệu tương đồng</option>
+              <option value="ml_lsa">Khám phá món liên quan</option>
+            </select>
+          </div>
+
+          <button type="button" id="recommendButton" class="analyze-button primary-cta-button" disabled>
+            <span>Gợi ý món ăn</span>
+            <span class="button-arrow" aria-hidden="true">→</span>
+          </button>
+        </section>
+
+        <!-- CỘT PHẢI (~56%): GỢI Ý MÓN ĂN PHÙ HỢP -->
+        <section class="panel result-panel" id="recipesSection" aria-labelledby="result-title">
+          <div class="result-panel-header">
+            <div>
+              <h2 id="result-title" class="result-heading">Gợi ý món ăn phù hợp</h2>
+              <p class="result-subtitle">Khám phá công thức từ những nguyên liệu bạn đang có.</p>
+            </div>
+            <div class="result-meta-group">
+              <span id="resultBadge" class="result-badge" hidden>SẴN SÀNG</span>
+              <span id="recipesTitle" class="recipe-count-pill">0 món</span>
+            </div>
+          </div>
+
+          <div class="result-subbar">
+            <span id="rankingBasis" class="ranking-basis-text">Ưu tiên món phù hợp với nguyên liệu bạn đang có</span>
+            <span id="resultTiming" class="result-timing-text"></span>
+          </div>
+
+          <div id="resultStatusBanner" class="result-status-banner" role="status" aria-live="polite" hidden></div>
+
+          <div id="results" class="results-container">
+            <div class="recipe-list" id="recipeList"></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- TRANG RIÊNG: MÓN YÊU THÍCH -->
+      <section id="favoritesPage" class="page-view subpage-view" aria-labelledby="favoritesTitle" hidden>
+        <div class="subpage-panel">
+          <header class="subpage-header">
+            <div>
+              <span class="hero-eyebrow">BỘ SƯU TẬP CÔNG THỨC</span>
+              <h1 id="favoritesTitle" class="subpage-title">Món yêu thích</h1>
+              <p class="subpage-subtitle">Các công thức bạn đã lưu trên trình duyệt này để xem lại nguyên liệu và các bước nấu bất cứ lúc nào.</p>
+            </div>
+            <div class="subpage-header-actions">
+              <span id="favoritesPageCount" class="recipe-count-pill">0 món đã lưu</span>
+              <button type="button" id="favoritesBackHomeBtn" class="secondary-button">← Về Trang chủ gợi ý món</button>
+            </div>
+          </header>
+
+          <p id="storageNotice" class="mapping-note" role="status" hidden></p>
+          <div id="favoriteList" class="recipe-list subpage-recipe-grid"></div>
+        </div>
+      </section>
+
+      <!-- TRANG RIÊNG: LỊCH SỬ GỢI Ý & NHẬN DIỆN -->
+      <section id="historyPage" class="page-view subpage-view" aria-labelledby="historyTitle" hidden>
+        <div class="subpage-panel">
+          <header class="subpage-header">
+            <div>
+              <span class="hero-eyebrow">NHẬT KÝ HOẠT ĐỘNG</span>
+              <h1 id="historyTitle" class="subpage-title">Lịch sử gợi ý</h1>
+              <p class="subpage-subtitle">Tối đa 20 lần gợi ý món ăn hoặc phân tích nguyên liệu gần nhất được lưu trên trình duyệt.</p>
+            </div>
+            <div class="subpage-header-actions">
+              <span id="historyPageCount" class="recipe-count-pill">0 mục</span>
+              <button id="clearHistory" type="button" class="secondary-button danger-outline-button">Xóa lịch sử</button>
+              <button type="button" id="historyBackHomeBtn" class="secondary-button">← Về Trang chủ</button>
+            </div>
+          </header>
+
+          <div id="clearHistoryPrompt" class="inline-confirm-bar" hidden>
+            <span>Xóa toàn bộ lịch sử trên trình duyệt này?</span>
+            <div class="inline-confirm-actions">
+              <button id="confirmClearHistory" type="button" class="secondary-button danger-solid">Xóa</button>
+              <button id="cancelClearHistory" type="button" class="secondary-button">Hủy</button>
+            </div>
+          </div>
+
+          <div id="historyList" class="recipe-list subpage-history-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Smart Kitchen · Gợi ý công thức từ nguyên liệu sẵn có</span>
+      <span id="translationCoverage" hidden></span>
+    </footer>
+  </div>
+
+  <!-- MODAL CAMERA -->
+  <div id="aiModal" class="app-modal" hidden>
+    <section id="cameraDialog" class="app-dialog camera-dialog" role="dialog" aria-modal="true" aria-labelledby="cameraModalTitle" tabindex="-1">
+      <header class="app-dialog-header">
+        <div>
+          <h2 id="cameraModalTitle">Nhận diện nguyên liệu bằng Camera</h2>
+          <p id="cameraDevelopmentNotice" class="vision-development-notice">Webcam — Thử nghiệm, đang phát triển. Có thể nhận nhầm hoặc bỏ sót; hãy kiểm tra và xác nhận nguyên liệu.</p>
+          <p class="dialog-subtitle">Hình ảnh camera trực tiếp. Sau khi chụp khung hình, bạn có thể kiểm tra và xác nhận nguyên liệu.</p>
+        </div>
+        <button id="closeAiModal" class="modal-close" type="button" aria-label="Đóng camera">×</button>
+      </header>
+
+      <div class="ai-dialog-body">
+        <div class="camera-live" id="cameraLive">
+          <video id="cameraVideo" autoplay muted playsinline aria-label="Hình ảnh camera trực tiếp"></video>
+          <svg id="liveBoxes" class="box-overlay" aria-label="Bounding Box"></svg>
+        </div>
+
+        <div class="camera-actions" id="cameraActionsRow" aria-label="Điều khiển camera">
+          <button id="openCamera" class="secondary-button" type="button">Mở camera</button>
+          <button id="captureCamera" class="secondary-button primary-action" type="button" hidden disabled>Chụp khung hình</button>
+          <button id="retakeCamera" class="secondary-button" type="button" hidden>Chụp lại</button>
+          <button id="stopCamera" class="secondary-button" type="button" hidden>Tắt camera</button>
+        </div>
+
+        <p id="cameraNotice" class="mapping-note" role="status" aria-live="polite" hidden></p>
+        <p id="liveMetrics" class="privacy-note" aria-live="off"></p>
+      </div>
+
+      <footer class="ai-dialog-footer">
+        <button type="button" id="doneAiModalBtn" class="secondary-button">Đóng camera</button>
+      </footer>
+    </section>
+  </div>
+
+  <!-- MODAL CHI TIẾT CÔNG THỨC -->
+  <div id="recipeModal" class="recipe-modal" hidden>
+    <section id="recipeDialog" class="recipe-dialog" role="dialog" aria-modal="true"
+             aria-labelledby="recipeDetailTitle" tabindex="-1">
+      <header class="recipe-dialog-header">
+        <div>
+          <p class="section-kicker">CHI TIẾT CÔNG THỨC</p>
+          <h2 id="recipeDetailTitle">Công thức</h2>
+        </div>
+        <div class="recipe-dialog-actions">
+          <div class="language-toggle modal-language-toggle" role="group" aria-label="Ngôn ngữ công thức">
+            <button id="modalShowVietnamese" class="lang-button" type="button" aria-pressed="true">Tiếng Việt</button>
+            <button id="modalShowEnglish" class="lang-button" type="button" aria-pressed="false">English</button>
+          </div>
+          <button id="closeRecipeModal" class="modal-close" type="button" aria-label="Đóng chi tiết công thức">×</button>
+        </div>
+      </header>
+      <div id="recipeDetailStatus" class="recipe-detail-status" role="status" aria-live="polite"></div>
+      <div id="recipeDetailContent" class="recipe-detail-content" hidden>
+        <p id="recipeOriginalTitle" class="recipe-original-title"></p>
+        <p id="recipeTranslationNote" class="translation-note" hidden></p>
+        <div id="recipePantrySummary" class="recipe-pantry-summary" hidden></div>
+
+        <section class="recipe-detail-section" aria-labelledby="recipeIngredientsTitle">
+          <h3 id="recipeIngredientsTitle">Nguyên liệu gốc (kèm định lượng)</h3>
+          <p id="recipeIngredientStatus" class="translation-note" hidden></p>
+          <p id="recipeIngredientFallbackNote" class="translation-note" hidden></p>
+          <ul id="recipeIngredientList" class="recipe-ingredient-list"></ul>
+          <details id="recipeOriginalIngredients" class="original-instructions" hidden>
+            <summary>Đối chiếu nguyên liệu tiếng Anh</summary>
+            <ul id="recipeOriginalIngredientList"></ul>
+          </details>
+        </section>
+
+        <section class="recipe-detail-section" aria-labelledby="recipeInstructionsTitle">
+          <div class="recipe-instruction-heading">
+            <h3 id="recipeInstructionsTitle">Hướng dẫn nấu từng bước</h3>
+            <span id="recipeLanguageBadge" class="language-badge">EN</span>
+          </div>
+          <p id="recipeInstructionStatus" class="translation-note" hidden></p>
+          <p id="recipeInstructionFallbackNote" class="translation-note" hidden></p>
+          <article id="recipeStepText" class="recipe-step-text"></article>
+          <nav class="step-navigation" aria-label="Điều hướng các bước nấu">
+            <button id="previousRecipeStep" class="secondary-button" type="button">← Bước trước</button>
+            <span id="recipeStepIndicator" aria-live="polite"></span>
+            <button id="nextRecipeStep" class="secondary-button" type="button">Bước sau →</button>
+          </nav>
+          <details id="recipeOriginalInstructions" class="original-instructions" hidden>
+            <summary>Xem toàn bộ các bước nguyên bản tiếng Anh</summary>
+            <ol id="recipeOriginalStepList"></ol>
+          </details>
+        </section>
+
+        <section class="recipe-detail-section recipe-source" aria-labelledby="recipeSourceTitle">
+          <h3 id="recipeSourceTitle">Nguồn dữ liệu công thức</h3>
+          <p id="recipeSourceText"></p>
+          <a id="recipeSourceLink" target="_blank" rel="noopener noreferrer">Xem nguồn dataset</a>
+        </section>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

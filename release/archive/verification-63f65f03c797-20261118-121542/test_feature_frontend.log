@@ -1,0 +1,10 @@
+PASS empty/malformed/invalid-shaped storage does not crash
+PASS blocked read/write keeps in-memory state and reports storage error
+PASS favorite saves, reloads, deduplicates and unsaves
+PASS edited pantry posts exact names and never analyzes
+PASS manual case duplicate and whitespace handling
+PASS empty pantry disables recommendation
+PASS food availability drives the card ratio, shopping list and saved favorite
+PASS all rankers keep recipe ID and warnings when rendering API results
+PASS history is metadata only, bounded to 20, survives reload and clears
+PASS in-flight controls prevent file/pantry races

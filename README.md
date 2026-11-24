@@ -1,203 +1,114 @@
-# 🍳 Smart Kitchen & Pantry Assistant
+# Smart Kitchen & Pantry Assistant
 
-**Ứng dụng Học máy trong nhận diện thực phẩm và gợi ý công thức nấu ăn**
+Bài tập lớn môn **Học máy và ứng dụng**, Trường Đại học Văn Lang.
+Đề tài: **Hệ thống gợi ý món ăn và công thức từ nguyên liệu cung cấp sẵn có**.
 
-Bài tập lớn môn *Học máy và ứng dụng* — Đại học Văn Lang.
+Smart Kitchen hỗ trợ nhập nguyên liệu Việt–Anh, nhận diện ảnh/webcam thử nghiệm, gợi ý món và xem công thức song ngữ. Người dùng kiểm tra và xác nhận nguyên liệu trước khi gợi ý.
 
-```
-Ảnh nguyên liệu / ảnh tủ lạnh
-        ↓
-Object Detection (YOLOv8)
-        ↓
-Danh sách nguyên liệu
-        ↓
-Ingredient Mapping & Chuẩn hóa
-        ↓
-Recommendation System (TF-IDF / LSA)
-        ↓
-Top món ăn phù hợp + Công thức chi tiết
-```
+## Thành viên
 
----
+| Thành viên | MSSV | Phần phụ trách |
+|---|---|---|
+| Đỗ Hoàng Phúc | 2474802010313 | Dữ liệu ảnh, kiểm định, huấn luyện, đánh giá YOLO và module nhận diện |
+| Huỳnh Hữu Phúc | 2474802010314 | Dữ liệu công thức, chuẩn hóa, hệ gợi ý, API và giao diện tích hợp |
 
-## Mục tiêu
+## Chạy ứng dụng trên Windows
 
-1. Nhận ảnh chứa thực phẩm/nguyên liệu.
-2. Phát hiện các nguyên liệu có trong ảnh bằng mô hình Object Detection (YOLOv8).
-3. Chuyển kết quả nhận diện thành danh sách nguyên liệu chuẩn.
-4. Dựa vào danh sách nguyên liệu để gợi ý các món ăn phù hợp (Content-based Filtering).
-5. Hiển thị mức độ phù hợp, nguyên liệu đã có và nguyên liệu còn thiếu.
-6. Tích hợp thành sản phẩm demo hoàn chỉnh.
+Yêu cầu **CPython 3.14 x64** và Internet ở lần cài đầu. Tải hoặc clone toàn bộ nhánh cần chạy.
 
----
+1. Chạy `RUN_ME_FIRST.cmd` để kiểm tra gói, tạo `.venv`, cài thư viện và khởi động.
+2. Lần sau chạy `Start_Smart_Kitchen.cmd`.
+3. Đợi `Application startup complete`, mở <http://127.0.0.1:8000/>.
+4. Nhập **trứng, cà chua, hành lá**, chọn **Gợi ý món ăn**, rồi **Xem công thức**.
+5. Với **Ảnh** hoặc **Camera**, kiểm tra và xác nhận nguyên liệu trước khi gợi ý.
+6. Giữ cửa sổ server mở khi sử dụng; nhấn `Ctrl+C` để dừng.
 
-## Phân công nhiệm vụ
+Nếu cổng 8000 đang bận, chạy `Start_Smart_Kitchen.cmd 8012` rồi mở <http://127.0.0.1:8012/>.
 
-| STT | Họ tên | MSSV | Nhiệm vụ |
-|:---:|--------|------|-----------|
-| 1 | Đỗ Hoàng Phúc | 2474802010313 | – Khảo sát dữ liệu ảnh Fridge Detection và nhãn 30 lớp nguyên liệu.<br>– Phụ trách mô hình YOLOv8n; tích hợp nhận diện ảnh và webcam.<br>– Kiểm thử nhánh nhận diện, phân tích lỗi và giới hạn mô hình.<br>– Viết và thuyết trình phần dữ liệu ảnh, nhận diện; phối hợp kiểm thử hệ thống. |
-| 2 | Huỳnh Hữu Phúc | 2474802010314 | – Thu thập, làm sạch dữ liệu công thức; chuẩn hóa nguyên liệu và ánh xạ Việt–Anh.<br>– Xây dựng Stage 5, TF-IDF/LSA và cơ chế gợi ý hai tầng.<br>– Tích hợp API, giao diện và công thức song ngữ; kiểm thử hệ gợi ý, đóng gói ứng dụng.<br>– Viết và thuyết trình phần dữ liệu công thức, hệ gợi ý; tổng hợp báo cáo. |
+Lệnh tương đương sau khi cài môi trường:
 
----
-
-## Cấu trúc dự án
-
-### Nhánh `member-1-cv` — Computer Vision / Object Detection
-
-```
-smartkitchen_app/
-├─ app.py                  # Web app Streamlit (prototype)
-├─ train.py                # Huấn luyện YOLOv8
-├─ cv/
-│   ├─ audit_dataset.py    # Kiểm định dataset: thống kê, ảnh/label lỗi, duplicate, leakage, EDA
-│   └─ evaluate.py         # Đánh giá mô hình + phân tích lỗi
-├─ core/
-│   ├─ detector.py         # Module nhận diện (detect_ingredients)
-│   ├─ recommender.py      # TF-IDF + cosine + ưu tiên hạn dùng
-│   ├─ ingredients.py      # Tên Việt + hạn dùng mặc định
-│   └─ favorites.py        # Lưu yêu thích
-├─ data/recipes.json       # Công thức mẫu
-├─ data_checked.yaml       # Cấu hình dataset đã kiểm định (sinh bởi audit_dataset.py)
-├─ reports/                # Báo cáo dataset, metrics, biểu đồ, error analysis
-└─ models/best.pt          # Trọng số YOLO sau huấn luyện
+```powershell
+.\.venv\Scripts\python.exe -B -s -X utf8 app/run_app.py --profile recipe --with-yolo
 ```
 
-### Nhánh `member-2-recsys` — Recommendation System / Web App
+Xem [hướng dẫn sử dụng](docs/USER_GUIDE.md), [xử lý lỗi](docs/TROUBLESHOOTING.md), [kịch bản demo](START_HERE.md).
 
-```
-app/
-├─ backend/                # FastAPI backend
-│   ├─ main.py
-│   ├─ routes/             # API endpoints (recipes, recommendation)
-│   ├─ schemas/            # Response models
-│   └─ services/           # Smart Kitchen service logic
-├─ frontend/               # Giao diện HTML/CSS/JS
-│   ├─ index.html
-│   ├─ app.js
-│   ├─ style.css
-│   └─ ...
-├─ src/                    # Recommendation engine
-│   ├─ ml_recommender.py   # TF-IDF / LSA recommender
-│   ├─ ingredient_mapper.py
-│   ├─ pantry_catalog.py
-│   └─ ...
-├─ config/                 # Cấu hình nguyên liệu, mapping, display
-├─ processed/              # Dữ liệu công thức đã làm sạch
-├─ models/                 # ML artifacts (TF-IDF/LSA)
-├─ scripts/                # Script huấn luyện recommender
-└─ run_app.py              # Entry point chạy ứng dụng
+## Luồng hoạt động
+
+```text
+Nhập nguyên liệu / ảnh / webcam
+            ↓
+Kiểm tra và xác nhận nguyên liệu
+            ↓
+Chuẩn hóa tên Việt–Anh
+            ↓
+Stage 5 (mặc định) / TF-IDF / LSA
+            ↓
+Có thể nấu ngay / Cần bổ sung
+            ↓
+Chi tiết công thức Việt–Anh
 ```
 
----
+Stage 5 xếp hạng theo luật và trọng số; TF-IDF dùng tương đồng cosine; LSA dùng không gian giảm chiều để thử nghiệm món liên quan. Điều kiện phân hai tầng được kiểm tra riêng với bước xếp hạng. Xem [phương pháp](docs/ML_METHODS.md).
 
-## Cài đặt & Chạy
+## Cấu trúc bản tích hợp
 
-### Yêu cầu
+| Đường dẫn | Nội dung |
+|---|---|
+| `app/backend/`, `app/frontend/` | API FastAPI và giao diện HTML/CSS/JS |
+| `app/core/`, `app/src/` | Detector được tích hợp, chuẩn hóa và hệ gợi ý |
+| `app/config/`, `app/mapping/`, `app/processed/` | Cấu hình, ánh xạ và dữ liệu công thức |
+| `app/models/` | YOLO, artifact TF-IDF/LSA dùng trong ứng dụng |
+| `app/run_app.py`, `app/tests/` | Khởi động ứng dụng chính và kiểm thử |
+| `cv/`, `train.py`, `reports/` | Kiểm định, huấn luyện, đánh giá và báo cáo CV của member1 |
+| `models/best.pt` | Checkpoint bàn giao của member1 |
+| `app.py`, `core/`, `data/` | Prototype Streamlit của member1 |
+| `docs/`, `release/` | Tài liệu và gói Windows |
 
-- Python 3.10+
-- GPU NVIDIA (khuyến nghị) cho huấn luyện YOLO
+Hai tệp `app/models/best.pt` và `models/best.pt` giống nhau tại thời điểm tích hợp. Huấn luyện CV ở thư mục gốc không tự thay model của ứng dụng trong `app/`.
 
-### Cài đặt thư viện
+## Dữ liệu và kết quả
 
-```bash
-pip install -r requirements.txt
-# GPU NVIDIA: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-```
+- Ảnh: [Fridge Detection v1](https://universe.roboflow.com/fridge-ydzni/fridge-detection-es0ja/dataset/1), 3.148 ảnh, 30 lớp. Dataset ảnh tải riêng.
+- Catalog: 13.501 công thức; artifact TF-IDF/LSA fit từ 13.489 công thức. Xem [nguồn dữ liệu](app/processed/SOURCE_STAGE2.md).
+- Model chọn theo mAP@0.5:0.95 trên VALID: **YOLOv8n (`baseline_v8n`)**.
 
-### Dataset
-
-Dataset *Fridge Detection* (Roboflow, MIT License, 3.148 ảnh, 30 class, định dạng YOLOv8):
-https://universe.roboflow.com/fridge-ydzni/fridge-detection-es0ja/dataset/1
-
-Giải nén thành thư mục `SmartKitchen/` **nằm cạnh** thư mục `smartkitchen_app/`:
-```
-BTL/
-├─ SmartKitchen/{train,valid,test,data.yaml}
-└─ smartkitchen_app/
-```
-(Dataset không được đưa lên git vì dung lượng lớn.)
-
----
-
-## Quy trình Computer Vision (Thành viên 1)
-
-```bash
-python cv/audit_dataset.py                                         # 1) Kiểm định + làm sạch → reports/, data_checked.yaml
-python train.py --model yolov8n.pt --name baseline_v8n --epochs 30 # 2a) Baseline nhỏ
-python train.py --model yolov8s.pt --name ingredients  --epochs 30 # 2b) Mô hình chính
-python cv/evaluate.py                                              # 3) So sánh, đánh giá, error analysis → reports/, models/best.pt
-python -m core.detector anh.jpg                                    # 4) Thử module nhận diện (in JSON)
-```
-
-**`audit_dataset.py`** kiểm tra: số ảnh/class/object, thống kê class imbalance, ảnh hỏng/0 byte/quá nhỏ, label sai (thiếu, rỗng, class_id ngoài phạm vi, bbox ngoài [0,1], sai số cột), ảnh trùng (MD5), ảnh gần giống (dHash), rò rỉ dữ liệu giữa train/valid/test. Ảnh trùng/leakage trong train được loại qua danh sách `data/splits/train_clean.txt`; dataset gốc **không bị sửa**. Kết quả ghi vào `reports/` và in `READY FOR TRAINING: YES/NO`.
-
-**`evaluate.py`** đánh giá mọi mô hình trong `runs/`, chọn mô hình có mAP50-95 (valid) cao nhất, xuất Precision/Recall/mAP, confusion matrix, PR/F1 curve, training/validation loss và phân tích lỗi (class nhầm, FP, FN, vật thể nhỏ, bị che, ảnh tối, nền phức tạp).
-
-Output của `detector.py` (chuẩn giao tiếp với Recommendation System):
-```json
-{"ingredients": [{"name": "tomato", "confidence": 0.95, "count": 2}]}
-```
-
-### Kết quả dataset
-3.148 ảnh · 39.548 object · 30 class · 0 ảnh lỗi · 0 label lỗi · imbalance max/min = 4.3 (tomato 2027 / chocolate 472). Chi tiết: `reports/summary.md`.
-
-### Kết quả mô hình (YOLOv8s, 640px)
 | Tập | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
-|---|---|---|---|---|
-| Valid | 0.959 | 0.967 | 0.966 | 0.640 |
-| Test | 0.937 | 0.945 | 0.954 | 0.682 |
+|---|---:|---:|---:|---:|
+| VALID | 0.9389 | 0.9435 | 0.9690 | 0.6464 |
+| TEST | 0.8953 | 0.8888 | 0.9394 | 0.6545 |
 
-So sánh baseline: `reports/model_comparison.csv`. Biểu đồ: `reports/figures/`. Phân tích lỗi: `reports/error_analysis.md`.
+Nguồn: [metrics](reports/metrics.json), [so sánh mô hình](reports/model_comparison.csv), [phân tích lỗi](reports/error_analysis.md). Kết quả trên dataset chưa chứng minh chất lượng nhận diện ảnh bếp thực tế độc lập.
 
----
+## Tái lập phần Computer Vision
 
-## Thuật toán gợi ý (Thành viên 2)
+Đặt dataset `SmartKitchen/` cạnh thư mục dự án, gồm `train/`, `valid/`, `test/`, `data.yaml`. Dùng môi trường CV riêng với `requirements.txt`; script huấn luyện hiện dùng GPU NVIDIA (`device=0`).
 
-Hệ thống gợi ý hai tầng:
-
-- **Stage 5 (Mặc định):** Lọc theo nguyên liệu có sẵn, xếp hạng theo tỷ lệ phủ.
-- **TF-IDF:** Tương đồng cosine giữa vector tủ lạnh và vector công thức.
-- **LSA (Latent Semantic Analysis):** Khám phá món liên quan qua không gian ngữ nghĩa ẩn.
-
-Công thức hỗ trợ song ngữ Việt–Anh. Chi tiết phương pháp: `docs/ML_METHODS.md`.
-
----
-
-## Chạy ứng dụng
-
-**Phiên bản đầy đủ (FastAPI + HTML frontend):**
-```bash
-# Windows: Chạy RUN_ME_FIRST.cmd (cài lần đầu), sau đó Start_Smart_Kitchen.cmd
-# Hoặc:
-python app/run_app.py
+```powershell
+python -m pip install -r requirements.txt
+python cv/audit_dataset.py
+python train.py --model yolov8n.pt --name baseline_v8n --epochs 30
+python train.py --model yolov8s.pt --name ingredients --epochs 30
+python cv/evaluate.py
+python -m core.detector duong_dan_anh.jpg
 ```
-Mở http://127.0.0.1:8000/ → Nhập nguyên liệu hoặc tải ảnh → Gợi ý món ăn → Xem công thức.
 
-**Phiên bản prototype (Streamlit):**
-```bash
-streamlit run app.py
-```
-Tải ảnh → *Nhận diện nguyên liệu* → chỉnh số lượng/hạn dùng → tab *Gợi ý món* → *Lưu vào yêu thích*.
+Luôn chạy audit trước để tạo lại đường dẫn trong `data_checked.yaml` và danh sách ảnh cho máy hiện tại. Audit/evaluate cập nhật `reports/`; kết quả đã nộp được lưu trong Git. Dataset và `runs/` không được đưa lên Git.
 
----
+Prototype cũ chạy bằng `streamlit run app.py` trong môi trường CV. FastAPI là ứng dụng chính của nhóm.
 
-## Công nghệ sử dụng
+## Giới hạn và kiểm thử
 
-| Thành phần | Công nghệ |
-|---|---|
-| Object Detection | YOLOv8 (Ultralytics) |
-| Recommendation | TF-IDF, Cosine Similarity, LSA |
-| Backend | FastAPI |
-| Frontend | HTML / CSS / JavaScript |
-| Prototype UI | Streamlit |
-| Ngôn ngữ | Python 3.10+ |
+- Nhận diện ảnh/webcam còn thử nghiệm, cần người dùng xác nhận.
+- “Có thể nấu ngay” chưa xác nhận đầy đủ lượng nguyên liệu thực tế.
+- Chưa đủ cơ sở kết luận Stage 5, TF-IDF hay LSA tốt nhất với người dùng.
+- [Kết quả kiểm thử lịch sử](docs/EVALUATION_RESULTS.md), [ảnh/webcam](docs/VISION_EXPERIMENTAL.md), [kiểm tra bản gộp](docs/INTEGRATION.md).
 
----
+## Nhánh phát triển và đóng gói
 
-## Nhánh Git
+- `main`: nhánh chính, nhận bản tích hợp sau khi kiểm tra.
+- `member-1-cv`: dữ liệu ảnh, huấn luyện và đánh giá.
+- `member-2-recsys`: hệ gợi ý và ứng dụng tích hợp nhận diện.
+- `codex/integrate-members`: bản gộp thử giữ đầy đủ công việc của hai thành viên.
 
-| Nhánh | Mục đích |
-|---|---|
-| `main` | Phiên bản ổn định, tổng hợp |
-| `member-1-cv` | Phát triển phần Computer Vision (Thành viên 1) |
-| `member-2-recsys` | Phát triển phần Recommendation System & Web App (Thành viên 2) |
+Sau khi thay đổi tệp thuộc gói Windows, chạy `python release/build_windows_release.py` để tạo lại manifest và ZIP trước khi dùng bộ cài kiểm tra checksum. Các biên bản lịch sử không tự áp dụng cho ZIP mới. Xem [thông tin phân phối](docs/DISTRIBUTION.md).

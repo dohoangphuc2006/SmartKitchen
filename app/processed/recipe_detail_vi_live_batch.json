@@ -1,0 +1,423 @@
+{
+  "schema_version": "recipe-detail-vi-v1",
+  "scope": "development_frequency_selected_display_only",
+  "recipes": [
+    {
+      "recipe_id": 2220,
+      "source_sha256": "de69469d31c011fc524c39e90891891b4c6ee6ac60e2c047c71450a31dfc460d",
+      "recipe_name_vi": "Trứng xào tortilla kiểu Amaya",
+      "ingredients_vi": [
+        "1 thìa canh dầu thực vật",
+        "2 cốc tortilla cắt miếng cỡ đồng xu dime hoặc tortilla chips bóp vụn",
+        "1/2 cốc cà chua băm",
+        "2/3 cốc hành tây băm",
+        "1 quả ớt jalapeño, bỏ cuống, bỏ hạt và băm nhỏ",
+        "2 quả trứng",
+        "1/2 cốc phô mai cheddar"
+      ],
+      "instruction_steps_vi": [
+        "Đun nóng dầu trong chảo lớn trên lửa vừa và xào các miếng tortilla hoặc tortilla chips đến khi hơi giòn, 1 đến 2 phút. Thêm cà chua, hành tây và ớt rồi nấu 5 phút. Đổ trứng vào và trộn bằng xẻng, vét trứng lên trong khi trứng chín. Khi trứng đã đông lại một phần, thêm cheddar. Đậy nắp. Đảo thêm vài lần đến khi phô mai tan chảy."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "6a47675faa45e0b82b9be34d35e1608cc06eceb4a543746859bf3bdf12da7b0b",
+      "source": {
+        "recipe_name": "Amaya’s Migas",
+        "ingredients": [
+          "1 tablespoon vegetable oil",
+          "2 cups dime-sized tortilla pieces or crushed tortilla chips",
+          "1/2 cup chopped tomato",
+          "2/3 cup chopped onion",
+          "1 jalapeño chile, stemmed, seeded, and chopped",
+          "2 eggs",
+          "1/2 cup cheddar cheese"
+        ],
+        "instructions": "Heat the oil in a large skillet over medium heat and sauté the tortilla pieces or chips until slightly crisp, 1 to 2 minutes. Add the tomato, onion, and chile and cook for 5 minutes. Pour in the eggs and mix with a spatula, scraping up the eggs as they cook. When the eggs are partially set, add the cheddar. Cover. Toss a few more times until the cheese melts."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 3581,
+      "source_sha256": "f656467831c2e001d2097ce96d6e2436b456ce598cb4c571fd04805947039af8",
+      "recipe_name_vi": "Xốt puttanesca phù hợp cho trẻ",
+      "ingredients_vi": [
+        "1 thìa canh dầu ô liu",
+        "1 củ hành tây lớn, thái hạt lựu",
+        "3 tép tỏi, băm nhỏ",
+        "1 lon (15-ounce) cà chua thái hạt lựu",
+        "1 lon (15-ounce) xốt cà chua",
+        "1/4 cốc ô liu kalamata thái lát",
+        "3 thìa canh nụ bạch hoa",
+        "1/4 thìa cà phê muối kosher"
+      ],
+      "instruction_steps_vi": [
+        "1. Trong nồi xốt trên lửa vừa lớn, xào hành tây, tỏi và muối trong dầu ô liu đến khi mềm và trong, khoảng 5 phút",
+        "2. Cho cà chua thái hạt lựu, xốt cà chua, ô liu và nụ bạch hoa vào khuấy đều. Đun sôi. Hạ lửa và đun liu riu 10–15 phút."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "98a4fb8363b7a84d2e6e63e597b20ed243609a9e6261f861c8b9161ae8a359bf",
+      "source": {
+        "recipe_name": "Kid Friendly Puttanesca",
+        "ingredients": [
+          "1 tablespoon olive oil",
+          "1 large onion, diced",
+          "3 garlic cloves, minced",
+          "1 (15-ounce) can diced tomatoes",
+          "1 (15-ounce) can tomato sauce",
+          "1/4 cup sliced kalamata olives",
+          "3 tablespoons capers",
+          "1/4 teaspoon kosher salt"
+        ],
+        "instructions": "1. In a sauce pan over medium high heat, sauté onion, garlic and salt in olive oil under tender and transparent, about 5 minutes\n2. Stir in diced tomatoes, tomato sauce, olives and capers. Bring to a boil. Reduce heat and let simmer for 10–15 minutes."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 3584,
+      "source_sha256": "41437b3a82e2e72a4e3d126c2930bbe19a3e763a29af3842bc388f3322ef331f",
+      "recipe_name_vi": "Cà chua om ô liu và nụ bạch hoa",
+      "ingredients_vi": [
+        "1 thìa cà phê dầu",
+        "1 củ hành tây nhỏ, thái hạt lựu",
+        "1 tép tỏi, băm nhỏ",
+        "4 quả cà chua vừa, băm thô",
+        "1/4 cốc ô liu đen, bổ tư",
+        "1 thìa canh nụ bạch hoa",
+        "1/2 thìa cà phê muối"
+      ],
+      "instruction_steps_vi": [
+        "1. Đun nóng dầu trong chảo trên lửa vừa. Thêm hành tây và xào 5 phút, đến khi mềm. Thêm tỏi và xào thêm 1 phút.",
+        "2. Thêm cà chua, ô liu, nụ bạch hoa và muối rồi nấu trên lửa vừa lớn 10–15 phút, đến khi phần lớn chất lỏng đã bay hơi.",
+        "3. Dùng phủ lên thịt gà nướng, cá, mì pasta hoặc cơm."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "2c1c16c14932516d1e6f2df8ad93cbe74f1580c50dff71a42e6ad01a659660c1",
+      "source": {
+        "recipe_name": "Tomato Olive Caper Compote",
+        "ingredients": [
+          "1 teaspoon oil",
+          "1 small onion, diced",
+          "1 clove garlic, minced",
+          "4 medium tomatoes, roughly chopped",
+          "1/4 cup black olives, quartered",
+          "1 tablespoons capers",
+          "1/2 teaspoon salt"
+        ],
+        "instructions": "1. Heat oil in a skillet over medium heat. Add the onions and sauté for 5 minutes, until soft. Add the garlic and sauté for 1 minute more.\n2. Add the tomatoes, olives, capers, and salt and cook over medium-high heat for 10–15 minutes, until most of the liquid has evaporated.\n3. Serve over grilled chicken, fish, pasta or rice."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 2091,
+      "source_sha256": "0a4b7d3cd7cdb13ba89a254ad994a2132fa535a39583324255c4dcb204f97aae",
+      "recipe_name_vi": "Trứng luộc chín kỹ",
+      "ingredients_vi": [
+        "4–8 quả trứng lớn"
+      ],
+      "instruction_steps_vi": [
+        "Đun sôi một nồi nước lớn trên lửa vừa lớn. Dùng thìa có lỗ, cẩn thận hạ từng quả trứng vào nước. Nấu 10 phút, giữ nước sôi nhẹ. Cẩn thận chuyển trứng sang bát nước đá và để nguội đến khi chỉ còn hơi ấm, khoảng 2 phút.",
+        "Gõ nhẹ cho vỏ trứng nứt khắp bề mặt rồi bóc, bắt đầu từ đầu to chứa túi khí.",
+        "Có thể luộc và bóc trứng trước 3 ngày. Chuyển vào hộp kín và bảo quản lạnh."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "39df8f781327f0d7803f8735bb3d2f7895b11c80e943d15891851850d88742ed",
+      "source": {
+        "recipe_name": "Hard-Boiled Eggs",
+        "ingredients": [
+          "4–8 large eggs"
+        ],
+        "instructions": "Bring a large saucepan of water to a boil over medium-high heat. Using a slotted spoon, carefully lower eggs into water one at a time. Cook 10 minutes, maintaining a gentle boil. Carefully transfer eggs to a bowl of ice water and let cool until just slightly warm, about 2 minutes.\nGently crack eggs all over and peel, starting from the fat end containing the air pocket.\nEggs can be cooked and peeled 3 days ahead. Transfer to an airtight container and chill."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 537,
+      "source_sha256": "15bb6c10d506acfb4df53292925937c8fce30891aef9e3c865f3b5f882f3d9f9",
+      "recipe_name_vi": "Trứng chần sous vide dễ thực hiện",
+      "ingredients_vi": [
+        "6 quả trứng lớn"
+      ],
+      "instruction_steps_vi": [
+        "Kẹp hoặc dựng máy sous vide vào một nồi lớn, thành cao. Đổ nước ấm vào nồi. Bật máy và làm nóng nước đến 153°F. Không phải 155°F—không phải 150°F. Đúng 153°F.",
+        "Nhẹ nhàng hạ trứng vào nước. (Tác giả thích đặt từng quả lên thìa rồi hạ xuống để bảo đảm trứng không nứt.) Nấu 25 phút.",
+        "Chuyển trứng sang nước đá và để nguội. Chuyển vào hộp kín và bảo quản lạnh; trứng giữ được trong tủ lạnh khoảng một tuần.",
+        "Khi muốn ăn trứng ấm (dù ăn trứng chần lạnh cũng không có gì sai), dùng máy sous vide đặt ở 150°F hoặc một nồi nước nóng nhỏ để hâm trứng trong vài phút. Sau đó đập trứng vào bát hoặc hộp nhỏ để có thể chắt bỏ nước hay phần lòng trắng nổi trước khi bày quả trứng đẹp mắt ra đĩa."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "c80bd9450a2ec7eb00d062f3813ab66931a7556064b1d0b8dd2a4c655e1bfd15",
+      "source": {
+        "recipe_name": "Fearless Sous Vide Poached Eggs",
+        "ingredients": [
+          "6 large eggs"
+        ],
+        "instructions": "Clip (or stand) sous vide machine to a tall large pot. Fill pot with warm water. Turn on machine and heat water to 153°F. Not 155°F—not 150°F. 153°F.\nGently lower eggs into water. (We like to put each one in a spoon and lower it in just to make sure it doesn’t crack.) Cook 25 minutes.\nTransfer eggs to an ice bath and let cool. Transfer to an airtight container and chill; they'll keep in the fridge for about a week.\nWhen you want to eat one warm (though there is nothing wrong with eating a cold, poached egg), use sous vide machine set to 150°F or a small pot of hot water to heat it up for a few minutes. Then crack it into a bowl or small container so that you can drain off any water or floating albumin before you plate your pretty egg."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 2672,
+      "source_sha256": "5542bf5bebe3b81fc75d1bc4bcc284f16ff2e9542e9c25a0706d8b29cc019977",
+      "recipe_name_vi": "Xúp gà mì trứng kiểu truyền thống",
+      "ingredients_vi": [
+        "16 cốc nước dùng gà đóng hộp ít muối",
+        "1 con gà nặng 3 1/2-pound, chặt thành 8 miếng",
+        "1/2 cốc hành tây băm",
+        "2 củ cà rốt, gọt vỏ, thái lát mỏng",
+        "2 cọng cần tây, thái lát",
+        "2 thìa canh (1/4 thanh) bơ",
+        "1 cốc nấm thái lát",
+        "1 thìa canh nước cốt chanh vàng tươi",
+        "8 ounces mì trứng khô sợi bản rộng",
+        "1/2 cốc rau thơm lá mềm băm nhỏ, chẳng hạn thì là hoặc mùi tây"
+      ],
+      "instruction_steps_vi": [
+        "Cho nước dùng gà và thịt gà vào nồi lớn đáy dày. Đun sôi. Hạ lửa, đậy hé nắp và đun liu riu đến khi gà chín hoàn toàn, khoảng 20 phút. Dùng kẹp chuyển gà sang bát lớn. Để gà và nước dùng nguội bớt. Bỏ da và xương gà. Cắt thịt gà thành miếng vừa ăn và để riêng. Hớt mỡ trên mặt nước dùng.",
+        "Đun nước dùng sôi liu riu trở lại. Thêm hành tây, cà rốt và cần tây. Nấu liu riu đến khi rau mềm, khoảng 8 phút. (Có thể chuẩn bị trước 1 ngày. Đậy riêng thịt gà và nước dùng rồi bảo quản trong tủ lạnh. Đun sôi nước dùng trước khi tiếp tục.)",
+        "Đun chảy 2 thìa canh bơ trong chảo lớn đáy dày trên lửa vừa lớn. Thêm nấm và xào đến khi bắt đầu vàng nâu, khoảng 5 phút. Khuấy nước cốt chanh vàng vào. Cho nấm vào nước dùng; thêm mì, rau thơm và thịt gà đã để riêng, khuấy đều. Đun liu riu đến khi mì mềm, khoảng 5 phút. Nêm xúp với muối và tiêu theo khẩu vị."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "72c7ed8f3c269fa6c4d35cfef7fa569814ad1384a2326e1b7f9d395103a6778e",
+      "source": {
+        "recipe_name": "Old-Fashioned Chicken Noodle Soup",
+        "ingredients": [
+          "16 cups canned low-salt chicken broth",
+          "1 3 1/2-pound chicken, cut into 8 pieces",
+          "1/2 cup chopped onion",
+          "2 carrots, peeled, thinly sliced",
+          "2 celery stalks, sliced",
+          "2 tablespoons (1/4 stick) butter",
+          "1 cup sliced mushrooms",
+          "1 tablespoon fresh lemon juice",
+          "8 ounces dried wide egg noodles",
+          "1/2 cup finely chopped tender herbs such as dill or parsley"
+        ],
+        "instructions": "Combine chicken broth and chicken in heavy large pot. Bring to boil. Reduce heat; cover partially and simmer until chicken is cooked through, about 20 minutes. Using tongs, transfer chicken to large bowl. Cool chicken and broth slightly. Discard skin and bones from chicken. Cut chicken meat into bite-size pieces and reserve. Spoon fat off top of chicken broth.\nReturn broth to simmer. Add onion, carrots and celery. Simmer until vegetables soften, about 8 minutes. (Can be prepared 1 day ahead. Cover chicken meat and broth separately and refrigerate. Bring broth to boil before continuing.)\nMelt 2 tablespoons butter in heavy large skillet over medium-high heat. Add mushrooms and sauté until beginning to brown, about 5 minutes. Stir in lemon juice. Add mushrooms to broth; stir in noodles, herbs, and reserved chicken. Simmer until noodles are tender, about 5 minutes. Season soup to taste with salt and pepper."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 2088,
+      "source_sha256": "1b80491c1c6027115a745d9d5d951c4709073839d30211ea7d158918110365bb",
+      "recipe_name_vi": "Trứng chần hoàn chỉnh",
+      "ingredients_vi": [
+        "4 quả trứng lớn",
+        "Muối kosher, tiêu vừa xay"
+      ],
+      "instruction_steps_vi": [
+        "Đun một nồi nước lớn đến mức sôi liu riu nhẹ. Đập một quả trứng vào rây lưới mịn đặt trên bát vừa. Để phần lòng trắng loãng chảy qua rây xuống bát; cẩn thận chuyển trứng sang bát nhỏ (cách này giúp loại bỏ những sợi lòng trắng dài như tua có thể hình thành, đồng thời giúp trứng chần tròn và mịn).",
+        "Dùng thìa có lỗ khuấy nước đang sôi liu riu để tạo xoáy nhẹ. Trút trứng từ bát vào tâm xoáy và nhẹ nhàng xoay nước để lòng trắng ôm quanh lòng đỏ. Lặp lại với thêm 3 quả trứng để trong nồi có tổng cộng 4 quả. Nấu đến khi lòng trắng vừa đông nhưng lòng đỏ vẫn rất mềm (dùng thìa có lỗ nhấc trứng khỏi nước và ấn nhẹ lòng đỏ để kiểm tra), khoảng 2 1/2 phút kể từ khi từng quả chạm nước. Dùng thìa có lỗ chuyển sang đĩa ấm. Nêm muối và tiêu ngay trước khi dùng.",
+        "Có thể chần trứng trước 1 ngày. Chuyển vào bát nước đá thay vì đĩa ấm. Đậy kín và bảo quản lạnh. Hâm lại trong nước chỉ vừa sôi liu riu 1 phút trước khi dùng."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "58e286377d6b9da16bd7737752c55f6aaa7d3c243309bfc68217ca4b0a31ffde",
+      "source": {
+        "recipe_name": "Perfect Poached Eggs",
+        "ingredients": [
+          "4 large eggs",
+          "Kosher salt, freshly ground pepper"
+        ],
+        "instructions": "Bring a large saucepan of water to a gentle simmer. Crack an egg into a fine-mesh sieve set over a medium bowl. Let watery whites run through into bowl below; carefully transfer egg to a small bowl (this helps eliminate the long, tentacle-like strands of egg white that may otherwise form, and encourages a smooth, round poached egg).\nStir simmering water with a slotted spoon to make a gentle vortex. Tip egg out of bowl into center of vortex and swirl water gently to help bring whites up around yolk. Repeat with 3 more eggs so there are 4 eggs total in saucepan. Cook until whites are just set but yolk is still very soft (lift out of water with a slotted spoon and gently press on yolk to assess), about 2 1/2 minutes from the time each egg hits the water. Transfer to a warm plate with slotted spoon. Season eggs with salt and pepper just before serving.\nEggs can be poached 1 day ahead. Transfer to a bowl of ice water instead of warm plate. Cover and chill. Reheat in barely simmering water 1 minute before serving."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 5394,
+      "source_sha256": "a0e0fe5d37bb654f9271724b912cb9ba3664a335d8ab57abfd23c9bb7ad98f4b",
+      "recipe_name_vi": "Bánh mì kẹp bữa sáng",
+      "ingredients_vi": [
+        "4 miếng xúc xích gà tây dẹt, mỗi miếng 1 1/2-ounce",
+        "1 cốc rau rocket đã rửa sạch và bỏ cọng lớn",
+        "2 thìa cà phê dầu ô liu nguyên chất extra-virgin",
+        "6 quả trứng lớn",
+        "Muối và tiêu đen vừa xay",
+        "4 bánh English muffin nguyên cám, bổ đôi và nướng giòn",
+        "1 quả cà chua vừa, thái lát"
+      ],
+      "instruction_steps_vi": [
+        "Chuẩn bị xúc xích gà tây và rau rocket: Làm nóng một chảo chống dính nhỏ, nấu các miếng xúc xích gà tây trên lửa vừa 2 đến 3 phút mỗi mặt hoặc đến khi vàng nâu và chín hoàn toàn. Lấy xúc xích ra khỏi chảo. Cho rau rocket vào cùng chảo với 1 thìa canh nước. Làm rau nhanh chóng héo xuống rồi nhấc khỏi bếp.",
+        "Chuẩn bị trứng: Cho dầu ô liu vào chảo chống dính vừa đã làm nóng. Đập trứng vào bát trộn nhỏ và dùng nĩa đánh cùng nhau 1 phút. Nêm muối và tiêu đen vừa xay. Đổ hỗn hợp trứng vào chảo rồi để yên 15 giây. Dùng xẻng cao su nhỏ nhẹ nhàng đẩy trứng quanh chảo, vét đáy khoảng mỗi 7 giây. Tiếp tục nấu thêm 2 phút hoặc đến khi trứng vừa chín (trứng nên còn bóng và chỉ vừa đông).",
+        "Đặt một miếng xúc xích gà tây đã chín lên mỗi nửa dưới của bánh muffin rồi phủ trứng đã nấu lên. Xếp rau rocket đã làm héo và cà chua thái lát lên trứng, đậy nửa bánh còn lại. Dùng ngay."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "b6d954c61b5489ebabc9940c0bc2b8df134b8e50279d3ae47992c46d61971567",
+      "source": {
+        "recipe_name": "Breakfast Sandwich",
+        "ingredients": [
+          "4 1 1/2-ounce turkey sausage patties",
+          "1 cup arugula, cleaned with large stems removed",
+          "2 teaspoons extra-virgin olive oil",
+          "6 large eggs",
+          "Salt and freshly ground black pepper",
+          "4 whole wheat English muffins, split and toasted",
+          "1 medium tomato, sliced"
+        ],
+        "instructions": "To prepare the turkey sausage and arugula: In a preheated small nonstick sauté pan, cook the turkey sausage patties over medium heat for 2 to 3 minutes on each side or until the patties are golden brown and thoroughly cooked. Remove the turkey sausage patties from the pan. Add the arugula to the same pan along with 1 tablespoon water. Quickly wilt the arugula and remove from the heat.\nTo prepare the eggs: Place the olive oil in a preheated nonstick medium sauté pan. Crack the eggs into a small mixing bowl and whisk together with a fork for 1 minute. Season with salt and freshly ground black pepper. Pour the egg mixture into the pan and let sit for 15 seconds. Using a small rubber spatula, gently move the eggs around the pan, scraping from the bottom every 7 seconds or so. Continue to cook the eggs for 2 minutes longer or until they are just cooked (they should glisten and be just set).\nPlace a cooked turkey sausage patty on each muffin bottom and top with the cooked eggs. Place the wilted arugula and sliced tomato over the eggs and top with the other half of the muffin. Serve immediately."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 1653,
+      "source_sha256": "9c2b5cb8a83aa7951542e59a06ad175010e0b748b5a59b6cd8132cf2360b987a",
+      "recipe_name_vi": "Xốt cà chua đỏ cho pizza",
+      "ingredients_vi": [
+        "2 tép tỏi, bào nhuyễn",
+        "1 lon (28-ounce) cà chua nghiền",
+        "2 thìa canh dầu ô liu",
+        "1 1/2 thìa cà phê muối biển mịn"
+      ],
+      "instruction_steps_vi": [
+        "Dùng phới trộn tỏi, cà chua, dầu và muối trong bát vừa. Đừng thêm muối dù thấy muốn thêm; vị sẽ đậm lại khi xốt được nướng cùng pizza. Đậy kín và làm lạnh 3 giờ để các hương vị hòa quyện trước khi dùng.",
+        "Có thể làm xốt trước 1 tuần. Giữ trong tủ lạnh."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "d9c084ed44079f50cfa9f2ae5fa0bb7c8cd33009d98f867199b9cccddaf1559e",
+      "source": {
+        "recipe_name": "Red Sauce for Pizza",
+        "ingredients": [
+          "2 garlic cloves, finely grated",
+          "1 (28-ounce) can crushed tomatoes",
+          "2 tablespoons olive oil",
+          "1 1/2 teaspoons fine sea salt"
+        ],
+        "instructions": "Whisk garlic, tomatoes, oil, and salt in a medium bowl. Don’t be tempted to add more salt; the flavor will concentrate when sauce is baked with pizza. Cover and chill 3 hours to let flavors come together before using.\nSauce can be made 1 week ahead. Keep chilled."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 4831,
+      "source_sha256": "8e3297cc263c86b4d855c229f4b7608b8e977ceffe89fc6582b0da9cde99fca3",
+      "recipe_name_vi": "Bò muối và bắp cải kiểu Irish Channel",
+      "ingredients_vi": [
+        "3 pounds thịt bò muối corned beef",
+        "1 củ hành tây, băm nhỏ",
+        "1 1/2 cốc nước",
+        "1 lon 14-oz. nước dùng gà",
+        "4 củ cà rốt, thái nhỏ",
+        "1 bắp cải, tách rời các lá"
+      ],
+      "instruction_steps_vi": [
+        "Rửa thịt bò muối và cắt bỏ mỡ thừa.",
+        "Đặt hành tây dưới đáy nồi nấu chậm.",
+        "Đặt thịt bò muối lên trên hành tây.",
+        "Thêm nước, nước dùng gà, cà rốt và bắp cải.",
+        "Nấu ở mức lửa thấp 8 đến 10 giờ, hoặc đến khi thịt chín và rau mềm."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "4d70ad4510b6d3715d02dc2d1ff9a7f3e5d9d111c42ea7c629656a904719117e",
+      "source": {
+        "recipe_name": "Irish Channel Corned Beef and Cabbage",
+        "ingredients": [
+          "3 pounds corned beef",
+          "1 onion, chopped",
+          "1 1/2 cups water",
+          "1 14-oz. can chicken broth",
+          "4 carrots, chopped",
+          "1 head cabbage, broken apart"
+        ],
+        "instructions": "Rinse the corned beef and cut off excess fat.\nPlace the onion on the bottom of the slow cooker.\nPlace the corned beef on top of the onion.\nAdd water, chicken broth, carrots and cabbage.\nCook on low heat for 8 to 10 hours, or until meat is cooked and vegetables are tender."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 4098,
+      "source_sha256": "4f24ebb6102e65652d4263da69ebe9aa850f1621d85844acaac1b639a7369238",
+      "recipe_name_vi": "Xiên bánh mì trứng kiểu Pháp và trái cây",
+      "ingredients_vi": [
+        "1 cốc sữa",
+        "2 quả trứng lớn",
+        "1 thìa canh mật ong",
+        "1 thìa cà phê bột quế",
+        "4 cốc bánh brioche, bánh mì Pháp hoặc bánh sandwich, cắt khối vuông cạnh 2 inch",
+        "1 thìa canh bơ hoặc dầu",
+        "16 quả dâu tây, bỏ cuống",
+        "2 quả chuối, cắt khoanh dày 1/2 inch",
+        "8 que xiên bằng gỗ"
+      ],
+      "instruction_steps_vi": [
+        "Trong bát, dùng phới đánh sữa, trứng, mật ong và quế với nhau.",
+        "Nhúng các khối bánh mì vào hỗn hợp sữa để phủ đều mỗi mặt.",
+        "Đun nóng bơ trong chảo trên lửa vừa và áp chảo bánh mì 1 1/2 phút mỗi mặt hoặc đến khi vàng nâu.",
+        "Xiên các khối bánh mì trứng, dâu tây và chuối rồi dùng kèm siro phong để chấm."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "b1bcfb4ed403bc0bb9021207644514450c7186a2f15b641912444be34d687fab",
+      "source": {
+        "recipe_name": "French Toast on a Stick",
+        "ingredients": [
+          "1 cup milk",
+          "2 large eggs",
+          "1 tablespoon honey",
+          "1 teaspoon ground cinnamon",
+          "4 cups brioche, french or sandwich bread, cut into 2 inch cubes",
+          "1 tablespoon butter or oil",
+          "16 strawberries, stems removed",
+          "2 bananas, sliced into 1/2 inch coins",
+          "8 wooden skewers"
+        ],
+        "instructions": "In a bowl, whisk together the milk, eggs, honey and cinnamon.\nDip the bread cubes in the milk mixture to coat each side.\nHeat the butter in a skillet over medium heat and cook the bread for 1 1/2 minutes on each side, or until golden brown.\nSkewer the french toast cubes, strawberries and bananas and serve with maple syrup for dipping."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "recipe_id": 8106,
+      "source_sha256": "715f465bbcc721430dc8781d349b6c04631095c0500131d85ccdfc17ec7129cc",
+      "recipe_name_vi": "Trứng áp chảo kiểu Pháp",
+      "ingredients_vi": [
+        "2 thìa cà phê bơ đã để mềm",
+        "2 quả trứng",
+        "2 nhúm muối"
+      ],
+      "instruction_steps_vi": [
+        "1. Xoa bơ lên chảo 9-inch đang ở nhiệt độ phòng. Đặt chảo lên bếp nhưng không bật lửa. Đập trứng vào hai phía đối diện của chảo.",
+        "2. Bật lửa ở mức vừa nhỏ và nấu trứng đến khi lòng trắng đông lại và chuyển sang màu trắng đục. Nêm muối và dùng với xốt hành lá, xúc xích và tôm Green Onion Sausage and Shrimp Gravy nếu thích."
+      ],
+      "version": "live-language-display-v1",
+      "source_instructions_sha256": "e67d989d3e4b73295df9b9e3a47177f471397e89b7e9c800ae5e3cd89fd90d32",
+      "source": {
+        "recipe_name": "Oeufs Au Plat",
+        "ingredients": [
+          "2 teaspoons softened butter",
+          "2 eggs",
+          "2 pinches salt"
+        ],
+        "instructions": "1. Rub a room-temperature 9-inch skillet with the butter. Place the skillet on the burner without turning it on. Crack the eggs into the skillet on opposite sides of the pan from each other.\n2. Turn the heat on to medium-low and cook the eggs until the whites have coagulated and turned opaque. Season the eggs with salt and serve with Green Onion Sausage and Shrimp Gravy , if you like."
+      },
+      "translation_source": "AI_authored_source_read_live_language_batch_20261025",
+      "review_status": "auto_unreviewed",
+      "reviewer": null,
+      "reviewed_at": null
+    }
+  ]
+}

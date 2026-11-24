@@ -1,0 +1,832 @@
+{
+  "schema_version": "recipe-detail-vi-v1",
+  "scope": "v6_verified_recommended_display_batch",
+  "recipes": [
+    {
+      "recipe_id": 417,
+      "source_sha256": "6a6ee6782b301c8f1419b2a62c1e741124c8139ff01a68c6700671bf355e84c4",
+      "source_instructions_sha256": "a6e0235d62c794042a072a52936a435cad7fe62b9f2f5640c1cb2748104765f3",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Crispy Sheet-Pan Broccoli",
+        "ingredients": [
+          "3 large heads broccoli (3 ½ to 4 pounds total), trimmed, cut into florets with some stalk attached (cut the florets in half if large)",
+          "½ cup olive oil",
+          "Kosher salt",
+          "Freshly ground black pepper"
+        ],
+        "instructions": "Set the racks in the upper and lower thirds of the oven and preheat it to 425°F.\nLine two large rimmed baking sheets with parchment paper. Divide the broccoli between the sheets, arranging them in a single layer. Drizzle each sheet of broccoli with ¼ cup oil, then season each with ½ teaspoon salt and a few grinds of pepper. Roast, stirring once and rotating the sheets halfway through, until the broccoli is crispy and charred in spots, 35 to 40 minutes. Taste and adjust the seasoning, if desired."
+      },
+      "recipe_name_vi": "Bông cải xanh nướng khay giòn",
+      "ingredients_vi": [
+        "3 búp bông cải xanh lớn (tổng cộng 3 ½ đến 4 pound), cắt tỉa, tách thành bông kèm phần cuống (cắt làm nửa nếu bông to)",
+        "½ cốc dầu ô liu",
+        "Muối kosher",
+        "Tiêu đen mới xay"
+      ],
+      "instruction_steps_vi": [
+        "Đặt giá lò nướng ở tầng trên và tầng dưới của lò và làm nóng lò trước ở 425°F.",
+        "Lót giấy nến lên hai khay nướng lớn có viền. Chia bông cải xanh vào hai khay, xếp thành một lớp. Rưới lên mỗi khay bông cải ¼ cốc dầu, rồi nêm mỗi khay ½ muỗng cà phê muối và vài vòng xay tiêu. Nướng, đảo một lần và đổi vị trí hai khay giữa chừng, cho đến khi bông cải giòn và xém cạnh ở vài chỗ, 35 đến 40 phút. Nếm thử và điều chỉnh gia vị nếu muốn."
+      ]
+    },
+    {
+      "recipe_id": 721,
+      "source_sha256": "2d519616a1ee95795aa37590649454ed900975dea4843b099fe1f6456305363d",
+      "source_instructions_sha256": "863d51c055d13964e198d68734127c2bfea5d5f6dea39aeeb00b762421c528b9",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Crispy Fried Shallots",
+        "ingredients": [
+          "8 small shallots, peeled",
+          "Vegetable oil (for frying; about 1 1/4 cups)",
+          "Kosher salt"
+        ],
+        "instructions": "Set a fine-mesh strainer over a medium heatproof bowl. Thinly slice shallots crosswise into rings on a mandoline (they should be about the thickness of a dime).\nPlace shallots in a medium saucepan and pour in oil to submerge. Set over medium-low heat and cook, stirring often with a fork to encourage rings to separate, until shallots are golden brown, 20–25 minutes. (Keep an eye on them; once they start to brown they’ll darken fast).\nPour shallots into strainer to drain, then transfer to paper towels. Season with salt and let cool. Reserve shallot oil for another use.\nDo Ahead: Shallots can be fried 5 days ahead. Store airtight at room temperature."
+      },
+      "recipe_name_vi": "Hành tím phi giòn",
+      "ingredients_vi": [
+        "8 củ hành tím nhỏ, bóc vỏ",
+        "Dầu thực vật (để chiên; khoảng 1 1/4 cốc)",
+        "Muối kosher"
+      ],
+      "instruction_steps_vi": [
+        "Đặt rây lưới mịn lên trên một tô chịu nhiệt cỡ vừa. Bào mỏng hành tím theo chiều ngang thành từng khoanh bằng bàn bào lát (độ dày xấp xỉ đồng xu).",
+        "Cho hành tím vào nồi cỡ vừa và đổ dầu ngập mặt hành. Đặt lên bếp lửa vừa-nhỏ và nấu, khuấy thường xuyên bằng nĩa để các khoanh hành tách rời nhau, cho đến khi hành tím vàng nâu, 20–25 phút. (Canh chừng kỹ; một khi hành bắt đầu chuyển nâu sẽ sẫm màu rất nhanh).",
+        "Đổ hành tím qua rây cho ráo dầu, rồi chuyển ra giấy thấm dầu. Rắc muối và để nguội. Giữ lại dầu hành tím để dùng cho món khác.",
+        "Làm trước: Hành tím có thể phi trước 5 ngày. Bảo quản kín khí ở nhiệt độ phòng."
+      ]
+    },
+    {
+      "recipe_id": 999,
+      "source_sha256": "94c1002d9d6f2e003fdc3d27ac3e1cf620e42005b53fb9389f1e170c0905d35d",
+      "source_instructions_sha256": "2d2540c25e522e29d51d9050a05f1d3420e4dc713e632d781946b4f32e5cf756",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Sunday Stash Sweet Potatoes",
+        "ingredients": [
+          "8 large sweet potatoes (9–12 oz. each)",
+          "1/4 cup vegetable oil",
+          "1 Tbsp. kosher salt"
+        ],
+        "instructions": "Place racks in upper and lower thirds of oven; preheat to 400°F. Cut potatoes in half lengthwise and divide between 2 rimmed baking sheets. Drizzle with oil and season all over with salt. Rub sweet potatoes with your hands to evenly coat, then arrange cut side down. Roast potatoes, rotating baking sheets top to bottom halfway through, until fork-tender, 25–35 minutes (depending on their size, some may be done before others; test each one every 5 minutes after the 25-minute mark).\nDo Ahead: Sweet potatoes can be roasted 4 days ahead. Let cool; cover and chill."
+      },
+      "recipe_name_vi": "Khoai lang nướng dự trữ",
+      "ingredients_vi": [
+        "8 củ khoai lang lớn (mỗi củ 9–12 oz.)",
+        "1/4 cốc dầu thực vật",
+        "1 muỗng canh muối kosher"
+      ],
+      "instruction_steps_vi": [
+        "Đặt giá ở tầng trên và tầng dưới của lò nướng; làm nóng trước đến 400°F. Bổ khoai làm nửa theo chiều dọc và chia ra 2 khay nướng có viền. Rưới dầu và rắc muối đều khắp mặt khoai. Xoa đều bằng tay để dầu muối phủ đều, sau đó xếp úp mặt cắt xuống dưới. Nướng khoai, đổi vị trí khay trên-dưới giữa chừng, cho đến khi dùng nĩa xiên thấy mềm, 25–35 phút (tùy kích cỡ, vài củ có thể chín trước; kiểm tra từng củ sau mỗi 5 phút kể từ mốc 25 phút).",
+        "Làm trước: Khoai lang có thể nướng trước 4 ngày. Để nguội; đậy kín và làm lạnh trong tủ mát."
+      ]
+    },
+    {
+      "recipe_id": 2599,
+      "source_sha256": "0b393c1cda2dcceec0efebbb11b737f2432ddab816bcbde98efe78950bc40325",
+      "source_instructions_sha256": "ff0021a1880736663ed0291de68b83456f519349d451021b9a8d7de444c7a97c",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Fully Salted Roast Chicken",
+        "ingredients": [
+          "1 (3 1/2–4-lb.) chicken",
+          "Kosher salt"
+        ],
+        "instructions": "Pat dry chicken with paper towels. Holding a 5-finger pinch of salt and positioning your hand at least 10\" above chicken, evenly rain salt down over chicken. Repeat with several more pinches of salt until both inside and outside of chicken are covered with salt (be generous and make sure to get inside all the nooks and crannies). Place chicken on a wire rack set inside a rimmed baking sheet and chill uncovered at least 8 hours and up to 1 day.\nLet sit at room temperature 1 hour.\nPreheat oven to 425°F. Roast chicken until an instant-read thermometer inserted into the thickest part of chicken thigh registers 165°F, 40–55 minutes. Transfer chicken to a cutting board and let rest 15 minutes before carving."
+      },
+      "recipe_name_vi": "Gà quay ướp muối đậm vị",
+      "ingredients_vi": [
+        "1 con gà (3 1/2–4 lb.)",
+        "Muối kosher"
+      ],
+      "instruction_steps_vi": [
+        "Thấm khô gà bằng khăn giấy. Nhúm một nhúm muối bằng 5 ngón tay và đặt tay cao hơn gà ít nhất 10\", rắc đều muối xuống khắp mình gà. Lặp lại thêm vài nhúm muối cho đến khi cả mặt trong lẫn mặt ngoài gà đều phủ muối (rắc hào phóng và nhớ xát vào mọi hốc cạnh). Đặt gà lên vỉ lưới đặt trong khay nướng có viền và làm lạnh để hở không đậy ít nhất 8 giờ và tối đa 1 ngày.",
+        "Để gà ở nhiệt độ phòng 1 giờ.",
+        "Làm nóng lò trước đến 425°F. Quay gà cho đến khi nhiệt kế đo nhanh cắm vào phần dày nhất của đùi gà đạt 165°F, 40–55 phút. Chuyển gà ra thớt và để nghỉ 15 phút trước khi chặt."
+      ]
+    },
+    {
+      "recipe_id": 6006,
+      "source_sha256": "cf60835c44d463b63a145be596256481d85611aafa8282b64e1034da834fc617",
+      "source_instructions_sha256": "494c090ff1539017835989668a2a13ad3154be1ac6fa18659159108ecde65ac7",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Crispy Fried Shallots",
+        "ingredients": [
+          "2 cups thinly sliced shallots (about 4 large shallots)",
+          "2 cups canola oil"
+        ],
+        "instructions": "1. In a small saucepan, heat the oil over medium-high until it registers 275°F on a deep-fry thermometer. Add the shallots and cook, stirring, until light golden brown, about 8 minutes. Using a slotted spoon, transfer the shallots to a paper towel-lined plate to drain.\n2. Increase the heat to high and place a fine-mesh sieve over a heatproof bowl. When the oil registers 350°F on the deep-fry thermometer, add the once fried shallots and cook just until they are crispy and well-browned, about 1-2 seconds, watching carefully so the shallots don't burn.\n3. Immediately pour the oil and shallots through the sieve to stop the cooking, then transfer to shallots to a paper towel-lined plate to drain. Reserve the oil for another use. The shallots will keep, stored in an airtight container, for 1 day, but they're best the day they are made."
+      },
+      "recipe_name_vi": "Hành tím phi giòn hai lửa",
+      "ingredients_vi": [
+        "2 cốc hành tím thái lát mỏng (khoảng 4 củ hành tím lớn)",
+        "2 cốc dầu hạt cải canola"
+      ],
+      "instruction_steps_vi": [
+        "1. Trong nồi nhỏ, đun nóng dầu ở lửa vừa-cao đến khi nhiệt kế chiên đạt 275°F. Cho hành tím vào và nấu, đảo đều, đến khi vàng nhạt, khoảng 8 phút. Dùng muôi thủng vớt hành tím ra đĩa có lót khăn giấy cho ráo dầu.",
+        "2. Tăng lửa lên mức cao và đặt rây lưới mịn lên trên tô chịu nhiệt. Khi dầu đạt 350°F trên nhiệt kế chiên, cho phần hành tím đã chiên sơ vào và chiên vừa đủ đến khi giòn rụm và vàng nâu đều, khoảng 1-2 giây, canh thật cẩn thận để hành tím không bị cháy.",
+        "3. Lập tức đổ dầu và hành tím qua rây để dừng quá trình làm chín, rồi chuyển hành tím ra đĩa lót khăn giấy cho ráo. Giữ lại dầu để dùng cho việc khác. Hành tím bảo quản trong hộp kín khí giữ được 1 ngày, nhưng ngon nhất trong ngày mới làm."
+      ]
+    },
+    {
+      "recipe_id": 10243,
+      "source_sha256": "963a24af1e5f6a72f86979c6f382fe55206c8a2d3f2482b6401292ba6c8db6d5",
+      "source_instructions_sha256": "da56953f28410ededd85767179f2f2e2c5c390b6f52ec07e5bb6bf97379dc705",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Garlic Confit",
+        "ingredients": [
+          "1 cup olive oil",
+          "24 garlic cloves, peeled"
+        ],
+        "instructions": "Heat oil in small saucepan over medium-low heat. Add garlic; cook over very low heat until soft, about 1 hour (do not brown). DO AHEAD: Can be made 1 month ahead. Keep chilled and completely covered in oil. Always use clean spoon to remove garlic."
+      },
+      "recipe_name_vi": "Tỏi ngâm dầu nấu chậm (Confit)",
+      "ingredients_vi": [
+        "1 cốc dầu ô liu",
+        "24 tép tỏi, bóc vỏ"
+      ],
+      "instruction_steps_vi": [
+        "Đun nóng dầu trong nồi nhỏ trên lửa vừa-nhỏ. Cho tỏi vào; nấu trên lửa rất nhỏ đến khi tỏi mềm nhừ, khoảng 1 giờ (không để vàng cháy). LÀM TRƯỚC: Có thể làm trước 1 tháng. Giữ lạnh và ngập hoàn toàn trong dầu. Luôn dùng muỗng sạch để múc tỏi."
+      ]
+    },
+    {
+      "recipe_id": 11602,
+      "source_sha256": "79160d1f562e04ac1a77ca55bdc2d0a2fb8e2549d8572d89629f88c9724ffbf3",
+      "source_instructions_sha256": "fe7ad7847530fc6b1afd7328a820e2b2ffb7df0fe90e48836d37a5e14477d540",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Roasted-Garlic Oil",
+        "ingredients": [
+          "6 large garlic cloves, peeled, halved",
+          "1 tablespoon olive oil",
+          "1 cup extra-virgin olive oil"
+        ],
+        "instructions": "Preheat oven to 350°F. Place garlic cloves and 1 tablespoon olive oil in small ovenproof skillet; stir to coat. Roast in oven until garlic is just golden, shaking pan occasionally, about 15 minutes. Add extra-virgin olive oil; cool in skillet. Transfer oil and garlic to jar. Seal tightly; store in refrigerator up to 2 weeks (keep garlic in oil for flavor and looks, but use only oil in recipes)."
+      },
+      "recipe_name_vi": "Dầu tỏi nướng thơm",
+      "ingredients_vi": [
+        "6 tép tỏi lớn, bóc vỏ, bổ đôi",
+        "1 muỗng canh dầu ô liu",
+        "1 cốc dầu ô liu nguyên chất extra-virgin"
+      ],
+      "instruction_steps_vi": [
+        "Làm nóng lò trước đến 350°F. Cho các tép tỏi và 1 muỗng canh dầu ô liu vào chảo nhỏ dùng được trong lò; đảo cho phủ đều dầu. Nướng trong lò đến khi tỏi vừa chuyển vàng, thỉnh thoảng lắc chảo, khoảng 15 phút. Thêm dầu ô liu nguyên chất extra-virgin vào; để nguội ngay trong chảo. Trút dầu và tỏi vào hũ. Đậy kín; bảo quản trong tủ lạnh tối đa 2 tuần (giữ tỏi trong dầu cho thơm và đẹp, nhưng khi nấu chỉ dùng phần dầu)."
+      ]
+    },
+    {
+      "recipe_id": 6236,
+      "source_sha256": "7cc62bfb1e980b2c06508c29b7c186d7ffde6f797468c5824047b305b9f55cff",
+      "source_instructions_sha256": "a554b3e4781b3349363edd451b10d1475edb97b19b55a75ac309be938bb671aa",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Homemade Fresh Chorizo",
+        "ingredients": [
+          "6 dried New Mexico chiles",
+          "8 garlic cloves, chopped",
+          "3 tablespoons smoked paprika",
+          "1 tablespoon kosher salt plus more for seasoning",
+          "1 teaspoon freshly ground black pepper",
+          "2 pounds ground pork",
+          "Ingredient info: Dried New Mexico chiles are sold at specialty foods stores, Latin markets, and some supermarkets. Smoked paprika is available at most supermarkets."
+        ],
+        "instructions": "Heat a large dry cast-iron skillet over medium-high heat. Add chiles; toast, turning often, until just fragrant, about 1 minute. Remove from pan and let cool.\nUsing kitchen scissors and working over a medium bowl, cut chiles into 1\" rings, reserving seeds and discarding stems. Cover with 1/2 cup hot water; let soak, stirring occasionally, until chiles are soft and pliable, about 10 minutes.\nTransfer chiles with seeds and soaking liquid to a blender. Add garlic, paprika, 1 tablespoon salt, and pepper; pulse until a paste forms.\nCombine pork and chile paste in a large bowl. Gently mix until just blended (do not overwork the meat).\nHeat a large cast-iron skillet over medium-high heat. Working in 2 batches, cook chorizo until cooked through, 7-8 minutes. (Be sure to let meat brown before turning and breaking it up into small pieces with a spoon or spatula.) Season with salt. DO AHEAD: Chorizo can be made 1 day ahead. Cover and chill. Rewarm before serving."
+      },
+      "recipe_name_vi": "Xúc xích tươi Chorizo tự làm",
+      "ingredients_vi": [
+        "6 quả ớt khô New Mexico",
+        "8 tép tỏi, băm nhỏ",
+        "3 muỗng canh ớt bột xông khói paprika",
+        "1 muỗng canh muối kosher thêm muối để nêm",
+        "1 muỗng cà phê tiêu đen mới xay",
+        "2 pound thịt heo xay",
+        "Thông tin nguyên liệu: Ớt khô New Mexico có bán tại cửa hàng thực phẩm đặc sản, chợ Mỹ Latinh và một số siêu thị. Ớt bột xông khói paprika có ở hầu hết siêu thị."
+      ],
+      "instruction_steps_vi": [
+        "Làm nóng chảo gang khô lớn trên lửa vừa-cao. Cho ớt khô vào; rang, lật thường xuyên, đến khi vừa dậy mùi thơm, khoảng 1 phút. Lấy ra khỏi chảo và để nguội.",
+        "Dùng kéo nhà bếp cắt bên trên một tô cỡ vừa, cắt ớt thành khoanh 1\", giữ lại hạt và bỏ cuống. Đổ ngập với 1/2 cốc nước nóng; ngâm, thỉnh thoảng khuấy, đến khi ớt mềm dẻo, khoảng 10 phút.",
+        "Chuyển ớt kèm hạt và nước ngâm vào máy xay sinh tố. Thêm tỏi, bột paprika, 1 muỗng canh muối và tiêu; xay nhuyễn theo nhịp đến khi thành hỗn hợp sệt.",
+        "Trộn thịt heo xay và hỗn hợp ớt sệt trong tô lớn. Trộn nhẹ tay vừa đủ quyện đều (không nhồi thịt quá kỹ).",
+        "Làm nóng chảo gang lớn trên lửa vừa-cao. Chia làm 2 mẻ để xào chorizo đến khi chín kỹ hoàn toàn, 7-8 phút. (Nhớ để thịt xém vàng trước khi lật và dằm nhỏ bằng muỗng hoặc xẻng nấu ăn.) Nêm muối vừa ăn. LÀM TRƯỚC: Chorizo có thể làm trước 1 ngày. Đậy kín và làm lạnh. Hâm nóng lại trước khi dùng."
+      ]
+    },
+    {
+      "recipe_id": 3254,
+      "source_sha256": "c93c87802cd7e63b1259b89dfa64b0d92bc8c5ae6e698774d8900cb690332281",
+      "source_instructions_sha256": "9e4cbe3ba46b7f18c4aadbf0dda3b4101e1de2763f453e4ff506614e6c3b28c3",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Maple Andouille Breakfast Sausage",
+        "ingredients": [
+          "1 1/2 tablespoons paprika",
+          "1 tablespoon finely chopped garlic",
+          "1 tablespoon kosher salt",
+          "1 1/2 teaspoons freshly ground black pepper",
+          "1/2 teaspoon cayenne pepper",
+          "1/2 teaspoon dried thyme",
+          "1/2 teaspoon crushed red pepper flakes",
+          "1 1/2 pounds ground pork",
+          "1/3 cup pure maple syrup",
+          "2 tablespoons canola oil, divided"
+        ],
+        "instructions": "Whisk paprika, garlic, salt, black pepper, cayenne, thyme, and red pepper flakes in a large bowl. Add pork and maple syrup. Using your hands, combine well.\nForm 16 (2\"-wide) patties about 1/2\" thick with damp hands and arrange on a large parchment-lined rimmed baking sheet.\nHeat 1 Tbsp. oil in a large cast-iron or nonstick skillet over medium. Cook patties in batches, adding remaining 1 Tbsp. oil to skillet between batches, until golden brown and cooked through, about 2 minutes per side. Drain on paper towels.\nUncooked patties can be formed 1 day ahead; wrap in plastic and chill. Patties can be cooked 30 minutes ahead; keep warm in a low oven."
+      },
+      "recipe_name_vi": "Xúc xích ăn sáng Andouille vị si-rô phong",
+      "ingredients_vi": [
+        "1 1/2 muỗng canh bột paprika",
+        "1 muỗng canh tỏi băm thật nhuyễn",
+        "1 muỗng canh muối kosher",
+        "1 1/2 muỗng cà phê tiêu đen mới xay",
+        "1/2 muỗng cà phê bột ớt cayenne",
+        "1/2 muỗng cà phê cỏ xạ hương khô",
+        "1/2 muỗng cà phê ớt mảnh khô đập dập",
+        "1 1/2 pound thịt heo xay",
+        "1/3 cốc si-rô phong nguyên chất",
+        "2 muỗng canh dầu canola, chia phần"
+      ],
+      "instruction_steps_vi": [
+        "Đánh đều bột paprika, tỏi, muối, tiêu đen, ớt cayenne, cỏ xạ hương và ớt mảnh trong tô lớn. Thêm thịt heo và si-rô phong. Dùng tay trộn thật đều.",
+        "Dùng tay hơi ẩm nặn thành 16 miếng chả (rộng 2\") dày khoảng 1/2\" và xếp lên khay nướng lớn có viền lót giấy nến.",
+        "Đun nóng 1 muỗng canh dầu trong chảo gang hoặc chảo chống dính lớn trên lửa vừa. Chiên chả thành từng mẻ, thêm 1 muỗng canh dầu còn lại vào chảo giữa các mẻ, đến khi vàng nâu và chín kỹ hoàn toàn, khoảng 2 phút mỗi mặt. Để ráo dầu trên khăn giấy.",
+        "Chả sống có thể nặn trước 1 ngày; bọc màng bọc thực phẩm và làm lạnh. Chả đã chín có thể làm trước 30 phút; giữ ấm trong lò nướng ở nhiệt độ thấp."
+      ]
+    },
+    {
+      "recipe_id": 3486,
+      "source_sha256": "d336717cd697a70d03499e1a8f390af937448e735f96dc138f1f866b7fa845f7",
+      "source_instructions_sha256": "0ce4dea1f43b0d56f187ef51b62b2ffee8c84ef1930887b42e36974bf89f8dab",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Butter Mandu (Butter Dumplings)",
+        "ingredients": [
+          "2 cups green cabbage, roughly chopped",
+          "2-inch knob of ginger, minced",
+          "4 garlic cloves, minced",
+          "2 pounds ground pork (80 percent lean)",
+          "1 tablespoon kosher salt",
+          "1 pound (4 sticks) unsalted butter, cut into chunks and softened to room temperature",
+          "45 refrigerated or frozen and thawed round Asian dumpling wrappers",
+          "Fresh Napa Cabbage Kimchi for serving",
+          "Light soy sauce, for serving",
+          "Vegetable or sesame oil, as needed (optional, for panfrying)"
+        ],
+        "instructions": "Place the cabbage, ginger and garlic in the bowl of a food processor and pulse until finely chopped. Place the cabbage mixture in a large bowl.\nUsing your hands, fold the ground pork into the cabbage mixture just enough to combine. Evenly sprinkle it with the salt and fold it in. Gently fold the butter into the mixture until thoroughly combined.\nTo assemble the mandu, place about 2 tablespoons of the filling in the center of each wrapper. Be careful not to overfill or the filling could leak while cooking. (If your wrappers are small, decrease the amount of filling per dumpling; the mandu should be full but not hard to close.) Dip your fingertip in a glass of water and paint the edge of the wrapper. Fold the wrapper over to form a half-moon and pinch the edges together to seal. (This is the easiest fold, for simplicity's sake, but you can fold your mandu in a number of fancy ways, like the pros do.) Mandu can be cooked right away or frozen for later (see below).\nIn a large pot, bring a few cups of water to a boil over high heat and insert a lightly oiled steaming basket above the water; do not submerge it. Carefully place the dumplings in the basket in one layer. Cover and steam for 5 to 7 minutes, or until the wrapper is a little translucent and the filling feels firm. Serve immediately with kimchi and soy sauce.\nCoat a sauté pan with some vegetable or sesame oil and place over medium heat. When the oil is shimmering-hot, place the fresh or thawed mandu in the pan, just enough to fit comfortably in one layer, and sauté each side for a few minutes until golden brown and cooked through. Serve with kimchi and soy sauce."
+      },
+      "recipe_name_vi": "Há cảo bơ Hàn Quốc (Butter Mandu)",
+      "ingredients_vi": [
+        "2 cốc bắp cải xanh, thái rối",
+        "Mẩu gừng dài 2-inch, băm nhỏ",
+        "4 tép tỏi, băm nhỏ",
+        "2 pound thịt heo xay (80 phần trăm thịt nạc)",
+        "1 muỗng canh muối kosher",
+        "1 pound (4 thỏi) bơ nhạt, cắt khối vuông và để mềm ở nhiệt độ phòng",
+        "45 vỏ bánh há cảo châu Á tròn (loại mát hoặc đông lạnh đã rã đông)",
+        "Kim chi cải thảo tươi ăn kèm",
+        "Nước tương nhạt, để chấm",
+        "Dầu thực vật hoặc dầu mè, lượng vừa đủ (tùy chọn, để áp chảo)"
+      ],
+      "instruction_steps_vi": [
+        "Cho bắp cải, gừng và tỏi vào cối máy xay thực phẩm và xay theo nhịp đến khi băm nhuyễn. Cho hỗn hợp bắp cải vào tô lớn.",
+        "Dùng tay trộn nhẹ thịt heo xay vào hỗn hợp bắp cải vừa đủ hòa quyện. Rắc đều muối lên và trộn vào. Nhẹ nhàng trộn phần bơ vào hỗn hợp cho đến khi quyện đều hoàn toàn.",
+        "Để gói mandu, múc khoảng 2 muỗng canh nhân đặt vào giữa mỗi vỏ bánh. Cẩn thận không nhồi quá nhiều để tránh nhân bị trào ra khi nấu. (Nếu vỏ bánh nhỏ, giảm lượng nhân mỗi chiếc; mandu nên đầy đặn nhưng không khó gấp.) Nhúng đầu ngón tay vào ly nước và thoa viền vỏ bánh. Gấp vỏ bánh thành hình nửa vầng trăng (bán nguyệt) và miết chặt mép để dán kín. (Đây là kiểu gấp đơn giản nhất cho dễ làm, nhưng bạn có thể xếp ly mandu theo nhiều cách cầu kỳ như đầu bếp chuyên nghiệp.) Mandu có thể nấu ngay hoặc cấp đông để dành sau (xem bên dưới).",
+        "Trong nồi lớn, đun sôi vài cốc nước trên lửa cao và đặt xửng hấp phết nhẹ dầu phía trên mặt nước; không để xửng ngập nước. Cẩn thận xếp bánh vào xửng thành một lớp. Đậy nắp và hấp trong 5 đến 7 phút, hoặc đến khi vỏ bánh hơi trong và nhân bánh săn chắc. Dùng nóng ngay với kim chi và nước tương.",
+        "Quét một ít dầu thực vật hoặc dầu mè lên chảo xào và đặt lên lửa vừa. Khi dầu nóng lăn tăn, xếp mandu tươi hoặc đã rã đông vào chảo vừa đủ một lớp thoải mái, áp chảo mỗi mặt vài phút đến khi vàng nâu và chín kỹ. Dùng kèm kim chi và nước tương."
+      ]
+    },
+    {
+      "recipe_id": 4618,
+      "source_sha256": "8db87c7f9225ed0cecc4e4af92662e0c2016b191e8989e2ac7f47691afe474e5",
+      "source_instructions_sha256": "2810f4e30ff19326732033e719adef85752c881bf910edb827e4d0b0d3164fe4",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Lemongrass Pork Patties With Vietnamese Dipping Sauce",
+        "ingredients": [
+          "1 pound ground pork",
+          "3 large cloves of garlic, minced (about 2 tablespoons)",
+          "1/4 cup thinly sliced scallion greens (from 3 to 4 scallions)",
+          "1 stalk lemongrass, tough outer layers removed, lower 6 inches of tender bulb, finely chopped",
+          "1 tablespoon finely chopped fresh ginger",
+          "1 1/2 teaspoons fish sauce (such as nuoc mam or nam pla)",
+          "1 1/2 teaspoons sugar",
+          "1/2 teaspoon freshly ground black pepper",
+          "3/4 teaspoon kosher salt",
+          "1 1/2 tablespoons rice vinegar, plus more to taste",
+          "1 tablespoons sugar, plus more to taste",
+          "1/4 cup water",
+          "1 tablespoon plus 1 teaspoon fish sauce",
+          "Pinch of crushed red pepper",
+          "12 lettuce leaves, such as Boston lettuce or iceberg",
+          "Herb sprigs, such as mint, cilantro and Thai basil"
+        ],
+        "instructions": "In a large bowl, use your hands to mix together all of the ingredients, then form the mixture into twelve 2-inch patties (about 3/4 inch thick). Arrange the patties on a plate and refrigerate for at least 30 minutes, until firm.\nPreheat the grill for at least 10 minutes and set it up to grill over moderately high heat. Oil the grates. Grill the patties until brown grill marks form on the bottom, about 4 minutes. Flip the patties, then grill for 3 to 4 minutes longer, until cooked through but still juicy.\nIn a small mixing bowl, whisk the vinegar with the sugar and water. Add the fish sauce, then taste and season with more vinegar or sugar, depending on your taste.\nArrange the lettuce leaves and herb sprigs on a platter. To serve, wrap the pork patties and herb sprigs in lettuce and dip in the sauc"
+      },
+      "recipe_name_vi": "Chả heo nướng sả ăn kèm nước chấm Việt Nam",
+      "ingredients_vi": [
+        "1 pound thịt heo xay",
+        "3 tép tỏi lớn, băm nhỏ (khoảng 2 muỗng canh)",
+        "1/4 cốc hành lá phần xanh thái lát mỏng (từ 3 đến 4 nhánh hành lá)",
+        "1 cây sả, bỏ lớp bẹ già bên ngoài, lấy 6 inch phần gốc mềm bên dưới, băm thật nhuyễn",
+        "1 muỗng canh gừng tươi băm nhuyễn",
+        "1 1/2 muỗng cà phê nước mắm (như nước mắm Việt Nam hoặc nam pla)",
+        "1 1/2 muỗng cà phê đường",
+        "1/2 muỗng cà phê tiêu đen mới xay",
+        "3/4 muỗng cà phê muối kosher",
+        "1 1/2 muỗng canh giấm gạo, thêm tùy khẩu vị",
+        "1 muỗng canh đường, thêm tùy khẩu vị",
+        "1/4 cốc nước",
+        "1 muỗng canh cộng thêm 1 muỗng cà phê nước mắm",
+        "Một nhúm ớt đỏ khô đập dập",
+        "12 lá xà lách, như xà lách búp Boston hoặc iceberg",
+        "Các nhánh rau thơm, như bạc hà, ngò rí và húng quế Thái"
+      ],
+      "instruction_steps_vi": [
+        "Trong tô lớn, dùng tay trộn đều tất cả các nguyên liệu làm chả, rồi nặn hỗn hợp thành mười hai miếng chả 2-inch (dày khoảng 3/4 inch). Xếp chả lên đĩa và làm lạnh trong tủ mát ít nhất 30 phút đến khi săn lại.",
+        "Làm nóng vỉ nướng ít nhất 10 phút và chỉnh lửa nướng ở mức vừa-cao. Phết dầu lên vỉ nướng. Nướng chả đến khi mặt dưới có vệt cháy cạnh nâu đẹp, khoảng 4 phút. Lật mặt chả, rồi nướng thêm 3 đến 4 phút nữa cho đến khi chín kỹ bên trong nhưng vẫn mọng nước.",
+        "Trong tô trộn nhỏ, khuấy đều giấm với đường và nước. Thêm nước mắm vào, rồi nếm và điều chỉnh thêm giấm hoặc đường tùy khẩu vị của bạn.",
+        "Xếp lá xà lách và các nhánh rau thơm ra đĩa lớn. Khi ăn, cuốn chả thịt heo cùng rau thơm trong lá xà lách rồi chấm với nước chấm."
+      ]
+    },
+    {
+      "recipe_id": 4063,
+      "source_sha256": "c0c2523864faa2aefb66a2e78dcde805734c346056f8e085c8b440f0244803df",
+      "source_instructions_sha256": "3e1e644ad497ef7643355ae4d18f5afaea4817e42fcc6ca51ad2c7602e6fff0b",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Shrimp Scampi",
+        "ingredients": [
+          "2 tablespoons butter",
+          "1 pound shrimp, peeled and deveined",
+          "1/2 teaspoon salt",
+          "2 garlic cloves, minced",
+          "2 tablespoons lemon juice",
+          "2 tablespoons minced fresh parsley"
+        ],
+        "instructions": "Heat the butter in a sauté pan over medium heat.\nAdd the shrimp and salt and sauté for 2 minutes. Add the garlic and sauté for 1 more minute, or until the shrimp are cooked through.\nSprinkle the shrimp with the lemon juice and parsley, and toss to coat well.\nServe alongside vegetables or over pasta."
+      },
+      "recipe_name_vi": "Tôm xào bơ tỏi chanh (Shrimp Scampi)",
+      "ingredients_vi": [
+        "2 muỗng canh bơ",
+        "1 pound tôm, bóc vỏ và bỏ chỉ lưng",
+        "1/2 muỗng cà phê muối",
+        "2 tép tỏi, băm nhuyễn",
+        "2 muỗng canh nước cốt chanh",
+        "2 muỗng canh ngò tây tươi băm nhỏ"
+      ],
+      "instruction_steps_vi": [
+        "Đun nóng bơ trong chảo xào trên lửa vừa.",
+        "Cho tôm và muối vào đảo xào trong 2 phút. Thêm tỏi và xào thêm 1 phút nữa, hoặc đến khi tôm chín kỹ đều.",
+        "Rưới nước cốt chanh và rắc ngò tây lên tôm, đảo đều cho áo gia vị.",
+        "Dùng kèm rau củ hoặc rưới lên mì ống."
+      ]
+    },
+    {
+      "recipe_id": 2934,
+      "source_sha256": "bfb2242ba0eac87eed9977ed7ab63e65816de7360609cdc14f5821d83277acdf",
+      "source_instructions_sha256": "a82506bb8b0e3a049638162c75cf3c593b1529077acdcf371b52a7aca4c4c2a3",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Gambas al Ajillo",
+        "ingredients": [
+          "1/4 cup olive oil",
+          "20 garlic cloves, thinly sliced",
+          "20 large shrimp, peeled, deveined",
+          "1 chile de árbol, crumbled",
+          "2 teaspoons brandy",
+          "Kosher salt",
+          "Finely chopped parsley (for serving)"
+        ],
+        "instructions": "Heat oil in a large skillet over medium-high until hot but not smoking. Add garlic and cook, stirring constantly to keep from burning, until golden, about 1 minute.\nAdd shrimp and chile de árbol to skillet and cook, tossing constantly, until shrimp are cooked through, about 2 minutes. Add brandy and cook, continuing to toss constantly, 1 minute; season with salt.\nTo serve, divide shrimp among plates and scatter parsley over top."
+      },
+      "recipe_name_vi": "Tôm sốt tỏi ớt kiểu Tây Ban Nha (Gambas al Ajillo)",
+      "ingredients_vi": [
+        "1/4 cốc dầu ô liu",
+        "20 tép tỏi, thái lát mỏng",
+        "20 con tôm lớn, bóc vỏ, bỏ chỉ lưng",
+        "1 quả ớt chile de árbol, bóp vụn",
+        "2 muỗng cà phê rượu brandy",
+        "Muối kosher",
+        "Ngò tây băm nhuyễn (để ăn kèm)"
+      ],
+      "instruction_steps_vi": [
+        "Đun dầu trong chảo lớn trên lửa vừa-cao đến khi nóng nhưng chưa bốc khói. Cho tỏi vào và nấu, đảo liên tục để không bị cháy, đến khi vàng, khoảng 1 phút.",
+        "Cho tôm và ớt chile de árbol vào chảo rồi nấu, đảo xóc liên tục đến khi tôm chín kỹ, khoảng 2 phút. Thêm rượu brandy và nấu, tiếp tục đảo liên tục trong 1 phút; nêm muối vừa ăn.",
+        "Khi dùng, chia tôm ra các đĩa và rắc ngò tây lên trên."
+      ]
+    },
+    {
+      "recipe_id": 696,
+      "source_sha256": "fe0442b273e0f6c9205a765feefc30357909d2a2a2020b185b004c5733df602e",
+      "source_instructions_sha256": "945324efd0d5d0da2d6b2048db1a55509b3ea49f889fb249c0aa61c8d65719fb",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Shrimp and Basil Stir-Fry",
+        "ingredients": [
+          "3 Fresno chiles, coarsely chopped",
+          "6 garlic cloves, smashed",
+          "1/4 cup sugar",
+          "2 Tbsp. fish sauce",
+          "1 tsp. kosher salt",
+          "4 Tbsp. vegetable or grapeseed oil, divided",
+          "1 lb. large shrimp, peeled, deveined",
+          "2 cups basil leaves (about 1 bunch)",
+          "Lime wedges (for serving)"
+        ],
+        "instructions": "Blend chiles, garlic, sugar, fish sauce, salt, and 3 Tbsp. oil in a blender until smooth. Transfer marinade to a medium bowl; add shrimp and toss to coat. Let sit 10 minutes.\nHeat remaining 1 Tbsp. oil in a large nonstick skillet over medium-high. Working in batches if needed to avoid crowding the pan, transfer shrimp to skillet, leaving marinade behind, and cook until deeply browned around the edges and flesh is opaque, about 1 minute per side. Remove pan from heat and add basil; toss vigorously until basil is wilted.\nTransfer shrimp mixture to plates. Serve with rice and lime wedges alongside."
+      },
+      "recipe_name_vi": "Tôm xào húng quế đậm vị",
+      "ingredients_vi": [
+        "3 quả ớt Fresno, cắt rối",
+        "6 tép tỏi, đập dập",
+        "1/4 cốc đường",
+        "2 muỗng canh nước mắm",
+        "1 muỗng cà phê muối kosher",
+        "4 muỗng canh dầu thực vật hoặc dầu hạt nho, chia phần",
+        "1 lb. tôm lớn, bóc vỏ, bỏ chỉ lưng",
+        "2 cốc lá húng quế (khoảng 1 bó)",
+        "Chanh cắt múi (để ăn kèm)"
+      ],
+      "instruction_steps_vi": [
+        "Xay ớt, tỏi, đường, nước mắm, muối và 3 muỗng canh dầu trong máy xay sinh tố đến khi mịn. Đổ hỗn hợp ướp ra tô cỡ vừa; cho tôm vào trộn phủ đều. Để nghỉ 10 phút.",
+        "Đun nóng 1 muỗng canh dầu còn lại trong chảo chống dính lớn trên lửa vừa-cao. Chia mẻ nếu cần để chảo không bị chật, gắp tôm vào chảo và giữ lại phần xốt ướp, chiên đến khi xém nâu đậm ở rìa và thịt tôm đục săn lại, khoảng 1 phút mỗi mặt. Nhấc chảo khỏi bếp và cho lá húng quế vào; xóc mạnh tay đến khi húng quế héo dịu.",
+        "Trút tôm ra đĩa. Dùng nóng với cơm và chanh cắt múi ăn kèm."
+      ]
+    },
+    {
+      "recipe_id": 8849,
+      "source_sha256": "69e9d15f175cc339ba829ce3208d7ad9613855c3068f0791428fae2a2d995938",
+      "source_instructions_sha256": "429d2514ea564f4f444a18537f89433eec264a6280d48a3ec4f81da2c890f724",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Stir-Fried Egg and Tomato",
+        "ingredients": [
+          "6 large eggs",
+          "2 tablespoons vegetable oil, divided",
+          "2 scallions, finely chopped (reserve some chopped greens for garnish)",
+          "4 medium tomatoes (about 1 pound), each cut into 6 wedges",
+          "1 teaspoon sugar",
+          "Accompaniment: white rice"
+        ],
+        "instructions": "Beat eggs with 1/2 teaspoon salt until smooth but not frothy.\nHeat 1 tablespoon oil in a 12-inch nonstick skillet over medium-high heat until hot. Add eggs and cook, undisturbed, just until a thin film of cooked egg forms on bottom of skillet but most of eggs are still runny, 5 to 10 seconds. Immediately scrape eggs into a bowl. Wipe out skillet.\nHeat remaining tablespoon oil in skillet over medium-high heat until hot. Add scallions and stir-fry until just softened, about 30 seconds. Add tomatoes and cook, stirring and turning occasionally, until juices are released and tomatoes are slightly wilted but still intact, 4 to 6 minutes. Sprinkle sugar and 1/4 teaspoon salt over tomatoes and stir to combine. Return eggs to skillet and cook, stirring occasionally, until eggs are just cooked through. Serve sprinkled with reserved scallion greens."
+      },
+      "recipe_name_vi": "Trứng bác xào cà chua",
+      "ingredients_vi": [
+        "6 quả trứng cỡ lớn",
+        "2 muỗng canh dầu thực vật, chia phần",
+        "2 nhánh hành lá, băm nhuyễn (giữ lại ít phần lá xanh thái nhỏ để trang trí)",
+        "4 quả cà chua cỡ vừa (khoảng 1 pound), mỗi quả bổ làm 6 múi",
+        "1 muỗng cà phê đường",
+        "Món ăn kèm: cơm trắng"
+      ],
+      "instruction_steps_vi": [
+        "Đánh tan trứng với 1/2 muỗng cà phê muối đến khi mịn đều nhưng không nổi bọt nhiều.",
+        "Đun nóng 1 muỗng canh dầu trong chảo chống dính 12 inch trên lửa vừa-cao đến khi dầu nóng. Đổ trứng vào và nấu nguyên không đảo, vừa đủ thấy một lớp màng trứng chín mỏng dưới đáy chảo nhưng phần lớn trứng vẫn còn ướt mềm, 5 đến 10 giây. Lập tức vét trứng ra tô. Lau sạch chảo.",
+        "Đun nóng phần dầu còn lại (muỗng canh thứ hai) trong chảo trên lửa vừa-cao đến khi nóng. Cho hành lá vào xào nhanh đến khi vừa mềm thơm, khoảng 30 giây. Thêm cà chua vào nấu, đảo và lật thỉnh thoảng cho đến khi cà chua tiết nước và hơi mềm nhưng vẫn giữ nguyên hình múi, 4 đến 6 phút. Rắc đường và 1/4 muỗng cà phê muối lên cà chua rồi đảo đều. Trút trứng trở lại chảo và nấu, thỉnh thoảng đảo nhẹ, đến khi trứng vừa chín tới. Dọn ra đĩa rắc phần hành lá xanh đã chừa lại lên trên."
+      ]
+    },
+    {
+      "recipe_id": 7136,
+      "source_sha256": "e441b5a52ae07a0fb16672c92e2f069202c71013be37920db7a2576949b573f8",
+      "source_instructions_sha256": "f1ebdd635475ca10ea6d9b35899ffee9ec6204ca9b5532cd58dae211efeef007",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Seared Scallions with Poached Eggs",
+        "ingredients": [
+          "2 bunches scallions",
+          "3 tablespoons extra-virgin olive oil, divided",
+          "1 teaspoon fresh lemon juice",
+          "Kosher salt and freshly ground black pepper",
+          "2 large eggs"
+        ],
+        "instructions": "Mince 1 whole scallion, transfer to a bowl, and whisk in 2 tablespoons oil and lemon juice. Season to taste with salt and pepper and set scallion sauce aside. Put the remaining scallions on a plate. Drizzle with remaining oil and toss to coat. Season to taste with salt and pepper. Heat a large cast-iron grill pan or skillet over medium-high heat. Cook scallions, turning occasionally, until tender and slightly charred, about 5 minutes. Divide scallions between plates.\nPour 1/2 cup water into each of two 8-ounce microwave-safe coffee cups. Crack 1 egg into each cup, making sure it's completely submerged. Cover each with a saucer. Microwave 1 egg on high until white is set but yolk is runny, about 1 minute (cooking time will vary depending on microwave). Uncover; using a slotted spoon, transfer egg to top of 1 serving of scallions. Dress with half of the scallion sauce. Repeat with remaining egg and sauce; serve."
+      },
+      "recipe_name_vi": "Hành lá áp chảo ăn cùng trứng chần",
+      "ingredients_vi": [
+        "2 bó hành lá",
+        "3 muỗng canh dầu ô liu nguyên chất extra-virgin, chia phần",
+        "1 muỗng cà phê nước cốt chanh tươi",
+        "Muối kosher và tiêu đen mới xay",
+        "2 quả trứng cỡ lớn"
+      ],
+      "instruction_steps_vi": [
+        "Băm nhỏ 1 cây hành lá nguyên gốc, cho vào tô và đánh cùng 2 muỗng canh dầu và nước cốt chanh. Nêm muối và tiêu vừa khẩu vị rồi để riêng phần xốt hành. Xếp phần hành lá còn lại lên đĩa. Rưới số dầu còn lại và trộn đều. Nêm muối tiêu vừa ăn. Đun nóng chảo nướng gang có rãnh hoặc chảo gang lớn trên lửa vừa-cao. Áp chảo hành lá, thỉnh thoảng lật đến khi mềm và hơi xém cạnh, khoảng 5 phút. Chia hành lá ra hai đĩa.",
+        "Rót 1/2 cốc nước vào mỗi chiếc trong hai cốc cà phê 8-ounce dùng được trong lò vi sóng. Đập 1 quả trứng vào mỗi cốc, đảm bảo trứng ngập hoàn toàn trong nước. Đậy mỗi chiếc bằng một chiếc đĩa lót. Quay lò vi sóng 1 quả trứng ở mức cao đến khi lòng trắng chín đặc nhưng lòng đỏ còn lỏng, khoảng 1 phút (thời gian nấu sẽ tùy loại lò vi sóng). Mở nắp; dùng muôi thủng vớt trứng đặt lên trên 1 phần hành lá. Rưới nửa phần xốt hành lá lên. Lặp lại với quả trứng và phần xốt còn lại rồi thưởng thức."
+      ]
+    },
+    {
+      "recipe_id": 6889,
+      "source_sha256": "82aaf58ffc4fe228f0b4ac5c60ae447724a05700efc17dc2fb4d0aec52c8dbff",
+      "source_instructions_sha256": "dea0e2c63c262a907440c31fec8098457d3b090d0ba818d8a50e73d980bcbbae",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Brown Bag Chicken",
+        "ingredients": [
+          "One 3- to 3 1/2-pound chicken",
+          "Sea salt and freshly ground black pepper",
+          "1 onion, cut in half",
+          "4 sprigs fresh rosemary",
+          "1 tablespoon ground hot Hungarian paprika"
+        ],
+        "instructions": "Preheat the oven to 400°F.\nRinse the chicken, pat dry, and remove any excess fat. Sprinkle generously with salt and pepper to taste inside and out. Place the onion and rosemary inside the cavity and rub the outside of the chicken with the paprika.\nLay a standard-size brown paper grocery bag on its side and place the chicken inside, tying the top of the bag closed with kitchen string. Place the bagged chicken on a rimmed baking sheet in the lower third of the oven, so you have plenty of room at the top. Cook for 1 1/2 hours, remove the chicken from the oven, and carefully open the bag to release the steam. Check for doneness by inserting an internal thermometer in the thickest part of the thigh; it should read about 165°F and the juices should run clear when the thigh is pierced with the tip of a small knife. Let rest for about 10 minutes before carving. Slice the breasts and cut the wings, legs, and thighs into pieces. Serve warm."
+      },
+      "recipe_name_vi": "Gà quay túi giấy nâu thơm hương thảo",
+      "ingredients_vi": [
+        "Một con gà nặng 3 đến 3 1/2 pound",
+        "Muối biển và tiêu đen mới xay",
+        "1 củ hành tây, bổ làm nửa",
+        "4 nhánh hương thảo tươi",
+        "1 muỗng canh bột ớt paprika cay kiểu Hungary"
+      ],
+      "instruction_steps_vi": [
+        "Làm nóng lò nướng trước đến 400°F.",
+        "Rửa sạch gà, thấm khô và lọc bỏ mỡ thừa. Rắc hào phóng muối và tiêu vừa khẩu vị vào bên trong lẫn bên ngoài. Nhồi hành tây và hương thảo vào trong khoang bụng gà rồi xát bột ớt paprika phủ mặt ngoài gà.",
+        "Đặt nằm ngang một túi giấy nâu cỡ tiêu chuẩn và cho gà vào bên trong, buộc kín miệng túi bằng dây buộc thực phẩm. Đặt túi gà lên khay nướng có viền ở phần dưới của lò để chừa nhiều khoảng trống phía trên. Nướng trong 1 1/2 giờ, lấy gà ra khỏi lò và cẩn thận mở túi để hơi nóng thoát ra. Kiểm tra độ chín bằng cách cắm nhiệt kế thực phẩm vào phần dày nhất của đùi gà; nhiệt kế nên đạt khoảng 165°F và nước thịt chảy ra phải trong khi xiên nhẹ đầu dao nhỏ vào đùi. Để gà nghỉ khoảng 10 phút trước khi chặt. Thái lát phần ức và chia cánh, cẳng, đùi thành từng miếng. Dùng nóng."
+      ]
+    },
+    {
+      "recipe_id": 12508,
+      "source_sha256": "912b39cad44879b7d0b064d3620da8102be1799651def8afe177d2844a72f07e",
+      "source_instructions_sha256": "52b030f04c080af05f3d40aa85cd601050e9757c02942efdca2f67b079037c04",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Dan Barber's Pork Belly",
+        "ingredients": [
+          "1/2 pork belly (approximately 6 lbs)",
+          "2 cups cure mix",
+          "2 quarts rich chicken stock (water can be substituted)"
+        ],
+        "instructions": "Rub the pork belly with the dry cure and refrigerate for 3 days.\nOn day 3, rinse the pork belly and place in a casserole pan as close to the size of the belly as possible. Preheat the oven to 200°F.\nCover belly with rich chicken stock and cover pan. Place in oven and cook overnight, about 7 hours.\nRemove belly from braising liquid, drain, and cut into serving pieces. To serve, sear the fat side of the belly until crispy."
+      },
+      "recipe_name_vi": "Thịt ba rọi om chậm da giòn (kiểu Dan Barber)",
+      "ingredients_vi": [
+        "1/2 tảng thịt ba rọi heo (khoảng 6 lb)",
+        "2 cốc hỗn hợp muối ướp khô",
+        "2 quarts nước dùng gà đậm vị (có thể thay bằng nước)"
+      ],
+      "instruction_steps_vi": [
+        "Xát đều hỗn hợp muối ướp khô lên thịt ba rọi và làm lạnh trong tủ mát trong 3 ngày.",
+        "Sang ngày thứ 3, rửa sạch lớp muối ướp trên ba rọi và đặt thịt vào khay nướng sâu lòng có kích thước sát nhất với tảng thịt. Làm nóng lò nướng trước đến 200°F.",
+        "Đổ nước dùng gà đậm vị ngập mặt thịt và đậy kín khay. Cho vào lò nướng và nấu qua đêm, khoảng 7 giờ.",
+        "Lấy thịt ba rọi khỏi nước om, để ráo và cắt thành từng phần vừa ăn. Khi dọn ăn, áp chảo mặt mỡ của miếng thịt ba rọi đến khi vàng giòn."
+      ]
+    },
+    {
+      "recipe_id": 10763,
+      "source_sha256": "c2e4fb66db37bfda6f230c0fd08dcbf64a903c860fba77f4075ac240290a96ec",
+      "source_instructions_sha256": "217e301a6163e8f1d546f023b4c8a09cdd87c59792f2a29f505d583723ec2f13",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Stewed Corn and Tomatoes with Okra",
+        "ingredients": [
+          "6 scallions, chopped",
+          "1 fresh jalapeño, finely chopped, with seeds",
+          "1 large green bell pepper, coarsely chopped",
+          "3 tablespoons unsalted butter",
+          "1 pound tomatoes, coarsely chopped",
+          "3 cups corn (from 5 to 6 ears)",
+          "1/2 pound small fresh okra, trimmed, keeping stem end intact"
+        ],
+        "instructions": "Cook scallions, jalapeño, bell pepper, and 1/2 teaspoon salt in butter in a 12-inch heavy skillet over medium heat, stirring occasionally, until scallions begin to brown, 7 to 9 minutes. Stir in tomatoes and cook, stirring occasionally, until broken down into a sauce, about 15 minutes.\nAdd corn and okra and cook, stirring occasionally, until just tender, about 15 minutes."
+      },
+      "recipe_name_vi": "Bắp hầm cà chua và đậu bắp",
+      "ingredients_vi": [
+        "6 nhánh hành lá, thái nhỏ",
+        "1 quả ớt jalapeño tươi, băm nhuyễn, giữ nguyên hạt",
+        "1 quả ớt chuông xanh lớn, thái rối",
+        "3 muỗng canh bơ nhạt",
+        "1 pound cà chua, thái rối",
+        "3 cốc hạt bắp (tách từ 5 đến 6 trái bắp)",
+        "1/2 pound đậu bắp tươi trái nhỏ, cắt tỉa nhưng giữ nguyên phần đầu cuống"
+      ],
+      "instruction_steps_vi": [
+        "Xào hành lá, ớt jalapeño, ớt chuông và 1/2 muỗng cà phê muối trong bơ ở chảo dày 12 inch trên lửa vừa, thỉnh thoảng đảo, đến khi hành lá bắt đầu chuyển nâu, 7 đến 9 phút. Cho cà chua vào đảo đều và nấu, thỉnh thoảng khuấy đến khi cà chua nhuyễn thành xốt, khoảng 15 phút.",
+        "Thêm hạt bắp và đậu bắp vào nấu, thỉnh thoảng đảo đến khi vừa chín mềm, khoảng 15 phút."
+      ]
+    },
+    {
+      "recipe_id": 5544,
+      "source_sha256": "7bb6cbd3cf8463ebb2f820c91088fa1f856ca26a18102aa076bc7c49721228bf",
+      "source_instructions_sha256": "36d0ead740af0fa3b5f4e69fc161900e12f98813fc6f87732802979d3a81bd85",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Maw Maw Hinson's Tomato Gravy",
+        "ingredients": [
+          "1 1/2 pounds tomatoes, cut into 2\" pieces",
+          "1/4 cup (1/2 stick) unsalted butter, cut into 1/2\" pieces",
+          "Kosher salt, black pepper"
+        ],
+        "instructions": "Bring tomatoes and butter to a simmer in a large skillet over medium heat. Cover, reduce heat to low, and simmer gently, stirring occasionally, until tomatoes are softened, 35-40 minutes. Season with salt and pepper."
+      },
+      "recipe_name_vi": "Xốt cà chua bơ kiểu Maw Maw Hinson",
+      "ingredients_vi": [
+        "1 1/2 pound cà chua, cắt miếng cỡ 2\"",
+        "1/4 cốc (1/2 thỏi) bơ nhạt, cắt khối 1/2\"",
+        "Muối kosher, tiêu đen"
+      ],
+      "instruction_steps_vi": [
+        "Cho cà chua và bơ vào chảo lớn đun sôi lăn tăn trên lửa vừa. Đậy nắp, hạ lửa nhỏ và nấu liu riu nhẹ nhàng, thỉnh thoảng khuấy đến khi cà chua mềm nhừ, 35-40 phút. Nêm muối và tiêu vừa ăn."
+      ]
+    },
+    {
+      "recipe_id": 51,
+      "source_sha256": "66e551e8a824099a059e13b8326957de63ff8128b2c0f5d0cf27fe7227f63c05",
+      "source_instructions_sha256": "1b403378ada45bd81e3e8b08f44737f5201151bd184292c437c1bf71a8844643",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Tomato Brown Butter",
+        "ingredients": [
+          "1 large tomato (about 8 oz. or 230 g)",
+          "½ cup (120 g) unsalted butter",
+          "Kosher salt",
+          "Freshly ground black pepper"
+        ],
+        "instructions": "Place the tomato in a blender and purée, then strain through a fine-mesh sieve; you should get about ½ cup (120 ml). Add the butter to a large skillet and gently cook over medium heat until it starts to brown and smell nutty. Stir in the smooth tomato purée (be careful; it might spatter) and simmer for another minute or so. You’re looking to slightly cook the purée but keep its brightness. The mix won’t emulsify, which is fine. Season with salt and pepper and set aside."
+      },
+      "recipe_name_vi": "Xốt cà chua bơ nâu",
+      "ingredients_vi": [
+        "1 quả cà chua lớn (khoảng 8 oz. hoặc 230 g)",
+        "½ cốc (120 g) bơ nhạt",
+        "Muối kosher",
+        "Tiêu đen mới xay"
+      ],
+      "instruction_steps_vi": [
+        "Cho cà chua vào máy xay sinh tố xay nhuyễn, rồi lọc qua rây lưới mịn; bạn sẽ thu được khoảng ½ cốc (120 ml). Cho bơ vào chảo lớn và nấu nhẹ nhàng trên lửa vừa đến khi bơ bắt đầu chuyển nâu và dậy mùi hạt dẻ thơm. Cẩn thận khuấy phần cà chua xay mịn vào (chú ý; hỗn hợp có thể bắn dầu) rồi đun liu riu thêm khoảng một phút nữa. Mục tiêu là nấu chín nhẹ phần cà chua nhưng vẫn giữ được vị tươi sáng. Hỗn hợp sẽ không nhũ hóa quyện hoàn toàn, điều đó hoàn toàn bình thường. Nêm muối tiêu rồi để riêng."
+      ]
+    },
+    {
+      "recipe_id": 1284,
+      "source_sha256": "c65fe6af0e4d599562c67c9fd42aa2ab4a4b4ce5cc268377cd746760eaf24cb5",
+      "source_instructions_sha256": "4acd9b1fdb54c4690de6e3b4822ede969592ff731ad5c7dcab29eaf1e5f38abb",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Kimchi-Fried Grains",
+        "ingredients": [
+          "1/2 cup kimchi, plus 3 Tbsp. juice from jar",
+          "4 scallions",
+          "2 Tbsp. extra-virgin olive oil",
+          "2 large eggs",
+          "Kosher salt",
+          "1 medium carrot, peeled, cut into matchsticks",
+          "2 cups cooked grains (such as farro, spelt, quinoa, or barley)",
+          "2 tsp. soy sauce",
+          "1 tsp. toasted sesame oil"
+        ],
+        "instructions": "Squeeze kimchi over a small bowl to catch juices. Add juice from jar and set aside. Chop kimchi; set aside. Cut dark green tops from scallions and thinly slice; set aside. Thinly slice white and pale green parts and set those aside too. (Whenever you make a stir-fry, you should prep your ingredients in advance, but it doesn’t have to be a whole thing; just scoot these things into their own piles on your cutting board.)\nHeat olive oil in a large nonstick skillet over medium-high. Crack eggs into pan; season with salt. Cook, shaking occasionally to prevent sticking, until whites are golden and crisp around edges and puffing up and set near yolks, about 4 minutes. Transfer eggs to a plate.\nReturn skillet with oil to medium-high heat, add carrot, and cook, tossing often, until slightly softened, about 2 minutes. Add reserved white and pale green parts of scallions and kimchi and cook, tossing often, until scallions are just golden, about 3 minutes. Add grains, soy sauce, sesame oil, and reserved kimchi juices; cook, tossing, until grains are slightly softened, about 2 minutes. Season with salt; divide between plates. Top with eggs, then nori, sesame seeds, and reserved scallion tops."
+      },
+      "recipe_name_vi": "Ngũ cốc chiên kim chi",
+      "ingredients_vi": [
+        "1/2 cốc kim chi, kèm thêm 3 muỗng canh nước kim chi trong hũ",
+        "4 nhánh hành lá",
+        "2 muỗng canh dầu ô liu nguyên chất extra-virgin",
+        "2 quả trứng cỡ lớn",
+        "Muối kosher",
+        "1 củ cà rốt vừa, gọt vỏ, thái sợi que diêm",
+        "2 cốc ngũ cốc đã nấu chín (như farro, spelt, hạt diêm mạch hoặc lúa mạch)",
+        "2 muỗng cà phê nước tương",
+        "1 muỗng cà phê dầu mè rang"
+      ],
+      "instruction_steps_vi": [
+        "Vắt nhẹ kim chi bên trên một tô nhỏ để hứng nước cốt. Thêm phần nước kim chi từ hũ vào và để riêng. Thái nhỏ kim chi rồi để riêng. Cắt phần lá xanh đậm của hành lá và thái lát mỏng rồi để riêng. Thái lát mỏng phần đầu trắng và xanh nhạt và cũng để riêng. (Mỗi khi làm món xào, bạn nên sơ chế trước các nguyên liệu, nhưng không cần quá cầu kỳ; chỉ cần gạt gọn từng thứ thành từng phần riêng ngay trên thớt.)",
+        "Đun nóng dầu ô liu trong chảo chống dính lớn trên lửa vừa-cao. Đập trứng vào chảo; nêm muối. Chiên, thỉnh thoảng lắc chảo tránh dính, đến khi lòng trắng vàng giòn ở rìa và phồng lên rồi chín quanh lòng đỏ, khoảng 4 phút. Vớt trứng ra đĩa.",
+        "Đặt lại chảo có dầu lên lửa vừa-cao, cho cà rốt vào xào, đảo xóc thường xuyên đến khi vừa mềm, khoảng 2 phút. Thêm phần đầu trắng và xanh nhạt hành lá đã chừa cùng kim chi vào, đảo xóc thường xuyên đến khi hành vừa vàng, khoảng 3 phút. Cho ngũ cốc, nước tương, dầu mè và phần nước kim chi đã giữ lại vào; đảo xóc đến khi hạt ngũ cốc hơi mềm ấm đều, khoảng 2 phút. Nêm muối; chia ra các đĩa. Đặt trứng lên trên, sau đó rắc rong biển, mè rang và phần hành lá xanh đã để riêng."
+      ]
+    },
+    {
+      "recipe_id": 4226,
+      "source_sha256": "bbb2da87cc53f16966bfc565ca1f86e7680e8b80f3b52a266a0cdddf97fd56a7",
+      "source_instructions_sha256": "b866e1a3d6254f88cfc781361f4baf2c3429f9c1bc4c93727dcc642890fa7d2f",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Sticky Rice Stuffing with Chinese Sausage and Shiitakes",
+        "ingredients": [
+          "2 1/2 cups Thai long grain sticky rice, or regular short-grain sticky rice",
+          "1/3 cup pine nuts",
+          "1/4 cup vegetable oil",
+          "2 large shallots, sliced into 1/4\" rings",
+          "1/2 pound shiitakes mushrooms, stemmed and coarsely chopped",
+          "6 ounces Chinese sausage (about 4 links), sliced (about 1 1/2 cups)",
+          "1/4 cup Shaoxing Chinese wine or dry sherry",
+          "3 tablespoons soy sauce",
+          "1 cup jarred peeled roasted chestnuts, roughly chopped",
+          "2 1/2 cups low-sodium chicken broth or water",
+          "Kosher salt",
+          "2 scallions, thinly sliced, for garnish",
+          "12-inch cast iron skillet"
+        ],
+        "instructions": "Rinse the rice in a colander, and then transfer to a medium bowl. Cover with 1 inch of water and let soak at room temperature overnight. Drain thoroughly.\nHeat a large cast iron skillet over medium heat. Add the pine nuts and toast, stirring, until golden, 3 to 4 minutes. Transfer to a plate and set aside, reserving skillet.\nReturn skillet to medium heat and add oil. When oil is hot, add the shallots and mushrooms and cook, stirring, until the shallots are golden brown, 3 to 4 minutes. Add the sausage and cook until the sausages curl slightly, 1 minute more. Add the sherry, bring to a boil, and cook until syrupy, about 1 minute. Add the soy sauce, chestnuts, rice, and toasted pine nuts and toss until the rice kernels are evenly coated. Stir in the broth or water and season with salt. Cover and simmer over medium-low heat until the rice is cooked, 20 to 25 minutes.\nGarnish rice \"stuffing\" with sliced scallions before serving."
+      },
+      "recipe_name_vi": "Xôi nếp lạp xưởng và nấm đông cô",
+      "ingredients_vi": [
+        "2 1/2 cốc gạo nếp hạt dài Thái, hoặc gạo nếp hạt ngắn thông thường",
+        "1/3 cốc hạt thông",
+        "1/4 cốc dầu thực vật",
+        "2 củ hành tím lớn, thái khoanh dày 1/4\"",
+        "1/2 pound nấm đông cô tươi, bỏ chân và thái rối",
+        "6 oz. lạp xưởng (khoảng 4 cây), thái lát (khoảng 1 1/2 cốc)",
+        "1/4 cốc rượu Thiệu Hưng Trung Hoa hoặc rượu sherry khô",
+        "3 muỗng canh nước tương",
+        "1 cốc hạt dẻ rang bóc vỏ đóng lọ, thái rối",
+        "2 1/2 cốc nước dùng gà ít muối hoặc nước",
+        "Muối kosher",
+        "2 nhánh hành lá, thái lát mỏng, để trang trí",
+        "Chảo gang 12 inch"
+      ],
+      "instruction_steps_vi": [
+        "Vo sạch gạo nếp trong rổ, rồi trút vào tô cỡ vừa. Đổ ngập nước cao hơn mặt gạo 1 inch và ngâm ở nhiệt độ phòng qua đêm. Chắt cho thật ráo nước.",
+        "Làm nóng chảo gang lớn trên lửa vừa. Cho hạt thông vào rang, đảo đều đến khi vàng, 3 đến 4 phút. Chuyển ra đĩa và để riêng, giữ nguyên chiếc chảo.",
+        "Đặt lại chảo lên lửa vừa và thêm dầu. Khi dầu nóng, cho hành tím và nấm vào xào, đảo đều đến khi hành tím vàng nâu, 3 đến 4 phút. Thêm lạp xưởng và xào đến khi lạp xưởng hơi săn cong cạnh, thêm 1 phút nữa. Đổ rượu sherry vào, đun sôi bùng và nấu đến khi sánh nhẹ như si-rô, khoảng 1 phút. Cho nước tương, hạt dẻ, gạo nếp và hạt thông rang vào rồi đảo đều cho từng hạt nếp áo đều gia vị. Khuấy nước dùng gà hoặc nước vào và nêm muối. Đậy nắp và nấu liu riu trên lửa vừa-nhỏ đến khi gạo nếp chín mềm, 20 đến 25 phút.",
+        "Rắc hành lá thái lát lên xôi trước khi dọn dùng."
+      ]
+    },
+    {
+      "recipe_id": 204,
+      "source_sha256": "0ab53ec08002a0bafbcca703b124fc3f4442110f29d3e53824f72446e281583f",
+      "source_instructions_sha256": "51735716d0c5d85d97ed2d2ef18a82f568f003161b1f4ec8e047ea17e9f4a6d8",
+      "version": "recipe-detail-vi-v6-batch",
+      "review_status": "auto_unreviewed",
+      "translation_source": "AI_authored_source_read_v6_qa_batch_20261117",
+      "source": {
+        "recipe_name": "Pork and Asparagus Stir-Fry",
+        "ingredients": [
+          "3 tsp. peanut or vegetable oil, divided",
+          "2 lb. asparagus, trimmed, cut on a diagonal into (1\"–2\") pieces",
+          "Kosher salt",
+          "8 oz. ground pork",
+          "6 scallions, white and pale green parts only, finely chopped",
+          "5 garlic cloves, finely chopped",
+          "1 (2\") piece ginger, peeled, finely chopped",
+          "2 Tbsp. Shaoxing wine (Chinese rice wine) or medium-dry sherry",
+          "2 Tbsp. soy sauce",
+          "1 tsp. toasted sesame oil",
+          "Cooked rice and store-bought chili crisp (for serving)"
+        ],
+        "instructions": "Heat 1 tsp. peanut oil in a large skillet over high. Once pan is hot (oil will be lightly smoking), add half of asparagus and a couple pinches of salt and cook, tossing only once or twice so the pieces have a chance to blister, until crisp-tender and lightly browned, about 4 minutes. Transfer asparagus to a plate. Add 1 tsp. peanut oil to skillet (no need to wipe it out) and repeat process with remaining asparagus.\nReduce heat to medium-high; add remaining 1 tsp. peanut oil to skillet, then add pork, spreading out into an even layer. Season with a couple pinches of salt and cook, undisturbed, until meat begins to brown underneath, about 2 minutes. Break up meat with a wooden spoon and add scallions, garlic, and ginger. Cook, stirring, until pork is crisp and mixture is very fragrant, about 2 minutes. Add wine and soy sauce and return asparagus to skillet. Cook, turning to coat with pork mixture, until heated through, about 1 minute.\nTransfer stir-fry to a platter or large shallow bowl and drizzle with sesame oil. Serve with rice and chili crisp."
+      },
+      "recipe_name_vi": "Thịt heo băm xào măng tây",
+      "ingredients_vi": [
+        "3 muỗng cà phê dầu đậu phộng hoặc dầu thực vật, chia phần",
+        "2 lb. măng tây, cắt bỏ phần gốc già, cắt vát thành khúc (1\"–2\")",
+        "Muối kosher",
+        "8 oz. thịt heo xay",
+        "6 nhánh hành lá, chỉ lấy phần đầu trắng và xanh nhạt, băm nhỏ",
+        "5 tép tỏi, băm nhỏ",
+        "1 mẩu gừng (2\"), gọt vỏ, băm nhỏ",
+        "2 muỗng canh rượu Thiệu Hưng hoặc rượu sherry khô vừa",
+        "2 muỗng canh nước tương",
+        "1 muỗng cà phê dầu mè rang",
+        "Cơm nóng và sa tế ớt giòn mua sẵn (để ăn kèm)"
+      ],
+      "instruction_steps_vi": [
+        "Đun nóng 1 muỗng cà phê dầu đậu phộng trong chảo lớn trên lửa lớn. Khi chảo nóng (dầu bốc khói nhẹ), cho một nửa lượng măng tây và vài nhúm muối vào xào, chỉ đảo một hoặc hai lần để măng tây kịp cháy cạnh nhẹ, đến khi giòn mềm và hơi xém nâu, khoảng 4 phút. Trút măng tây ra đĩa. Thêm 1 muỗng cà phê dầu đậu phộng vào chảo (không cần lau chảo) và lặp lại tương tự với phần măng tây còn lại.",
+        "Hạ xuống lửa vừa-cao; thêm 1 muỗng cà phê dầu đậu phộng còn lại vào chảo, rồi cho thịt heo vào dàn thành một lớp đều. Nêm vài nhúm muối và chiên nguyên không đảo đến khi mặt dưới thịt bắt đầu chuyển nâu, khoảng 2 phút. Dằm tơi thịt bằng muỗng gỗ rồi cho hành lá, tỏi và gừng vào. Xào, đảo đều đến khi thịt heo săn giòn và hỗn hợp rất thơm, khoảng 2 phút. Thêm rượu và nước tương rồi cho măng tây trở lại chảo. Xào, đảo đều cho áo hỗn hợp thịt heo đến khi nóng đều, khoảng 1 phút.",
+        "Trút món xào ra đĩa lớn hoặc tô nông lòng và rưới dầu mè lên trên. Dùng kèm cơm và sa tế ớt giòn."
+      ]
+    }
+  ]
+}

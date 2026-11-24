@@ -1,0 +1,108 @@
+SHA-256 PASS (117 tệp).
+Đang cài thư viện Python theo requirements-recipe.txt...
+Requirement already satisfied: fastapi==0.143.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 2)) (0.143.0)
+Requirement already satisfied: starlette==1.7.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 3)) (1.7.0)
+Requirement already satisfied: pydantic==2.14.1 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 4)) (2.14.1)
+Requirement already satisfied: uvicorn==0.54.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 5)) (0.54.0)
+Requirement already satisfied: python-multipart==0.0.32 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 6)) (0.0.32)
+Requirement already satisfied: pillow==12.3.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 7)) (12.3.0)
+Requirement already satisfied: pandas==3.0.6 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 8)) (3.0.6)
+Requirement already satisfied: numpy==2.5.4 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 9)) (2.5.4)
+Requirement already satisfied: PyYAML==6.0.3 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 10)) (6.0.3)
+Requirement already satisfied: annotated-doc==0.0.6 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 13)) (0.0.6)
+Requirement already satisfied: annotated-types==0.8.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 14)) (0.8.0)
+Requirement already satisfied: anyio==4.16.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 15)) (4.16.0)
+Requirement already satisfied: click==8.5.1 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 16)) (8.5.1)
+Requirement already satisfied: h11==0.16.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 17)) (0.16.0)
+Requirement already satisfied: idna==3.20 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 18)) (3.20)
+Requirement already satisfied: opentelemetry-api==1.45.2 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 19)) (1.45.2)
+Requirement already satisfied: pydantic-core==2.50.1 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 20)) (2.50.1)
+Requirement already satisfied: python-dateutil==4.0.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 21)) (4.0.0)
+Requirement already satisfied: typing-extensions==4.16.0 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 22)) (4.16.0)
+Requirement already satisfied: typing-inspection==0.4.5 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 23)) (0.4.5)
+Requirement already satisfied: tzdata==2026.6 in d:\năm 3\hk1_2026\học máy và ứng dụng\bai_tap_big - antigravity\nghiemthu\.verification\kiểm thử windows yb23_h5_\ứng dụng smart kitchen\.venv\lib\site-packages (from -r D:\Năm 3\HK1_2026\Học máy và ứng dụng\Bai_tap_big - antigravity\nghiemthu\.verification\Kiểm thử Windows yb23_h5_\Ứng dụng Smart Kitchen\app\requirements-recipe.txt (line 24)) (2026.6)
+No broken requirements found.
+Preflight PASS: dependency có mặt, tệp chính tồn tại, cổng 8000 trống. Chưa nạp model.
+Cài đặt hoàn tất. Chạy Start_Smart_Kitchen.cmd để mở ứng dụng.
+SMART KITCHEN — ỨNG DỤNG CHÍNH
+URL: http://127.0.0.1:8000/ — mở sau khi thấy Application startup complete.
+Nguyên liệu → gợi ý → chi tiết công thức. Ctrl+C để dừng.
+INFO:     Started server process [26412]
+INFO:     Waiting for application startup.
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57310 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57314 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57315 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57316 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57317 - "GET /static/style.css?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57318 - "GET /static/i18n.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57319 - "GET /static/camera.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57320 - "GET /static/detection.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57321 - "GET /static/diagnostic_export.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57322 - "GET /static/app.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57323 - "GET /api/ingredients/catalog?q=tomato HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57324 - "GET /api/display-catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57325 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57326 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57327 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57328 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57329 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57330 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57331 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57332 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57334 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57335 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57336 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57337 - "POST /api/recommend HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:57338 - "GET /api/recipes/99999999 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57339 - "GET /api/recipes/417 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57340 - "GET /api/recipes/999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57341 - "GET /api/recipes/6236 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57342 - "GET /api/recipes/103 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57343 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55049 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55049 - "GET /static/style.css?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /static/i18n.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49248 - "GET /static/camera.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55585 - "GET /static/diagnostic_export.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65489 - "GET /static/detection.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54427 - "GET /static/app.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "GET /api/display-catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "GET /api/recipes/2083 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "GET /api/recipes/89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50435 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [26412]
+Terminate batch job (Y/N)? 
+Press any key to continue . . . 

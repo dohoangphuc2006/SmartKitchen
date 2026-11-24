@@ -1,0 +1,21 @@
+{
+  "scope": "NEW_STATE_RECOVERY_SEQUENCES_MOCK_ONLY",
+  "records": [
+    {
+      "name": "analyze HTTP error then retry empty detections does not freeze controls",
+      "status": "PASS"
+    },
+    {
+      "name": "network error recommendation retains manual pantry and next retry succeeds",
+      "status": "PASS"
+    },
+    {
+      "name": "late recipe JSON cannot overwrite newer modal error or reopen after close",
+      "status": "PASS"
+    },
+    {
+      "name": "new camera stream survives rejection of previous pending playback",
+      "status": "PASS"
+    }
+  ]
+}

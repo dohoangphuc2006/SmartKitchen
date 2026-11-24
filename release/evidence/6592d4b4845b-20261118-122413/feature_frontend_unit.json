@@ -1,0 +1,46 @@
+{
+  "total": 10,
+  "passed": 10,
+  "tests": [
+    {
+      "name": "empty/malformed/invalid-shaped storage does not crash",
+      "status": "PASS"
+    },
+    {
+      "name": "blocked read/write keeps in-memory state and reports storage error",
+      "status": "PASS"
+    },
+    {
+      "name": "favorite saves, reloads, deduplicates and unsaves",
+      "status": "PASS"
+    },
+    {
+      "name": "edited pantry posts exact names and never analyzes",
+      "status": "PASS"
+    },
+    {
+      "name": "manual case duplicate and whitespace handling",
+      "status": "PASS"
+    },
+    {
+      "name": "empty pantry disables recommendation",
+      "status": "PASS"
+    },
+    {
+      "name": "food availability drives the card ratio, shopping list and saved favorite",
+      "status": "PASS"
+    },
+    {
+      "name": "all rankers keep recipe ID and warnings when rendering API results",
+      "status": "PASS"
+    },
+    {
+      "name": "history is metadata only, bounded to 20, survives reload and clears",
+      "status": "PASS"
+    },
+    {
+      "name": "in-flight controls prevent file/pantry races",
+      "status": "PASS"
+    }
+  ]
+}

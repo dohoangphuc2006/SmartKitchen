@@ -1,0 +1,31 @@
+class_id,yolo_class,standard_ingredient,match_type,confidence,aliases,review_required,notes
+0,apple,apple,EXACT,1.00,apple|apples,False,
+1,banana,banana,EXACT,1.00,banana|bananas,False,
+2,beef,,UNMATCHED,0.00,,True,Class beef không xác định phần cắt; chọn phần thịt cụ thể thủ công nếu biết
+3,blueberries,blueberry,ALIAS,0.99,blueberry|blueberries,False,Biến thể số nhiều hoặc đồng nghĩa tường minh
+4,bread,bread,EXACT,1.00,,False,
+5,butter,butter,EXACT,1.00,,False,
+6,carrot,carrot,EXACT,1.00,carrot|carrots,False,
+7,cheese,cheese,EXACT,1.00,,False,
+8,chicken,chicken,EXACT,1.00,,False,
+9,chicken_breast,chicken breast,EXACT,1.00,,False,Khớp sau chuẩn hóa chữ thường/khoảng trắng/_/dấu gạch nối
+10,chocolate,chocolate,EXACT,1.00,,False,
+11,corn,corn,EXACT,1.00,,False,
+12,eggs,egg,ALIAS,0.99,egg|eggs,False,Biến thể số nhiều hoặc đồng nghĩa tường minh
+13,flour,flour,EXACT,1.00,,False,
+14,goat_cheese,goat cheese,EXACT,1.00,,False,Khớp sau chuẩn hóa chữ thường/khoảng trắng/_/dấu gạch nối
+15,green_beans,green bean,ALIAS,0.99,green bean|green beans,False,Biến thể số nhiều hoặc đồng nghĩa tường minh
+16,ground_beef,ground beef,EXACT,1.00,,False,Khớp sau chuẩn hóa chữ thường/khoảng trắng/_/dấu gạch nối
+17,ham,ham,EXACT,1.00,,False,
+18,heavy_cream,heavy cream,EXACT,1.00,,False,Khớp sau chuẩn hóa chữ thường/khoảng trắng/_/dấu gạch nối
+19,lime,lime,EXACT,1.00,,False,
+20,milk,milk,EXACT,1.00,,False,
+21,mushrooms,mushroom,ALIAS,0.99,mushroom|mushrooms,False,Biến thể số nhiều hoặc đồng nghĩa tường minh
+22,onion,onion,EXACT,1.00,onion|onions,False,
+23,potato,potato,EXACT,1.00,potato|potatoes,False,
+24,shrimp,shrimp,EXACT,1.00,,False,
+25,spinach,spinach,EXACT,1.00,,False,
+26,strawberries,strawberry,ALIAS,0.99,strawberry|strawberries,False,Biến thể số nhiều hoặc đồng nghĩa tường minh
+27,sugar,sugar,EXACT,1.00,,False,
+28,sweet_potato,sweet potato,EXACT,1.00,,False,Khớp sau chuẩn hóa chữ thường/khoảng trắng/_/dấu gạch nối
+29,tomato,tomato,EXACT,1.00,tomato|tomatoes,False,

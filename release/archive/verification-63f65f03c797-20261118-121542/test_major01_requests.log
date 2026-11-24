@@ -1,0 +1,89 @@
+{
+  "scope": "MAJOR01_FAKE_CLOCK_NO_POST_RETRY_NO_SERVER",
+  "records": [
+    {
+      "name": "analyze pending fetch recovers at deadline and preserves file/pantry/results",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze body pending is included in same deadline",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze late body cannot overwrite or release newer request lock",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze explicit cancel settles ignored transport and keeps prior data",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze late fetch and old finally cannot release a different endpoint owner",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze timeout enables next image, pantry edit and camera start",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze normal success clears deadline and does not abort successful request",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze network preserves prior data and allows retry",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze AbortError preserves prior data and allows retry",
+      "status": "PASS"
+    },
+    {
+      "name": "analyze HTTP preserves prior data and allows retry",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend pending fetch recovers at deadline and preserves file/pantry/results",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend body pending is included in same deadline",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend late body cannot overwrite or release newer request lock",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend explicit cancel settles ignored transport and keeps prior data",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend late fetch and old finally cannot release a different endpoint owner",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend timeout enables next image, pantry edit and camera start",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend normal success clears deadline and does not abort successful request",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend network preserves prior data and allows retry",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend AbortError preserves prior data and allows retry",
+      "status": "PASS"
+    },
+    {
+      "name": "recommend HTTP preserves prior data and allows retry",
+      "status": "PASS"
+    },
+    {
+      "name": "deadline and cancellation messages translate VI/EN including recommendation prefix",
+      "status": "PASS"
+    }
+  ]
+}

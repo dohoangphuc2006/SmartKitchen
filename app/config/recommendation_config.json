@@ -1,0 +1,11 @@
+{
+  "match_ratio_weight": 0.35,
+  "jaccard_weight": 0.2,
+  "cosine_weight": 0.2,
+  "user_coverage_weight": 0.25,
+  "missing_penalty_weight": 0.15,
+  "min_match_ratio": 0.25,
+  "min_matched_ingredients": 2,
+  "ready_only": false,
+  "deduplicate_titles": true
+}

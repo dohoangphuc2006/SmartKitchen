@@ -1,0 +1,4 @@
+{
+  "detection_confidence_threshold": 0.35,
+  "top_n": 5
+}

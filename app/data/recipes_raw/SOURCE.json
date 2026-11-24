@@ -1,0 +1,18 @@
+{
+  "dataset_name": "Food Ingredients and Recipes Dataset with Images",
+  "source": "https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images",
+  "publisher": "Sakshi Goel and collaborators (Kaggle); mirror: Hieu-Pham",
+  "original_content_source": "Epicurious",
+  "mirror": "https://huggingface.co/datasets/Hieu-Pham/kaggle_food_recipes",
+  "revision": "3bc17b74f8c75ff65e9045074f0f30885bda0c95",
+  "download_url": "https://huggingface.co/datasets/Hieu-Pham/kaggle_food_recipes/resolve/3bc17b74f8c75ff65e9045074f0f30885bda0c95/Food%20Ingredients%20and%20Recipe%20Dataset%20with%20Image%20Name%20Mapping.csv?download=true",
+  "filename": "Food Ingredients and Recipe Dataset with Image Name Mapping.csv",
+  "license_as_declared_by_publishers": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "accessed_date": "2026-10-07",
+  "size_bytes": 26595457,
+  "expected_sha256": "fdd5e58fdb9d55b781699c8c8d6b9ec30de6030ea269772925fb32bae0521ae0",
+  "checksum_source": "https://huggingface.co/api/datasets/Hieu-Pham/kaggle_food_recipes/tree/3bc17b74f8c75ff65e9045074f0f30885bda0c95?recursive=true&expand=false",
+  "scope": "Full CSV in pinned Hugging Face revision; no rows changed or removed. Images not downloaded. This manifest is not a recipe data file.",
+  "count_discrepancy": "Kaggle description says 13582 recipes; pinned mirror contains 13501. Cause unknown; not claimed identical to the complete Kaggle release."
+}

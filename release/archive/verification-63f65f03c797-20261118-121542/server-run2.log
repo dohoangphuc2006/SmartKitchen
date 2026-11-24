@@ -1,0 +1,66 @@
+SMART KITCHEN — ỨNG DỤNG CHÍNH
+URL: http://127.0.0.1:8066/ — mở sau khi thấy Application startup complete.
+Nguyên liệu → gợi ý → chi tiết công thức. Ctrl+C để dừng.
+INFO:     Started server process [11888]
+INFO:     Waiting for application startup.
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+Bỏ qua recipe row_id=5606: tên/ingredients rỗng
+Bỏ qua recipe row_id=5699: tên/ingredients rỗng
+Bỏ qua recipe row_id=7058: tên/ingredients rỗng
+Bỏ qua recipe row_id=7863: tên/ingredients rỗng
+Bỏ qua recipe row_id=8059: tên/ingredients rỗng
+Bỏ qua recipe row_id=9350: tên/ingredients rỗng
+Bỏ qua recipe row_id=9636: tên/ingredients rỗng
+Bỏ qua recipe row_id=11221: tên/ingredients rỗng
+Bỏ qua recipe row_id=12373: tên/ingredients rỗng
+Bỏ qua recipe row_id=12378: tên/ingredients rỗng
+Bỏ qua recipe row_id=12818: tên/ingredients rỗng
+Bỏ qua recipe row_id=12829: tên/ingredients rỗng
+INFO:     Application startup complete.
+INFO:     127.0.0.1:62722 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62723 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62724 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62725 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62726 - "GET /static/style.css?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62727 - "GET /static/i18n.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62728 - "GET /static/camera.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62729 - "GET /static/detection.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62730 - "GET /static/diagnostic_export.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62731 - "GET /static/app.js?v=compact-ui-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62732 - "GET /api/ingredients/catalog?q=tomato HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62733 - "GET /api/display-catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62734 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62735 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62736 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62737 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62738 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62739 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62740 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62741 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62742 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62743 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62744 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62745 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62746 - "POST /api/recommend HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:62747 - "GET /api/recipes/99999999 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62748 - "GET /api/recipes/417 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62749 - "GET /api/recipes/999 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62750 - "GET /api/recipes/6236 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62751 - "GET /api/recipes/103 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11888]
+Terminate batch job (Y/N)? 
+Press any key to continue . . . 

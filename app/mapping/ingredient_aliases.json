@@ -1,0 +1,18 @@
+{
+  "apple": ["apple", "apples"],
+  "banana": ["banana", "bananas"],
+  "beef chuck": ["beef chuck"],
+  "bell_pepper": ["bell pepper", "capsicum", "sweet pepper"],
+  "blueberry": ["blueberry", "blueberries"],
+  "carrot": ["carrot", "carrots"],
+  "egg": ["egg", "eggs"],
+  "eggplant": ["eggplant", "aubergine"],
+  "green bean": ["green bean", "green beans"],
+  "green_onion": ["green onion", "spring onion", "scallion"],
+  "mushroom": ["mushroom", "mushrooms"],
+  "onion": ["onion", "onions"],
+  "potato": ["potato", "potatoes"],
+  "strawberry": ["strawberry", "strawberries"],
+  "tomato": ["tomato", "tomatoes"],
+  "zucchini": ["zucchini", "courgette"]
+}

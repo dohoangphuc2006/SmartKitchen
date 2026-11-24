@@ -1,0 +1,148 @@
+{
+  "schema_version": "smartkitchen.pantry_alias_overrides.v1",
+  "description": "Versioned pantry-only alias overrides, generic unresolved concepts, and protein/ingredient cut groups. Never modifies protected assets or ML fit inputs.",
+  "pantry_aliases": {
+    "bột mì đa dụng": "all-purpose flour",
+    "bot mi da dung": "all-purpose flour",
+    "đường bột": "powdered sugar",
+    "duong bot": "powdered sugar",
+    "french bread": "baguette",
+    "tôm bóc vỏ": "shrimp peeled deveined",
+    "tom boc vo": "shrimp peeled deveined",
+    "tôm tươi bóc vỏ": "shrimp peeled deveined",
+    "tom tuoi boc vo": "shrimp peeled deveined"
+  },
+  "generic_unresolved": {
+    "fish": [
+      "cá",
+      "ca",
+      "thịt cá",
+      "thit ca",
+      "cá tươi",
+      "ca tuoi",
+      "fish"
+    ],
+    "onion_generic": [
+      "hành",
+      "hanh",
+      "củ hành",
+      "cu hanh"
+    ]
+  },
+  "ingredient_cut_groups": {
+    "chicken_cut": [
+      "chicken",
+      "raw chicken",
+      "whole chicken",
+      "cooked chicken",
+      "ground chicken",
+      "chicken breast",
+      "boneless skinless chicken breast",
+      "skinless chicken breast",
+      "chicken thigh",
+      "skinless boneless chicken thigh",
+      "boneless skinless chicken thigh",
+      "bone-in skin-on chicken thigh",
+      "skin-on, bone-in chicken thigh",
+      "bone-in, skin-on chicken thigh",
+      "chicken wing",
+      "chicken drumstick",
+      "chicken legs",
+      "chicken tenders",
+      "chicken livers"
+    ],
+    "beef_cut": [
+      "beef",
+      "ground beef",
+      "ground beef chuck",
+      "beef chuck",
+      "boneless beef chuck",
+      "ground sirloin",
+      "beef tenderloin",
+      "flank steak",
+      "skirt steak",
+      "sirloin steak",
+      "rib-eye steak",
+      "rib eye steak",
+      "new york strip steak",
+      "beef brisket",
+      "beef short ribs",
+      "boneless beef short ribs",
+      "corned beef"
+    ],
+    "pork_cut": [
+      "pork",
+      "ground pork",
+      "ground pork shoulder",
+      "pork belly",
+      "pork ribs",
+      "pork tenderloin",
+      "boneless pork loin",
+      "pork shoulder",
+      "boneless pork shoulder",
+      "bone-in pork chops",
+      "bone in pork chops"
+    ],
+    "duck_cut": [
+      "duck",
+      "duck breast",
+      "duck legs"
+    ],
+    "turkey_cut": [
+      "turkey",
+      "ground turkey",
+      "cooked turkey"
+    ],
+    "lamb_cut": [
+      "ground lamb",
+      "boneless leg of lamb",
+      "rib lamb chops",
+      "boneless lamb shoulder"
+    ],
+    "shrimp_variant": [
+      "shrimp",
+      "shrimp peeled deveined",
+      "shrimp, peeled, deveined",
+      "shrimp in shell",
+      "jumbo shrimp",
+      "cooked shrimp",
+      "dried shrimp"
+    ],
+    "salmon_variant": [
+      "salmon",
+      "salmon fillet",
+      "skinless salmon fillet",
+      "smoked salmon"
+    ],
+    "tomato_variant": [
+      "tomato",
+      "cherry tomato",
+      "grape tomato",
+      "plum tomato",
+      "heirloom tomato",
+      "beefsteak tomato",
+      "tomato in juice"
+    ],
+    "bell_pepper_variant": [
+      "bell_pepper",
+      "bell pepper",
+      "red bell pepper",
+      "red bell_pepper",
+      "green bell pepper",
+      "green bell_pepper",
+      "yellow bell pepper",
+      "yellow bell_pepper",
+      "orange bell pepper",
+      "orange bell_pepper",
+      "roasted red bell_pepper",
+      "roasted red bell pepper"
+    ],
+    "tofu_variant": [
+      "tofu",
+      "firm tofu",
+      "extra-firm tofu",
+      "extra firm tofu",
+      "silken tofu"
+    ]
+  }
+}

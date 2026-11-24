@@ -1,0 +1,13 @@
+{
+  "schema": "smartkitchen.detection-scope.v1",
+  "profile": "fridge11",
+  "environment": "LOCAL_EXPERIMENT_ONLY",
+  "model_sha256": "c67106a099bb625912a461eee00fe1e09bda9ea8a7a0f55da34abaace3f7f8cf",
+  "expected_head_classes": 30,
+  "expected_box_confidence": 0.35,
+  "class_ids": [0, 1, 7, 11, 12, 19, 21, 22, 24, 26, 29],
+  "class_names": ["apple", "banana", "cheese", "corn", "eggs", "lime", "mushrooms", "onion", "shrimp", "strawberries", "tomato"],
+  "ontology_names": ["apple", "banana", "beef", "blueberries", "bread", "butter", "carrot", "cheese", "chicken", "chicken_breast", "chocolate", "corn", "eggs", "flour", "goat_cheese", "green_beans", "ground_beef", "ham", "heavy_cream", "lime", "milk", "mushrooms", "onion", "potato", "shrimp", "spinach", "strawberries", "sugar", "sweet_potato", "tomato"],
+  "basis": "Owner directive 2026-11-10 and reports/fridge_scope_audit_20261110_01",
+  "notice": "Smart Kitchen hiện hỗ trợ nhận diện 11 loại nguyên liệu trong ảnh tủ lạnh."
+}

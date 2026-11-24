@@ -1,0 +1,34 @@
+# Class contract trích từ data_checked.yaml của TV1, commit 91b995eb1feac79b2eee6f1b36bff20e10a7b17b.
+# Chỉ giữ nc/names cho inference; đường dẫn train riêng của TV1 nằm trong bản nguồn lưu trữ.
+nc: 30
+names:
+- apple
+- banana
+- beef
+- blueberries
+- bread
+- butter
+- carrot
+- cheese
+- chicken
+- chicken_breast
+- chocolate
+- corn
+- eggs
+- flour
+- goat_cheese
+- green_beans
+- ground_beef
+- ham
+- heavy_cream
+- lime
+- milk
+- mushrooms
+- onion
+- potato
+- shrimp
+- spinach
+- strawberries
+- sugar
+- sweet_potato
+- tomato

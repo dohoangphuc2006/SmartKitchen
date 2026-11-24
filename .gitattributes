@@ -1,0 +1,4 @@
+# Preserve distributed bytes, including the input files checked by the model.
+* -text
+*.npz binary
+*.pt binary
