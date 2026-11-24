@@ -3,7 +3,7 @@
   "source_release": "SMART_KITCHEN_FINAL_HANDOFF_20261116_V6",
   "scope": "Integrated recipe/vision app plus member1 CV tools and evidence; excludes the manifest itself",
   "file_count": 187,
-  "total_bytes": 210376782,
+  "total_bytes": 210376927,
   "files": [
     {
       "path": ".gitattributes",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7432,
-      "sha256": "845db418458f42072f92ac786a8e33a6a3cd366a66be2bf2b6a67e878a795f33"
+      "bytes": 7577,
+      "sha256": "acea08e5529c28ab14ea6f59904883a1b3778651012aa3c62f2dc77dd39e3608"
     },
     {
       "path": "RUN_ME_FIRST.cmd",

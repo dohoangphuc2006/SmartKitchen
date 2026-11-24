@@ -118,7 +118,7 @@ Bản tích hợp đã được kiểm tra trên Windows với Python 3.14.0: **
 ## Nhánh phát triển và đóng gói
 
 - [main](https://github.com/dohoangphuc2006/SmartKitchen/tree/main): mã nguồn tích hợp của cả nhóm, hướng dẫn chạy và kết quả chính.
-- [member-1-cv](https://github.com/dohoangphuc2006/SmartKitchen/tree/member-1-cv): phần Computer Vision và README chuyên môn của Đỗ Hoàng Phúc.
-- [member-2-recsys](https://github.com/dohoangphuc2006/SmartKitchen/tree/member-2-recsys): phần hệ gợi ý và ứng dụng của Huỳnh Hữu Phúc.
+- [member-1-cv](https://github.com/dohoangphuc2006/SmartKitchen/tree/member-1-cv): kiểm định dữ liệu ảnh, huấn luyện và đánh giá mô hình nhận diện nguyên liệu YOLO — Đỗ Hoàng Phúc phụ trách.
+- [member-2-recsys](https://github.com/dohoangphuc2006/SmartKitchen/tree/member-2-recsys): xử lý dữ liệu công thức, xây dựng hệ gợi ý món ăn và tích hợp ứng dụng — Huỳnh Hữu Phúc phụ trách.
 
 Sau khi thay đổi tệp thuộc gói Windows, chạy `python release/build_windows_release.py` để tạo lại manifest và ZIP trước khi dùng bộ cài kiểm tra checksum. Các biên bản lịch sử không tự áp dụng cho ZIP mới. Xem [thông tin phân phối](docs/DISTRIBUTION.md).
